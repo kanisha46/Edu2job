@@ -9,7 +9,7 @@ from flask import Blueprint, request, jsonify, g
 from werkzeug.utils import secure_filename
 
 from auth import token_required
-from database import find_user_by_email, update_user
+from database import find_user_by_email, update_user, add_prediction, get_predictions
 
 logger = logging.getLogger(__name__)
 
@@ -60,6 +60,32 @@ def get_profile():
 
     user.pop("password_hash", None)
     return jsonify({"user": user}), 200
+
+
+@profile_bp.route("/predictions", methods=["GET"])
+@token_required
+def fetch_predictions():
+    """Return all saved predictions for the logged-in user."""
+    preds = get_predictions(g.current_user_email)
+    return jsonify({"predictions": preds}), 200
+
+
+@profile_bp.route("/predictions", methods=["POST"])
+@token_required
+def save_prediction():
+    """Save a new prediction to the user's history."""
+    try:
+        data = request.get_json(force=True)
+    except Exception:
+        return jsonify({"error": "Invalid JSON body"}), 400
+
+    prediction = {
+        "role": data.get("role", ""),
+        "confidence": data.get("confidence", 0),
+        "date": data.get("date", ""),
+    }
+    add_prediction(g.current_user_email, prediction)
+    return jsonify({"message": "Prediction saved"}), 201
 
 
 # ---------------------------------------------------------------------------

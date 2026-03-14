@@ -1,5 +1,6 @@
 """
 auth.py – Authentication blueprint (signup, login) with JWT.
+Uses bcrypt for reliable password hashing across all platforms.
 """
 
 import os
@@ -9,7 +10,7 @@ import logging
 
 from flask import Blueprint, request, jsonify, g
 import jwt
-from werkzeug.security import generate_password_hash, check_password_hash
+import bcrypt
 
 from database import find_user_by_email, insert_user
 
@@ -19,6 +20,23 @@ auth_bp = Blueprint("auth", __name__, url_prefix="/auth")
 
 SECRET_KEY = os.getenv("JWT_SECRET", "edu2job-super-secret-key-change-me")
 TOKEN_EXPIRY_HOURS = 24
+
+
+# ---------------------------------------------------------------------------
+# Password hashing utilities (bcrypt)
+# ---------------------------------------------------------------------------
+
+def hash_password(plain_password: str) -> str:
+    """Hash a plain-text password and return the hash as a UTF-8 string."""
+    hashed = bcrypt.hashpw(plain_password.encode("utf-8"), bcrypt.gensalt())
+    return hashed.decode("utf-8")          # store as string in MongoDB
+
+
+def verify_password(plain_password: str, stored_hash: str) -> bool:
+    """Compare a plain-text password against a stored bcrypt hash."""
+    if isinstance(stored_hash, str):
+        stored_hash = stored_hash.encode("utf-8")   # bcrypt needs bytes
+    return bcrypt.checkpw(plain_password.encode("utf-8"), stored_hash)
 
 
 # ---------------------------------------------------------------------------
@@ -64,13 +82,18 @@ def signup():
     if missing:
         return jsonify({"error": f"Missing fields: {', '.join(missing)}"}), 400
 
-    if find_user_by_email(data["email"]):
+    email = data["email"].strip().lower()
+
+    if find_user_by_email(email):
         return jsonify({"error": "Email already registered"}), 409
+
+    hashed_pw = hash_password(data["password"])
+    logger.info(f"[SIGNUP] Hashing password for {email} (hash starts with: {hashed_pw[:10]}...)")
 
     user_doc = {
         "full_name": data["full_name"],
-        "email": data["email"],
-        "password_hash": generate_password_hash(data["password"]),
+        "email": email,
+        "password_hash": hashed_pw,
         "degree": data.get("degree", ""),
         "skills": data.get("skills", ""),
         "gpa": float(data.get("gpa", 0)),
@@ -79,7 +102,7 @@ def signup():
     }
 
     user_id = insert_user(user_doc)
-    logger.info(f"User registered: {data['email']}")
+    logger.info(f"[SIGNUP] User registered successfully: {email} (id={user_id})")
     return jsonify({"message": "Registration successful", "user_id": user_id}), 201
 
 
@@ -94,14 +117,31 @@ def login():
     except Exception:
         return jsonify({"error": "Invalid JSON body"}), 400
 
-    email = data.get("email")
+    email = (data.get("email") or "").strip().lower()
     password = data.get("password")
 
     if not email or not password:
         return jsonify({"error": "Email and password are required"}), 400
 
     user = find_user_by_email(email)
-    if not user or not check_password_hash(user["password_hash"], password):
+
+    # --- Debug: user lookup ---
+    if not user:
+        logger.warning(f"[LOGIN] User not found for email: {email}")
+        return jsonify({"error": "Invalid email or password"}), 401
+
+    logger.info(f"[LOGIN] User found: email={user['email']}, name={user.get('full_name')}")
+
+    # --- Debug: password verification ---
+    stored_hash = user.get("password_hash", "")
+    if not stored_hash:
+        logger.error(f"[LOGIN] No password_hash field for user: {email}")
+        return jsonify({"error": "Invalid email or password"}), 401
+
+    password_ok = verify_password(password, stored_hash)
+    logger.info(f"[LOGIN] Password check result: {password_ok}")
+
+    if not password_ok:
         return jsonify({"error": "Invalid email or password"}), 401
 
     payload = {
@@ -111,6 +151,7 @@ def login():
     }
     token = jwt.encode(payload, SECRET_KEY, algorithm="HS256")
 
+    logger.info(f"[LOGIN] Login successful for: {email}")
     return jsonify({
         "message": "Login successful",
         "token": token,
