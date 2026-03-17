@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz – Edu2Job</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .quiz-container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .quiz-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .quiz-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--text-900);
+    }
+    .question-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+    .question-text {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text-900);
+      margin-bottom: 16px;
+    }
+    .options-grid {
+      display: grid;
+      gap: 12px;
+    }
+    .option-label {
+      display: flex;
+      align-items: center;
+      padding: 12px 16px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      cursor: pointer;
+      transition: var(--transition);
+      background: var(--bg);
+    }
+    .option-label:hover {
+      background: var(--surface);
+      border-color: var(--primary);
+    }
+    .option-label input {
+      margin-right: 12px;
+      accent-color: var(--primary);
+    }
+    .result-section {
+      text-align: center;
+      padding: 40px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      margin-top: 40px;
+    }
+    .score-circle {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--primary), #7c3aed);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin: 0 auto 24px;
+      box-shadow: 0 10px 25px rgba(79,70,229,0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="app-layout">
+    <aside class="sidebar dark" id="sidebar"></aside>
+
+    <div class="main-content">
+      <header class="main-header">
+        <h2>Mock Test</h2>
+        <div class="header-actions">
+          <div class="header-avatar" id="headerAvatar"></div>
+        </div>
+      </header>
+
+      <div class="page-content quiz-container" id="quizContent">
+        <div id="loading" style="text-align:center; padding: 40px;">
+          <div class="spinner"></div>
+          <p>Loading questions...</p>
+        </div>
+
+        <form id="quizForm" class="hidden">
+          <div class="quiz-header">
+            <div class="quiz-title" id="quizTitle">Subject Quiz</div>
+            <div class="text-secondary" id="questionCount">0 Questions</div>
+          </div>
+          
+          <div id="questionsContainer"></div>
+          
+          <button type="submit" class="btn btn-primary" style="margin-top:24px; width:100%;">Submit Test</button>
+        </form>
+
+        <div id="resultSection" class="result-section hidden">
+          <h2 style="margin-bottom:24px;">Test Completed!</h2>
+          <div class="score-circle" id="finalScore">0</div>
+          <p class="text-secondary" style="margin-bottom:32px; font-size:1.1rem;">You scored <b id="scoreNum">0</b> out of <b id="totalNum">0</b>.</p>
+          <a href="dashboard.html" class="btn btn-primary">Go to Dashboard</a>
+          <a href="interview.html" class="btn btn-outline" style="margin-left: 12px;">Take Another Test</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    requireAuth();
+    renderSidebar('interview', 'dark');
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const subject = urlParams.get('subject');
+    
+    if (!subject) {
+      window.location.href = 'interview.html';
+    }
+
+    let quizData = null;
+
+    (async function loadQuiz() {
+      try {
+        const res = await apiGet(`/quiz/${subject}`);
+        if (res.error) {
+          showToast(res.error, 'error');
+          return;
+        }
+        
+        quizData = res;
+        document.getElementById('quizTitle').textContent = `${res.subject} Mock Test`;
+        document.getElementById('questionCount').textContent = `${res.questions.length} Questions`;
+        
+        let questionsHtml = '';
+        res.questions.forEach((q, index) => {
+          let optionsHtml = '';
+          q.options.forEach((opt, optIdx) => {
+            optionsHtml += `
+              <label class="option-label">
+                <input type="radio" name="q_${q.id}" value="${opt}" required>
+                ${opt}
+              </label>
+            `;
+          });
+          
+          questionsHtml += `
+            <div class="question-card">
+              <div class="question-text">${index + 1}. ${q.q}</div>
+              <div class="options-grid">
+                ${optionsHtml}
+              </div>
+            </div>
+          `;
+        });
+        
+        document.getElementById('questionsContainer').innerHTML = questionsHtml;
+        document.getElementById('loading').classList.add('hidden');
+        document.getElementById('quizForm').classList.remove('hidden');
+        
+      } catch (e) {
+        showToast('Failed to load quiz', 'error');
+      }
+    })();
+
+    document.getElementById('quizForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (!quizData) return;
+      
+      let score = 0;
+      const formData = new FormData(e.target);
+      
+      quizData.questions.forEach(q => {
+        const selected = formData.get(`q_${q.id}`);
+        if (selected === q.ans) {
+          score++;
+        }
+      });
+      
+      document.getElementById('quizForm').classList.add('hidden');
+      document.getElementById('resultSection').classList.remove('hidden');
+      document.getElementById('finalScore').textContent = `${score}`;
+      document.getElementById('scoreNum').textContent = score;
+      document.getElementById('totalNum').textContent = quizData.questions.length;
+      
+      try {
+        await apiPost('/quiz/submit', {
+          subject: quizData.subject,
+          score: score,
+          date: new Date().toLocaleDateString('en-GB')
+        });
+        showToast('Score saved to profile!', 'success');
+      } catch (err) {
+        showToast('Could not save score', 'error');
+      }
+    });
+
+  </script>
+</body>
+</html>

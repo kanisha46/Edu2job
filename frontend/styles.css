@@ -8,26 +8,27 @@
 
 /* ---- CSS Variables ---- */
 :root {
-  --primary:       #4F46E5;
-  --primary-light: #e0e7ff;
-  --primary-hover: rgba(79,70,229,0.9);
-  --primary-ring:  rgba(79,70,229,0.2);
+  /* Minimal & Premium Palette */
+  --primary:       #3B82F6; /* Muted Blue */
+  --primary-light: #eff6ff;
+  --primary-hover: #2563eb;
+  --primary-ring:  rgba(59, 130, 246, 0.2);
 
-  --bg:            #F9FAFB;
-  --bg-light:      #F3F4F6;
+  --bg:            #FAFAFA; /* Soft White */
+  --bg-light:      #FFFFFF;
   --surface:       #FFFFFF;
   --border:        #E5E7EB;
-  --border-light:  #F1F1F4;
+  --border-light:  #F3F4F6;
 
-  --sidebar-dark:  #1E1B4B;
-  --sidebar-border:#312e81;
+  --sidebar-dark:  #111827; /* Charcoal */
+  --sidebar-border:#1f2937;
 
-  --text-900:      #0f172a;
-  --text-800:      #1e293b;
-  --text-700:      #334155;
-  --text-600:      #475569;
-  --text-500:      #64748b;
-  --text-400:      #94a3b8;
+  --text-900:      #111827; /* Charcoal */
+  --text-800:      #1f2937;
+  --text-700:      #374151;
+  --text-600:      #4b5563;
+  --text-500:      #6b7280;
+  --text-400:      #9ca3af;
 
   --indigo-50:     #eef2ff;
   --blue-50:       #eff6ff;
@@ -45,18 +46,21 @@
   --amber-700:     #b45309;
   --rose-100:      #ffe4e6;
   --rose-700:      #be123c;
-  --green-500:     #22c55e;
+  --green-500:     #10b981;
   --red-500:       #ef4444;
 
-  --font:          'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  --radius:        12px;
-  --radius-sm:     8px;
-  --radius-lg:     16px;
+  --font:          'Inter', 'Poppins', -apple-system, sans-serif;
+  --radius:        16px;
+  --radius-sm:     10px;
+  --radius-lg:     24px;
   --radius-full:   9999px;
-  --shadow-sm:     0 1px 2px rgba(0,0,0,0.05);
-  --shadow:        0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.06);
-  --shadow-md:     0 4px 6px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.06);
-  --transition:    all 0.2s ease;
+  
+  /* Soft, elegant shadows */
+  --shadow-sm:     0 2px 8px rgba(17, 24, 39, 0.04);
+  --shadow:        0 4px 16px rgba(17, 24, 39, 0.06);
+  --shadow-md:     0 12px 32px rgba(17, 24, 39, 0.08);
+  
+  --transition:    all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ---- Reset ---- */
@@ -77,6 +81,177 @@ img { max-width: 100%; display: block; }
 /* =====================================================
    AUTH PAGES (Login / Signup)
    ===================================================== */
+/* =====================================================
+   PURE CSS BACKGROUND ANIMATION
+   ===================================================== */
+.animated-bg {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  overflow: hidden;
+  z-index: 0;
+  background: var(--bg);
+  pointer-events: none;
+}
+.animated-bg .blob {
+  position: absolute;
+  filter: blur(80px);
+  border-radius: 50%;
+  opacity: 0.6;
+  animation: float 20s infinite ease-in-out alternate;
+}
+.animated-bg .blob-1 {
+  width: 50vw; height: 50vw;
+  background: var(--primary-light);
+  top: -10%; left: -10%;
+  animation-delay: 0s;
+}
+.animated-bg .blob-2 {
+  width: 40vw; height: 40vw;
+  background: #e0f2fe; /* Light sky blue */
+  bottom: -10%; right: -10%;
+  animation-delay: -5s;
+  animation-direction: alternate-reverse;
+}
+.animated-bg .blob-3 {
+  width: 30vw; height: 30vw;
+  background: #f3f4f6; /* Soft gray */
+  top: 40%; left: 40%;
+  animation-duration: 25s;
+}
+
+@keyframes float {
+  0% { transform: translate(0, 0) scale(1) rotate(0deg); }
+  33% { transform: translate(5%, -5%) scale(1.05) rotate(15deg); }
+  66% { transform: translate(-3%, 8%) scale(0.95) rotate(-5deg); }
+  100% { transform: translate(0, 0) scale(1) rotate(0deg); }
+}
+
+/* ---- Minimal Glassmorphism Auth (V3) ---- */
+.glass-auth-page {
+  position: relative;
+  min-height: 100vh;
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+  background: transparent; /* Relies on .animated-bg for color */
+  font-family: var(--font);
+}
+
+.glass-auth-card {
+  position: relative; z-index: 10;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  width: 100%;
+  max-width: 480px; /* Centered, compact layout */
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Removed the image section for a cleaner, centered look */
+.glass-image-section { display: none; }
+
+.glass-form-section {
+  padding: 60px 48px;
+  color: var(--text-900);
+  flex: 1;
+}
+
+.glass-auth-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--text-900);
+}
+
+.glass-auth-subtitle {
+  text-align: center;
+  color: var(--text-500);
+  font-size: 0.95rem;
+  margin-bottom: 40px;
+}
+
+.glass-form-group {
+  margin-bottom: 24px;
+}
+
+.glass-input-icon {
+  position: relative;
+}
+
+.glass-input-icon .material-symbols-outlined {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-400);
+  font-size: 1.25rem;
+}
+
+.glass-input {
+  width: 100%;
+  padding: 14px 16px 14px 44px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+  color: var(--text-900);
+  outline: none;
+  transition: var(--transition);
+}
+
+.glass-input:focus {
+  background: #fff;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 4px var(--primary-ring);
+}
+
+.glass-input::placeholder {
+  color: var(--text-400);
+}
+
+.glass-btn {
+  background: var(--text-900);
+  color: white;
+  border: none;
+  padding: 16px;
+  border-radius: var(--radius-full);
+  font-weight: 500;
+  font-size: 1rem;
+  width: 100%;
+  margin-top: 16px;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: 0 4px 12px rgba(17, 24, 39, 0.1);
+}
+
+.glass-btn:hover {
+  background: #000;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(17, 24, 39, 0.15);
+}
+
+.glass-link {
+  text-align: center;
+  margin-top: 32px;
+  font-size: 0.95rem;
+  color: var(--text-600);
+}
+
+.glass-link a {
+  color: var(--primary);
+  font-weight: 500;
+  text-decoration: none;
+  transition: var(--transition);
+}
+.glass-link a:hover {
+  text-decoration: underline;
+}
+
 .auth-page {
   min-height: 100vh;
   display: flex; align-items: center; justify-content: center;
@@ -202,26 +377,26 @@ img { max-width: 100%; display: block; }
 /* ---- Buttons ---- */
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 8px;
-  padding: 10px 24px;
-  font-family: var(--font); font-size: 0.875rem; font-weight: 600;
-  border: none; border-radius: var(--radius-sm);
+  padding: 12px 28px;
+  font-family: var(--font); font-size: 0.95rem; font-weight: 500;
+  border: none; border-radius: var(--radius-full);
   cursor: pointer; transition: var(--transition);
 }
 .btn-primary {
-  background: var(--primary); color: #fff;
-  box-shadow: 0 4px 12px rgba(79,70,229,0.2);
+  background: var(--text-900); color: #fff; /* Charcoal for primary buttons gives a premium feel */
+  box-shadow: 0 4px 12px rgba(17, 24, 39, 0.15);
 }
 .btn-primary:hover {
-  background: var(--primary-hover);
-  transform: translateY(-1px);
-  box-shadow: 0 6px 16px rgba(79,70,229,0.3);
+  background: #000;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(17, 24, 39, 0.2);
 }
-.btn-full { width: 100%; padding: 12px; }
+.btn-full { width: 100%; padding: 14px; }
 .btn-outline {
-  background: var(--surface); color: var(--text-700);
-  border: 1px solid #e2e8f0;
+  background: transparent; color: var(--text-800);
+  border: 1px solid var(--border);
 }
-.btn-outline:hover { background: #f8fafc; }
+.btn-outline:hover { background: var(--border-light); transform: translateY(-1px); }
 
 /* =====================================================
    APP LAYOUT (Sidebar + Main)
@@ -630,7 +805,7 @@ img { max-width: 100%; display: block; }
 .level-beginner     { background: var(--rose-100);  color: var(--rose-700); }
 .level-advanced     { background: var(--emerald-100); color: var(--emerald-700); }
 
-.proficiency-section { }
+
 .proficiency-row {
   display: flex; justify-content: space-between;
   font-size: 0.875rem; margin-bottom: 8px;

@@ -6,44 +6,49 @@
   <title>Log In – Edu2Job</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-  <div class="auth-page">
-    <div class="auth-card">
-      <div class="auth-icon">
-        <span class="material-symbols-outlined">auto_awesome</span>
+<body style="margin: 0;">
+  <!-- Pure CSS Background Animation -->
+  <div class="animated-bg">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <div class="glass-auth-page">
+    <div class="glass-auth-card">
+      <div class="glass-form-section">
+        <h2 class="glass-auth-title">Welcome Back</h2>
+        <p class="glass-auth-subtitle">Sign in to your account to continue</p>
+        
+        <form id="loginForm" novalidate>
+          <div class="glass-form-group">
+            <div class="glass-input-icon">
+              <span class="material-symbols-outlined">mail</span>
+              <input type="email" id="email" class="glass-input" placeholder="Email Address" required />
+            </div>
+          </div>
+
+          <div class="glass-form-group">
+            <div class="glass-input-icon">
+              <span class="material-symbols-outlined">lock</span>
+              <input type="password" id="password" class="glass-input" placeholder="Password" required />
+            </div>
+          </div>
+
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 32px;">
+            <label style="display:flex; align-items:center; gap:8px; font-size:0.9rem; color:var(--text-600); cursor:pointer;">
+              <input type="checkbox" id="remember-me" style="accent-color:var(--primary);" /> Remember me
+            </label>
+            <a href="#" style="color:var(--primary); font-size:0.9rem; text-decoration:none; font-weight:500;">Forgot password?</a>
+          </div>
+
+          <button type="submit" class="glass-btn">Sign In</button>
+        </form>
+
+        <div class="glass-link">
+          Don't have an account? <a href="signup.html">Create an account</a>
+        </div>
       </div>
-      <h1>Welcome Back</h1>
-      <p class="subtitle">Log in to Edu2Job</p>
-
-      <form id="loginForm" novalidate>
-        <div class="form-group">
-          <label for="email">Email address</label>
-          <div class="input-icon">
-            <span class="material-symbols-outlined">mail</span>
-            <input type="email" id="email" placeholder="name@edu2job.com" required />
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label for="password">Password</label>
-          <div class="input-icon">
-            <span class="material-symbols-outlined">lock</span>
-            <input type="password" id="password" placeholder="••••••••" required />
-          </div>
-        </div>
-
-        <div class="form-check-row" style="margin-bottom: 20px;">
-          <div class="check-group">
-            <input type="checkbox" id="remember-me" />
-            <label for="remember-me">Remember me</label>
-          </div>
-          <a href="#">Forgot password?</a>
-        </div>
-
-        <button type="submit" class="btn btn-primary btn-full">Sign in</button>
-      </form>
-
-      <p class="auth-link">Don't have an account? <a href="signup.html">Sign up</a></p>
     </div>
   </div>
 

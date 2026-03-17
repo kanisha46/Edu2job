@@ -154,11 +154,13 @@ def register_routes(app):
     from auth import auth_bp
     from prediction import prediction_bp
     from charts import charts_bp
+    from quiz import quiz_bp
 
     app.register_blueprint(auth_bp)
     app.register_blueprint(profile_bp)
     app.register_blueprint(resume_bp)
     app.register_blueprint(prediction_bp)
     app.register_blueprint(charts_bp)
+    app.register_blueprint(quiz_bp)
 
     logger.info("All routes registered.")

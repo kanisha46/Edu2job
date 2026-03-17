@@ -89,6 +89,7 @@ function renderSidebar(activePage, variant) {
     { id: 'profile',    icon: 'person',       label: 'Profile & Resume',  href: 'profile.html' },
     { id: 'prediction', icon: isDark ? 'psychology' : 'analytics', label: isDark ? 'Job Prediction' : 'Prediction', href: 'prediction.html' },
     { id: 'skillgap',   icon: isDark ? 'map' : 'troubleshoot', label: isDark ? 'Skill Gap Map' : 'Skill Gap', href: 'skillgap.html' },
+    { id: 'interview',  icon: 'quiz',         label: 'Interview Prep',    href: 'interview.html' },
   ];
 
   let html = '';

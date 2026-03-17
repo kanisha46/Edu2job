@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interview Prep – Edu2Job</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .test-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+      margin-top: 24px;
+    }
+    .test-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .test-card:hover {
+      box-shadow: var(--shadow-md);
+      transform: translateY(-4px);
+    }
+    .test-icon {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background: var(--bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .test-icon span {
+      font-size: 2rem;
+      color: var(--primary);
+    }
+    .test-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--text-900);
+      margin-bottom: 8px;
+    }
+    .test-desc {
+      font-size: 0.95rem;
+      color: var(--text-500);
+      margin-bottom: 24px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="app-layout">
+    <aside class="sidebar dark" id="sidebar"></aside>
+
+    <div class="main-content">
+      <header class="main-header">
+        <h2>Interview Prep</h2>
+        <div class="header-actions">
+          <button class="notification-btn">
+            <span class="material-symbols-outlined">notifications</span>
+          </button>
+          <div class="header-avatar" id="headerAvatar"></div>
+        </div>
+      </header>
+
+      <div class="page-content">
+        <div class="form-card">
+          <h3 style="margin-bottom:8px">Mock Tests</h3>
+          <p class="text-secondary" style="margin-bottom:24px">
+            Test your knowledge with our subject-specific mock tests. Scores are recorded in your profile.
+          </p>
+          
+          <div class="test-grid">
+            <div class="test-card">
+              <div class="test-icon"><span class="material-symbols-outlined">code</span></div>
+              <h3 class="test-title">Java</h3>
+              <p class="test-desc">15 questions covering Core Java, OOPs concepts, exceptions, and memory management.</p>
+              <a href="quiz.html?subject=java" class="btn btn-primary btn-full">Start Java Test</a>
+            </div>
+            
+            <div class="test-card">
+              <div class="test-icon"><span class="material-symbols-outlined">account_tree</span></div>
+              <h3 class="test-title">Data Structures (DSA)</h3>
+              <p class="test-desc">15 questions on arrays, linked lists, stacks, queues, trees, and time complexity.</p>
+              <a href="quiz.html?subject=dsa" class="btn btn-primary btn-full">Start DSA Test</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    requireAuth();
+    renderSidebar('interview', 'dark');
+  </script>
+</body>
+</html>

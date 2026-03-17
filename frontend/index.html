@@ -43,12 +43,17 @@
 
     /* Hero */
     .hero {
-      text-align: center; padding: 100px 24px 80px;
-      background: linear-gradient(180deg, #f0f0ff 0%, var(--bg) 100%);
+      position: relative; overflow: hidden; display: flex;
+      align-items: center; justify-content: center;
+      text-align: center; padding: 120px 48px; max-width: 1200px;
+      margin: 0 auto; min-height: 80vh;
+    }
+    .hero-content {
+       position: relative; flex: 1; z-index: 10; max-width: 800px;
     }
     .hero h1 {
-      font-size: 3.2rem; font-weight: 900; letter-spacing: -0.03em;
-      color: var(--text-900); line-height: 1.15; margin-bottom: 20px;
+      font-size: 4rem; font-weight: 900; letter-spacing: -0.04em;
+      color: var(--text-900); line-height: 1.15; margin-bottom: 24px;
     }
     .hero h1 span {
       background: linear-gradient(135deg, var(--primary), #7c3aed);
@@ -56,25 +61,26 @@
       background-clip: text;
     }
     .hero p {
-      font-size: 1.125rem; color: var(--text-500); max-width: 640px;
-      margin: 0 auto 36px; line-height: 1.7;
+      font-size: 1.125rem; color: var(--text-600); max-width: 640px;
+      margin: 0 auto 40px auto; line-height: 1.7;
     }
-    .hero-buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    .hero-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
     .hero-btn {
-      padding: 14px 32px; border-radius: 12px; font-size: 1rem;
-      font-weight: 600; text-decoration: none; transition: var(--transition);
+      padding: 16px 32px; border-radius: var(--radius-full); font-size: 1.05rem;
+      font-weight: 500; text-decoration: none; transition: var(--transition);
       font-family: var(--font); cursor: pointer; border: none;
     }
     .hero-btn-primary {
-      background: var(--primary); color: #fff;
-      box-shadow: 0 4px 20px rgba(79,70,229,0.3);
+      background: var(--text-900); color: #fff;
+      box-shadow: 0 4px 16px rgba(17, 24, 39, 0.1);
     }
-    .hero-btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(79,70,229,0.35); opacity: 1; }
+    .hero-btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(17, 24, 39, 0.2); opacity: 1; background: #000; }
     .hero-btn-outline {
-      background: var(--surface); color: var(--text-700);
+      background: rgba(255, 255, 255, 0.8); color: var(--text-800);
       border: 1px solid var(--border);
+      backdrop-filter: blur(8px);
     }
-    .hero-btn-outline:hover { background: #f8fafc; opacity: 1; }
+    .hero-btn-outline:hover { background: #fff; opacity: 1; transform: translateY(-1px); }
 
     /* Sections */
     .section { padding: 80px 24px; max-width: 1100px; margin: 0 auto; }
@@ -150,8 +156,14 @@
 
     @media (max-width: 768px) {
       .landing-nav { padding: 12px 20px; }
-      .hero h1 { font-size: 2.2rem; }
-      .hero { padding: 60px 20px 50px; }
+      .hero {
+        flex-direction: column; text-align: center;
+        padding: 60px 20px; min-height: auto;
+      }
+      .hero-content { max-width: 100%; margin-bottom: 40px; }
+      .hero-content h1 { text-align: center; font-size: 2.5rem; }
+      .hero-content p { text-align: center; margin: 0 auto 30px auto; }
+      .hero-buttons { justify-content: center !important; }
       .section { padding: 50px 20px; }
     }
   </style>
@@ -172,11 +184,20 @@
 
   <!-- Hero -->
   <section class="hero">
-    <h1>Predict Your <span>Dream Career</span> with AI</h1>
-    <p>Our machine-learning engine analyzes your education, skills, and experience to recommend the best-fit job roles — with confidence scores and actionable insights.</p>
-    <div class="hero-buttons">
-      <a href="signup.html" class="hero-btn hero-btn-primary">Get Started Free →</a>
-      <a href="#features" class="hero-btn hero-btn-outline">Learn More</a>
+    <!-- Pure CSS Background Animation -->
+    <div class="animated-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+
+    <div class="hero-content">
+      <h1>Predict Your <br/><span>Dream Career</span> with AI</h1>
+      <p>Our machine-learning engine analyzes your education, skills, and experience to recommend the best-fit job roles — with confidence scores and actionable insights.</p>
+      <div class="hero-buttons">
+        <a href="signup.html" class="hero-btn hero-btn-primary">Get Started Free →</a>
+        <a href="login.html" class="hero-btn hero-btn-outline">Log In</a>
+      </div>
     </div>
   </section>
 

@@ -63,6 +63,14 @@
             <div id="recentPredictions"></div>
           </div>
         </div>
+
+        <!-- Recent Mock Tests (shown when available) -->
+        <div id="quizSection" class="hidden" style="margin-top: 24px;">
+          <div class="pred-form-card">
+            <h3>Recent Mock Tests</h3>
+            <div id="recentQuizzes"></div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -119,6 +127,32 @@
         });
         document.getElementById('recentPredictions').innerHTML = html;
       }
+
+      // Fetch quiz scores from server
+      try {
+        const quizRes = await apiGet('/quiz/scores');
+        if (quizRes && quizRes.scores && quizRes.scores.length > 0) {
+          const scores = quizRes.scores;
+          document.getElementById('emptyState').classList.add('hidden');
+          document.getElementById('quizSection').classList.remove('hidden');
+
+          let html = '';
+          scores.slice(-5).reverse().forEach(s => {
+            html += `<div class="result-card"><div class="result-card-inner">
+              <div class="result-role-info">
+                <div class="result-role-icon"><span class="material-symbols-outlined">quiz</span></div>
+                <div><div class="result-role-name">${s.subject} Test</div><div class="result-role-cat">${s.date}</div></div>
+              </div>
+              <div class="result-bar-container">
+                <div class="result-bar"><div class="result-bar-fill" style="width:${(s.score / 15) * 100}%"></div></div>
+                <span class="result-percent">${s.score}/15</span>
+              </div>
+            </div></div>`;
+          });
+          document.getElementById('recentQuizzes').innerHTML = html;
+        }
+      } catch (e) { console.warn('Could not fetch quiz scores:', e); }
+
     })();
   </script>
 </body>

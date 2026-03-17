@@ -6,40 +6,56 @@
   <title>Sign Up – Edu2Job</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-  <div class="auth-page">
-    <div class="auth-card wide">
-      <div class="auth-icon">
-        <span class="material-symbols-outlined">auto_awesome</span>
+<body style="margin: 0;">
+  <!-- Pure CSS Background Animation -->
+  <div class="animated-bg">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <div class="glass-auth-page">
+    <div class="glass-auth-card">
+      <div class="glass-form-section">
+        <h2 class="glass-auth-title">Create Account</h2>
+        <p class="glass-auth-subtitle">Join Edu2Job and discover your path</p>
+        
+        <form id="signupForm" novalidate>
+          <div class="glass-form-group">
+            <div class="glass-input-icon">
+              <span class="material-symbols-outlined">person</span>
+              <input type="text" id="fullName" class="glass-input" placeholder="Full Name" required />
+            </div>
+          </div>
+
+          <div class="glass-form-group">
+            <div class="glass-input-icon">
+              <span class="material-symbols-outlined">mail</span>
+              <input type="email" id="email" class="glass-input" placeholder="Email Address" required />
+            </div>
+          </div>
+
+          <div class="glass-form-group">
+            <div class="glass-input-icon">
+              <span class="material-symbols-outlined">lock</span>
+              <input type="password" id="password" class="glass-input" placeholder="Password" required minlength="6" />
+            </div>
+          </div>
+
+          <div class="glass-form-group">
+            <div class="glass-input-icon">
+              <span class="material-symbols-outlined">lock_reset</span>
+              <input type="password" id="confirmPassword" class="glass-input" placeholder="Confirm Password" required />
+            </div>
+          </div>
+
+          <button type="submit" class="glass-btn" style="margin-top: 24px;">Sign Up</button>
+        </form>
+
+        <div class="glass-link">
+          Already have an account? <a href="login.html">Log in instead</a>
+        </div>
       </div>
-      <h1>Create an account</h1>
-      <p class="subtitle">Join Edu2Job to start your journey</p>
-
-      <form id="signupForm" novalidate>
-        <div class="form-group">
-          <label for="fullName">Full Name</label>
-          <input type="text" id="fullName" placeholder="John Doe" required />
-        </div>
-
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" placeholder="name@example.com" required />
-        </div>
-
-        <div class="form-group">
-          <label for="password">Password</label>
-          <input type="password" id="password" placeholder="••••••••" required minlength="6" />
-        </div>
-
-        <div class="form-group">
-          <label for="confirmPassword">Confirm Password</label>
-          <input type="password" id="confirmPassword" placeholder="••••••••" required />
-        </div>
-
-        <button type="submit" class="btn btn-primary btn-full" style="margin-top: 8px;">Sign Up</button>
-      </form>
-
-      <p class="auth-link">Already have an account? <a href="login.html">Log in</a></p>
     </div>
   </div>
 
