@@ -22,20 +22,44 @@
           <form id="predForm" novalidate>
             <div class="form-grid-2" style="margin-bottom:20px;">
               <div class="form-group" style="margin-bottom:0;">
-                <label for="degree" style="font-size:0.875rem; font-weight:500; color:var(--text-600);">Major / Field of Study</label>
+                <label for="degree" style="font-size:0.875rem; font-weight:500; color:var(--text-600);">Degree Program</label>
                 <select id="degree">
-                  <option value="B.Tech">Computer Science</option>
-                  <option value="B.Sc">Information Technology</option>
-                  <option value="M.Sc">Data Science</option>
-                  <option value="MBA">Business Administration</option>
+                  <option value="B.Tech">B.Tech</option>
                   <option value="M.Tech">M.Tech</option>
+                  <option value="B.Sc">B.Sc</option>
+                  <option value="M.Sc">M.Sc</option>
                   <option value="BCA">BCA</option>
                   <option value="MCA">MCA</option>
+                  <option value="B.E">B.E</option>
+                  <option value="MBA">MBA</option>
                 </select>
               </div>
               <div class="form-group" style="margin-bottom:0;">
+                <label for="branch" style="font-size:0.875rem; font-weight:500; color:var(--text-600);">Branch</label>
+                <select id="branch">
+                  <option value="">Select Branch</option>
+                  <option value="Computer Science">Computer Science</option>
+                  <option value="IT">Information Technology</option>
+                  <option value="ECE">Electronics & Communication</option>
+                  <option value="EE">Electrical Engineering</option>
+                  <option value="ME">Mechanical Engineering</option>
+                  <option value="Civil">Civil Engineering</option>
+                  <option value="AI/ML">AI / ML</option>
+                  <option value="Data Science">Data Science</option>
+                  <option value="Software Engineering">Software Engineering</option>
+                  <option value="BBA">BBA</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-grid-2" style="margin-bottom:20px;">
+              <div class="form-group" style="margin-bottom:0;">
                 <label for="gpa" style="font-size:0.875rem; font-weight:500; color:var(--text-600);">Current GPA</label>
                 <input type="number" id="gpa" placeholder="e.g. 3.8" step="0.1" value="3.8" />
+              </div>
+              <div class="form-group" style="margin-bottom:0;">
+                <label for="specialization" style="font-size:0.875rem; font-weight:500; color:var(--text-600);">Specialization <span style="font-weight:400;color:var(--text-400);">(optional)</span></label>
+                <input type="text" id="specialization" placeholder="e.g. Cloud Computing" />
               </div>
             </div>
             <div class="form-group">
@@ -79,6 +103,13 @@
             degreeSelect.value = user.degree;
         }
       }
+      if (user.branch) {
+        const branchSelect = document.getElementById('branch');
+        if (Array.from(branchSelect.options).some(opt => opt.value === user.branch)) {
+            branchSelect.value = user.branch;
+        }
+      }
+      if (user.specialization) document.getElementById('specialization').value = user.specialization;
       if (user.gpa > 0) document.getElementById('gpa').value = user.gpa;
       if (user.skills) document.getElementById('skills').value = user.skills;
     }
@@ -92,6 +123,9 @@
       'Database Admin': 'storage',
       'DevOps Engineer': 'cloud',
       'Systems Analyst': 'analytics',
+      'Backend Developer': 'dns',
+      'Full Stack Developer': 'stacks',
+      'Cloud Architect': 'cloud_circle',
     };
     const roleCats = {
       'Software Engineer': 'Tech',
@@ -102,12 +136,17 @@
       'Database Admin': 'Data',
       'DevOps Engineer': 'Cloud',
       'Systems Analyst': 'Tech',
+      'Backend Developer': 'Tech',
+      'Full Stack Developer': 'Web',
+      'Cloud Architect': 'Cloud',
     };
 
     document.getElementById('predForm').addEventListener('submit', async (e) => {
       e.preventDefault();
       const data = {
         degree: document.getElementById('degree').value,
+        branch: document.getElementById('branch').value,
+        specialization: document.getElementById('specialization').value.trim(),
         skills: document.getElementById('skills').value.trim(),
         gpa: parseFloat(document.getElementById('gpa').value) || 0,
         experience: 1,
@@ -129,6 +168,13 @@
             const icon = roleIcons[p.role] || 'work';
             const cat = roleCats[p.role] || 'General';
             const pct = Math.round(p.confidence);
+
+            // Build score breakdown tooltip text
+            let breakdown = '';
+            if (p.education_score !== undefined) {
+              breakdown = `Education: ${Math.round(p.education_score)}% · Skills: ${Math.round(p.skills_score)}% · Resume: ${Math.round(p.resume_score)}% · Certs: ${Math.round(p.certifications_score)}%`;
+            }
+
             html += `<div class="result-card"><div class="result-card-inner">
               <div class="result-role-info">
                 <div class="result-role-icon"><span class="material-symbols-outlined">${icon}</span></div>
@@ -138,7 +184,23 @@
                 <div class="result-bar"><div class="result-bar-fill" style="width:0%;" data-width="${pct}%"></div></div>
                 <span class="result-percent">${pct}%</span>
               </div>
-            </div></div>`;
+            </div>`;
+
+            // Score breakdown row
+            if (breakdown) {
+              html += `<div style="padding:4px 16px 12px; font-size:0.75rem; color:var(--text-400);">${breakdown}</div>`;
+            }
+
+            // Per-role explanations
+            if (p.explanations && p.explanations.length > 0) {
+              html += `<div style="padding:0 16px 12px;">`;
+              p.explanations.forEach(exp => {
+                html += `<div style="font-size:0.8rem; color:var(--text-500); padding:2px 0;">• ${exp}</div>`;
+              });
+              html += `</div>`;
+            }
+
+            html += `</div>`;
           });
           document.getElementById('resultsList').innerHTML = html;
 
@@ -159,15 +221,13 @@
           // Persist to MongoDB
           try { await apiPost('/profile/predictions', predEntry); } catch (e) { console.warn('Could not save prediction to server:', e); }
 
-          // Explanations
-          if (res.predictions[0].explanation) {
+          // Global explanation
+          if (res.explanation && res.explanation.length > 0) {
             document.getElementById('explanationCard').classList.remove('hidden');
             const expList = document.getElementById('explanationList');
             expList.innerHTML = '';
-            res.predictions.forEach(p => {
-              if (p.explanation) {
-                expList.innerHTML += `<li>${p.role}: ${p.explanation}</li>`;
-              }
+            res.explanation.forEach(exp => {
+              expList.innerHTML += `<li>${exp}</li>`;
             });
           }
         } else {

@@ -1,6 +1,13 @@
 """
 prediction.py – ML prediction blueprint.
 Loads saved model artifacts and exposes POST /prediction/predict.
+
+Integrates with recommendation.py for education-weighted re-ranking:
+1. ML model produces top-N predicted roles with probabilities.
+2. recommend_jobs() re-ranks using weighted composite score
+   (education 40%, skills 30%, resume 20%, certifications 10%).
+3. If branch/specialization are missing, gracefully falls back to
+   ML-only predictions for full backward compatibility.
 """
 
 import os
@@ -12,6 +19,7 @@ import numpy as np
 from flask import Blueprint, request, jsonify
 
 from auth import token_required
+from recommendation import recommend_jobs
 
 logger = logging.getLogger(__name__)
 
@@ -31,6 +39,7 @@ def load_model():
         "model": "model.pkl",
         "scaler": "scaler.pkl",
         "encoder_degree": "encoder_degree.pkl",
+        "encoder_branch": "encoder_branch.pkl",
         "encoder_role": "encoder_role.pkl",
         "feature_columns": "feature_columns.pkl",
     }
@@ -78,7 +87,10 @@ def predict():
         le_role = _artifacts["encoder_role"]
         feature_columns = _artifacts["feature_columns"]
 
-        # ------ build feature vector ------
+        # Optional: branch encoder (backward compatible if not present)
+        le_branch = _artifacts.get("encoder_branch")
+
+        # ------ parse input fields ------
         skills_input = data["skills"]
         if isinstance(skills_input, str):
             skills_list = [s.strip().lower().replace(" ", "_") for s in skills_input.split(",")]
@@ -91,6 +103,17 @@ def predict():
         else:
             degree_encoded = 0
 
+        # Branch (optional field – backward compatible)
+        branch_val = data.get("branch", "")
+        branch_encoded = 0
+        if le_branch and branch_val:
+            if branch_val in le_branch.classes_:
+                branch_encoded = le_branch.transform([branch_val])[0]
+
+        # Specialization (optional)
+        specialization_val = data.get("specialization", "")
+
+        # ------ build feature vector ------
         row = {
             "degree_encoded": degree_encoded,
             "gpa": float(data["gpa"]),
@@ -100,9 +123,14 @@ def predict():
             "num_internships": int(data.get("experience", 0)),
         }
 
+        # Add branch_encoded if it's in the feature columns
+        if "branch_encoded" in feature_columns:
+            row["branch_encoded"] = branch_encoded
+
         # Binary skill columns
         all_skill_cols = [c for c in feature_columns if c not in
-                         ["degree_encoded", "gpa", "num_certs", "num_projects", "num_internships"]]
+                         ["degree_encoded", "branch_encoded", "gpa", "num_certs",
+                          "num_projects", "num_internships"]]
         for skill_col in all_skill_cols:
             row[skill_col] = 1 if skill_col in skills_list else 0
 
@@ -114,21 +142,55 @@ def predict():
 
         X_scaled = scaler.transform(df_input)
 
-        # ------ predict ------
+        # ------ ML predict: get top 5 roles ------
         probs = model.predict_proba(X_scaled)[0]
-        top_3_idx = probs.argsort()[-3:][::-1]
-        top_3_roles = le_role.inverse_transform(top_3_idx)
-        top_3_probs = probs[top_3_idx]
+        top_n = min(5, len(probs))
+        top_idx = probs.argsort()[-top_n:][::-1]
+        top_roles = le_role.inverse_transform(top_idx)
+        top_probs = probs[top_idx]
 
-        predictions = []
-        for role, prob in zip(top_3_roles, top_3_probs):
-            predictions.append({
+        ml_predictions = []
+        for role, prob in zip(top_roles, top_probs):
+            ml_predictions.append({
                 "role": role,
                 "confidence": round(float(prob) * 100, 2),
             })
 
-        # ------ simple explanation ------
-        explanation = _generate_explanation(df_input, feature_columns, X_scaled, top_3_roles[0])
+        # ------ Re-rank with weighted scoring engine ------
+        # Parse user skills back to readable format for recommendation engine
+        readable_skills = data["skills"]
+        if isinstance(readable_skills, str):
+            readable_skills = [s.strip() for s in readable_skills.split(",") if s.strip()]
+
+        recommendations = recommend_jobs(
+            ml_predictions=ml_predictions,
+            user_degree=degree_val,
+            user_branch=branch_val,
+            user_specialization=specialization_val,
+            user_skills=readable_skills,
+            user_certs=data.get("certifications", ""),
+            gpa=float(data["gpa"]),
+            experience=int(data.get("experience", 0)),
+            num_projects=int(data.get("projects", 2)),
+        )
+
+        # ------ Build response ------
+        # Use the re-ranked results as primary predictions
+        predictions = []
+        for rec in recommendations[:3]:
+            predictions.append({
+                "role": rec["role"],
+                "confidence": rec["final_score"],
+                "ml_confidence": rec["ml_confidence"],
+                "education_score": rec["education_score"],
+                "skills_score": rec["skills_score"],
+                "resume_score": rec["resume_score"],
+                "certifications_score": rec["certifications_score"],
+                "explanations": rec["explanations"],
+            })
+
+        # ------ explanation for backward compatibility ------
+        explanation = _generate_explanation(df_input, feature_columns, X_scaled, predictions[0]["role"] if predictions else "")
 
         return jsonify({
             "predictions": predictions,

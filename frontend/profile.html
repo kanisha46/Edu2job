@@ -51,8 +51,32 @@
                   </select>
                 </div>
                 <div class="form-group" style="margin-bottom:0;">
+                  <label for="branch">Branch</label>
+                  <select id="branch">
+                    <option value="">Select Branch</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="IT">Information Technology</option>
+                    <option value="ECE">Electronics & Communication</option>
+                    <option value="EE">Electrical Engineering</option>
+                    <option value="ME">Mechanical Engineering</option>
+                    <option value="Civil">Civil Engineering</option>
+                    <option value="AI/ML">AI / ML</option>
+                    <option value="Data Science">Data Science</option>
+                    <option value="Software Engineering">Software Engineering</option>
+                    <option value="BBA">BBA</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row" style="margin-bottom:20px;">
+                <div class="form-group" style="margin-bottom:0;">
                   <label for="gpa">Current GPA</label>
                   <input type="number" id="gpa" placeholder="3.8" step="0.1" min="0" max="10" />
+                </div>
+                <div class="form-group" style="margin-bottom:0;">
+                  <label for="specialization">Specialization <span style="font-weight:400;color:var(--text-400);">(optional)</span></label>
+                  <input type="text" id="specialization" placeholder="e.g. Cloud Computing" />
                 </div>
               </div>
 
@@ -141,7 +165,14 @@
       }
       if (user) {
         document.getElementById('degree').value = user.degree || '';
+        if (user.branch) {
+          const branchSelect = document.getElementById('branch');
+          if (Array.from(branchSelect.options).some(opt => opt.value === user.branch)) {
+            branchSelect.value = user.branch;
+          }
+        }
         document.getElementById('gpa').value = user.gpa || '';
+        document.getElementById('specialization').value = user.specialization || '';
         document.getElementById('experience').value = user.experience || '';
         document.getElementById('certifications').value = user.certifications || '';
         if (user.skills) {
@@ -185,6 +216,8 @@
       e.preventDefault();
       const data = {
         degree: document.getElementById('degree').value,
+        branch: document.getElementById('branch').value,
+        specialization: document.getElementById('specialization').value.trim(),
         gpa: parseFloat(document.getElementById('gpa').value) || 0,
         experience: parseInt(document.getElementById('experience').value) || 0,
         certifications: document.getElementById('certifications').value.trim(),
@@ -245,6 +278,12 @@
           if (data.parsed) {
             const p = data.parsed;
             if (p.degree) document.getElementById('degree').value = p.degree;
+            if (p.branch) {
+              const bs = document.getElementById('branch');
+              if (Array.from(bs.options).some(opt => opt.value === p.branch)) {
+                bs.value = p.branch;
+              }
+            }
             if (p.gpa > 0) document.getElementById('gpa').value = p.gpa;
             if (p.experience > 0) document.getElementById('experience').value = p.experience;
             if (p.certifications) document.getElementById('certifications').value = p.certifications;

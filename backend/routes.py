@@ -32,7 +32,7 @@ def update_profile():
     except Exception:
         return jsonify({"error": "Invalid JSON body"}), 400
 
-    allowed_fields = ["full_name", "degree", "skills", "gpa", "experience", "certifications"]
+    allowed_fields = ["full_name", "degree", "branch", "specialization", "skills", "gpa", "experience", "certifications"]
     update_data = {k: data[k] for k in allowed_fields if k in data}
 
     if not update_data:
@@ -127,6 +127,8 @@ def upload_resume():
     auto_fields = {}
     if parsed.get("degree"):
         auto_fields["degree"] = parsed["degree"]
+    if parsed.get("branch"):
+        auto_fields["branch"] = parsed["branch"]
     if parsed.get("skills"):
         auto_fields["skills"] = ", ".join(parsed["skills"])
     if parsed.get("gpa") and parsed["gpa"] > 0:

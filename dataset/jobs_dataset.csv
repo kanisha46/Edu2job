@@ -1,1201 +1,1201 @@
-degree,gpa,num_certs,num_projects,num_internships,job_role,python,java,javascript,react,sql,aws,docker,machine_learning
-B.Tech,8.84,1,1,1,Data Scientist,1,1,1,0,1,0,1,0
-M.Sc,7.52,0,2,3,Full Stack Developer,1,0,1,1,1,0,0,0
-MCA,9.31,4,6,1,Data Scientist,1,0,0,0,1,0,0,1
-B.Tech,8.48,2,4,2,Data Scientist,1,0,0,0,1,0,0,1
-B.Sc,7.9,0,4,0,Data Scientist,1,0,0,0,1,0,0,1
-B.E,6.7,2,3,1,ML Engineer,1,0,0,0,0,1,0,1
-B.E,9.54,5,7,0,DevOps Engineer,1,0,0,0,1,0,0,0
-B.E,8.18,5,6,0,Full Stack Developer,1,0,1,1,1,1,0,0
-B.E,6.21,5,4,1,DevOps Engineer,0,0,0,0,0,1,0,0
-B.Sc,7.93,2,4,0,ML Engineer,1,0,1,0,1,1,0,1
-M.Tech,5.89,4,7,1,Backend Developer,1,0,0,0,0,0,1,0
-BCA,7.3,4,4,0,Backend Developer,1,1,0,0,1,1,0,0
-B.Tech,6.53,4,8,1,Data Scientist,1,0,1,0,1,0,1,1
-B.E,6.36,3,6,0,Cloud Architect,0,0,0,0,0,1,1,1
-M.Sc,6.36,0,1,0,Backend Developer,1,1,0,0,1,0,1,0
-B.Sc,7.33,2,7,3,Backend Developer,1,1,0,0,0,0,1,0
-M.Sc,6.84,1,1,0,Frontend Developer,0,0,1,1,1,0,0,0
-M.Tech,8.18,4,6,2,Frontend Developer,0,0,0,1,0,0,0,0
-MCA,6.57,0,2,1,Backend Developer,1,1,0,0,1,1,1,0
-B.Sc,9.7,5,1,2,DevOps Engineer,1,0,0,0,0,1,1,0
-B.Sc,6.69,4,8,2,Data Scientist,1,0,0,0,1,0,0,1
-M.Tech,8.35,4,1,0,Software Engineer,1,0,0,1,1,0,0,0
-B.Sc,7.96,2,4,1,Data Scientist,1,0,1,1,1,0,0,1
-MCA,9.01,3,1,1,Data Scientist,1,0,0,0,1,0,0,1
-B.E,9.11,3,6,2,ML Engineer,1,0,0,0,1,1,0,1
-M.Sc,5.61,4,6,0,Backend Developer,1,1,0,0,1,0,1,0
-BCA,6.3,3,4,2,Data Scientist,1,0,1,0,1,0,0,1
-B.E,5.51,2,6,0,Software Engineer,1,1,0,0,1,0,1,0
-BCA,8.5,4,5,3,DevOps Engineer,1,0,0,0,0,1,1,0
-BCA,6.79,5,3,0,Software Engineer,1,1,0,0,1,0,0,0
-MCA,5.92,0,8,3,DevOps Engineer,1,0,0,0,1,0,1,0
-B.E,7.72,5,8,0,Backend Developer,1,1,1,0,1,1,1,0
-M.Tech,7.55,4,7,3,Backend Developer,1,1,0,0,1,0,1,0
-MBA,7.53,1,5,2,Frontend Developer,0,0,1,1,0,0,0,0
-M.Tech,6.12,3,7,0,ML Engineer,1,0,0,1,0,1,0,1
-MBA,5.53,1,8,1,Full Stack Developer,1,0,1,1,1,0,0,0
-B.E,7.69,3,1,0,DevOps Engineer,1,0,0,0,0,1,1,0
-B.Sc,9.4,3,5,0,Full Stack Developer,1,0,1,1,1,0,0,0
-B.Tech,8.87,0,3,1,Cloud Architect,0,0,0,1,0,0,0,0
-MBA,8.51,1,5,0,Frontend Developer,0,0,1,1,0,0,0,1
-BCA,8.09,2,2,0,Software Engineer,1,1,0,0,1,0,0,0
-B.E,8.48,3,3,3,ML Engineer,0,0,1,0,0,1,0,1
-BCA,8.27,2,8,1,Frontend Developer,0,0,1,1,0,0,0,0
-B.E,7.01,4,1,1,Cloud Architect,1,0,0,0,0,1,1,0
-M.Sc,8.74,5,4,2,Data Scientist,1,0,0,0,1,0,1,1
-MBA,7.99,2,2,1,ML Engineer,1,0,0,0,0,1,0,1
-M.Sc,8.82,2,1,1,Backend Developer,1,1,0,0,1,0,1,0
-B.Tech,9.88,3,6,1,DevOps Engineer,1,0,1,0,0,1,1,0
-BCA,9.73,2,2,1,Software Engineer,1,1,0,1,1,1,1,0
-B.E,8.23,4,1,0,Data Scientist,1,0,0,0,1,0,0,1
-M.Sc,6.69,2,5,3,Backend Developer,0,1,0,0,1,0,1,1
-M.Sc,9.66,1,2,0,Data Scientist,1,0,0,0,1,0,0,1
-BCA,8.18,3,2,0,Frontend Developer,0,0,1,1,0,0,0,0
-MCA,8.22,4,1,1,Full Stack Developer,0,0,1,1,1,1,0,0
-MBA,9.62,1,6,3,Cloud Architect,1,0,0,0,1,1,1,0
-BCA,8.48,0,8,3,Cloud Architect,1,0,1,1,0,0,1,0
-M.Sc,7.83,3,2,0,Software Engineer,1,1,0,1,1,1,0,0
-B.Sc,6.9,5,5,2,Backend Developer,0,1,0,0,0,0,1,0
-MBA,9.91,3,6,2,Full Stack Developer,1,0,1,1,1,0,0,0
-BCA,8.77,3,8,2,Software Engineer,1,1,0,0,1,0,0,0
-M.Sc,8.07,5,3,3,Backend Developer,1,1,1,0,1,0,1,0
-B.Sc,7.76,5,3,0,Software Engineer,1,1,0,0,1,0,0,0
-BCA,7.02,3,1,0,Cloud Architect,1,0,0,0,0,1,1,0
-BCA,9.99,0,6,0,Backend Developer,1,1,1,0,1,0,1,0
-MCA,7.19,1,8,1,DevOps Engineer,0,0,0,0,0,0,1,0
-MBA,8.37,4,5,3,Backend Developer,1,1,0,0,1,0,0,0
-MBA,9.3,5,7,2,DevOps Engineer,1,0,0,0,0,1,1,0
-B.Tech,9.6,2,3,0,Software Engineer,1,1,0,0,1,0,0,0
-BCA,9.05,2,5,1,Software Engineer,0,1,1,0,1,0,0,0
-MBA,9.85,5,7,2,DevOps Engineer,1,0,0,0,1,1,1,0
-B.E,5.56,1,8,0,Data Scientist,1,0,0,0,1,0,0,0
-M.Sc,8.41,0,2,1,ML Engineer,1,0,0,0,1,0,1,1
-B.E,7.54,3,7,2,Frontend Developer,0,0,1,1,0,0,0,1
-MCA,6.48,2,4,0,Software Engineer,1,1,0,0,1,0,0,1
-M.Tech,8.48,4,4,1,Cloud Architect,1,0,1,0,0,0,1,1
-MCA,8.98,0,3,0,Backend Developer,1,1,0,0,1,0,1,1
-M.Sc,8.15,4,2,3,ML Engineer,0,0,1,0,1,0,0,1
-B.Tech,8.77,0,8,3,Backend Developer,1,1,0,0,0,0,1,0
-M.Tech,6.95,4,7,0,Data Scientist,0,1,0,0,1,0,0,1
-M.Sc,7.44,1,8,0,Data Scientist,1,0,0,0,1,0,0,1
-M.Tech,5.92,2,7,0,Data Scientist,0,0,0,0,1,0,0,0
-BCA,7.08,4,4,3,DevOps Engineer,1,0,0,0,1,1,1,0
-BCA,5.63,5,1,0,Software Engineer,1,1,0,0,1,1,0,1
-B.E,7.39,4,1,0,Backend Developer,1,1,0,0,1,1,0,0
-MBA,8.48,3,5,0,DevOps Engineer,1,0,0,0,1,1,1,0
-B.E,9.93,3,3,1,Backend Developer,0,1,0,0,1,0,0,0
-M.Sc,7.75,4,7,3,Full Stack Developer,1,0,0,1,0,1,0,0
-BCA,6.02,1,7,3,Full Stack Developer,0,0,1,1,1,0,1,0
-B.E,9.42,2,3,1,Data Scientist,1,0,0,1,1,0,0,1
-B.Sc,6.65,4,8,2,Data Scientist,1,0,0,1,1,0,0,1
-B.Sc,7.48,2,5,0,ML Engineer,1,0,0,0,0,0,0,0
-B.E,7.58,1,1,3,Data Scientist,1,0,0,0,1,0,0,1
-MCA,9.92,2,7,3,Data Scientist,0,0,1,0,1,0,0,1
-B.Tech,9.05,1,6,0,ML Engineer,1,1,1,0,0,1,0,1
-MCA,6.9,1,2,3,Frontend Developer,0,0,0,1,1,0,0,0
-B.Tech,7.13,0,1,2,ML Engineer,1,0,0,0,0,0,1,1
-B.E,6.19,3,5,3,Frontend Developer,0,0,1,1,0,1,0,0
-M.Sc,6.89,3,7,1,Backend Developer,1,1,0,0,1,0,1,0
-B.Sc,9.43,1,5,3,Backend Developer,0,1,0,0,1,0,0,1
-B.E,5.91,0,6,1,Frontend Developer,0,0,1,1,0,0,0,0
-MCA,9.69,5,8,3,Software Engineer,1,1,0,1,1,0,0,1
-M.Tech,5.59,1,7,3,Software Engineer,1,0,0,0,1,0,0,1
-M.Tech,9.27,4,7,1,Data Scientist,1,0,0,0,1,0,1,1
-MCA,5.8,2,1,2,Data Scientist,1,0,0,0,1,0,0,1
-MCA,6.59,5,8,3,Data Scientist,1,1,0,0,0,0,0,1
-B.Sc,5.78,4,8,2,Frontend Developer,0,0,1,0,0,1,0,0
-M.Sc,6.79,3,6,1,Software Engineer,1,0,0,0,1,0,0,0
-MBA,7.15,0,2,2,Cloud Architect,1,0,1,0,0,1,1,0
-BCA,7.51,5,1,0,DevOps Engineer,1,0,0,0,0,1,1,0
-MCA,7.81,5,6,2,Full Stack Developer,1,0,0,1,1,0,1,0
-B.Tech,8.22,1,2,0,Full Stack Developer,1,0,1,1,1,0,0,0
-MBA,7.83,1,2,1,Frontend Developer,0,1,1,1,0,0,0,0
-MBA,6.28,2,5,1,Data Scientist,1,0,0,0,1,0,0,1
-MCA,7.79,4,3,0,Frontend Developer,1,0,0,1,1,0,0,0
-BCA,7.29,3,6,1,Data Scientist,1,0,0,0,1,1,0,0
-B.Sc,7.45,4,5,0,Frontend Developer,0,1,0,1,0,0,0,0
-M.Sc,8.36,5,6,0,DevOps Engineer,1,1,0,0,0,1,1,0
-M.Tech,5.7,2,5,3,Software Engineer,1,1,0,0,1,0,0,0
-B.E,6.84,5,6,3,Backend Developer,0,0,0,0,1,0,1,0
-MCA,7.82,3,4,1,Frontend Developer,1,0,0,1,1,1,0,0
-MCA,6.35,1,4,2,ML Engineer,1,0,0,0,0,0,0,1
-B.Tech,6.77,2,7,2,Software Engineer,1,1,0,0,0,1,1,0
-B.E,5.73,4,2,1,Software Engineer,1,1,0,0,1,0,0,0
-B.E,7.18,5,6,3,Data Scientist,1,0,0,1,1,0,1,0
-B.Sc,8.23,4,8,2,Cloud Architect,1,0,0,0,0,1,1,0
-B.Tech,7.16,5,4,0,Cloud Architect,1,0,0,0,0,1,0,0
-B.Sc,7.86,3,6,3,Cloud Architect,1,0,0,0,0,1,1,0
-B.E,8.61,2,8,3,Frontend Developer,0,0,1,1,0,1,1,0
-B.Sc,7.57,1,5,2,ML Engineer,1,0,0,0,0,1,0,1
-BCA,8.97,4,7,3,Backend Developer,1,1,0,0,1,0,1,0
-B.Sc,6.81,4,5,1,ML Engineer,1,0,0,0,0,1,0,1
-M.Sc,6.59,0,3,3,Data Scientist,1,0,0,1,1,0,1,1
-MBA,8.43,0,3,3,Cloud Architect,1,0,0,1,0,1,1,0
-B.Tech,9.99,0,6,2,Frontend Developer,0,0,1,1,0,0,1,0
-MBA,9.5,0,6,2,Cloud Architect,0,0,0,0,0,1,1,0
-B.Sc,8.25,1,1,2,Backend Developer,1,1,0,0,1,1,1,0
-M.Sc,7.51,3,5,1,Full Stack Developer,1,0,1,1,1,0,0,0
-BCA,8.61,2,7,3,Full Stack Developer,1,0,1,1,1,0,0,0
-M.Sc,8.56,4,4,1,Backend Developer,1,1,0,0,1,0,0,0
-MCA,9.35,3,8,0,Frontend Developer,0,0,1,1,0,0,1,1
-BCA,8.75,0,8,0,Cloud Architect,1,0,0,0,1,1,0,0
-B.E,6.31,3,7,0,DevOps Engineer,0,0,0,0,0,1,1,0
-MCA,6.03,5,7,3,Frontend Developer,0,0,0,1,0,0,0,0
-M.Sc,7.57,0,4,1,Backend Developer,1,1,0,0,0,0,1,0
-M.Tech,8.17,0,3,2,Data Scientist,1,0,0,0,0,0,0,1
-MCA,8.1,4,3,3,Backend Developer,1,1,0,0,1,0,1,0
-B.Tech,9.88,3,4,1,Cloud Architect,1,0,0,0,0,0,1,0
-B.Sc,9.13,3,6,0,DevOps Engineer,1,0,0,0,1,1,1,0
-B.Tech,6.71,2,5,0,Backend Developer,1,1,0,0,1,0,1,0
-M.Sc,9.83,2,7,3,Backend Developer,0,1,0,0,1,0,1,0
-BCA,6.68,3,1,1,ML Engineer,1,0,1,0,0,1,0,1
-B.Tech,6.67,5,6,2,Frontend Developer,0,0,1,1,0,0,0,0
-MBA,7.57,4,1,0,Cloud Architect,1,0,1,0,0,1,1,0
-B.Tech,7.36,4,8,3,Software Engineer,1,1,0,1,1,0,0,0
-B.Tech,7.89,1,2,0,Software Engineer,1,0,0,0,1,0,0,0
-M.Sc,6.36,1,5,0,Frontend Developer,0,0,1,1,0,0,0,0
-M.Tech,7.32,0,1,1,Software Engineer,1,1,0,0,0,0,0,0
-MBA,6.72,1,3,3,Backend Developer,1,1,0,0,1,0,1,1
-BCA,6.23,5,2,2,Data Scientist,1,0,0,0,1,0,1,1
-M.Tech,7.47,3,8,1,Software Engineer,1,1,0,0,1,0,1,0
-B.E,7.44,5,3,3,ML Engineer,1,0,1,0,0,1,1,1
-MCA,5.98,3,2,0,ML Engineer,0,0,0,0,1,1,0,1
-MCA,7.99,1,3,3,Data Scientist,1,0,0,1,1,0,0,1
-B.Sc,6.71,5,8,1,Frontend Developer,0,1,1,1,0,0,0,0
-M.Tech,6.11,5,3,2,Cloud Architect,0,0,0,0,0,1,1,0
-M.Sc,7.66,2,7,2,ML Engineer,1,0,0,0,0,1,0,1
-M.Sc,8.17,5,2,3,Data Scientist,1,0,0,0,1,0,0,1
-B.Sc,8.35,4,7,0,Cloud Architect,1,0,0,0,1,1,1,0
-M.Tech,5.99,2,7,0,ML Engineer,1,0,0,0,0,1,0,1
-M.Tech,6.66,4,3,2,Software Engineer,1,1,0,0,1,0,0,0
-MBA,5.97,3,6,3,Software Engineer,1,1,1,0,0,0,0,0
-MBA,8.75,5,4,1,Data Scientist,1,1,1,0,0,0,1,1
-MCA,8.02,1,8,3,Frontend Developer,0,0,1,1,0,0,1,0
-B.Tech,8.67,3,2,2,Full Stack Developer,1,0,1,0,0,0,0,0
-MCA,8.19,4,2,1,Cloud Architect,1,0,0,0,0,1,1,0
-M.Tech,6.57,4,3,1,ML Engineer,0,0,1,0,0,1,0,1
-BCA,6.13,4,8,3,Cloud Architect,1,0,1,0,1,0,1,0
-B.E,8.7,3,8,0,Cloud Architect,1,0,0,0,0,0,1,0
-BCA,8.99,5,4,2,Data Scientist,1,0,0,1,1,0,0,0
-MBA,6.68,5,7,1,Software Engineer,1,0,0,1,1,0,0,0
-M.Sc,9.16,4,2,1,Frontend Developer,0,0,1,1,0,0,0,0
-B.Tech,9.97,3,3,2,Full Stack Developer,1,1,1,1,1,0,0,0
-B.E,7.53,2,1,0,Full Stack Developer,1,0,0,1,1,0,0,0
-MCA,9.33,1,8,2,Cloud Architect,1,0,0,0,0,1,1,0
-B.Tech,5.95,5,3,2,Software Engineer,1,1,1,0,1,1,0,0
-BCA,5.92,3,2,0,Frontend Developer,0,1,1,1,1,0,0,0
-M.Sc,7.65,1,8,0,Software Engineer,0,1,0,1,1,0,0,0
-B.E,5.9,5,3,0,Backend Developer,1,0,0,0,1,0,1,0
-B.Sc,7.48,0,7,2,Software Engineer,1,1,0,0,1,0,1,1
-MCA,9.06,5,5,1,Full Stack Developer,1,0,1,1,1,0,0,1
-B.E,6.83,0,6,2,Backend Developer,0,1,0,0,0,0,1,0
-B.E,9.37,2,4,0,Frontend Developer,0,0,1,1,0,0,1,1
-B.E,7.78,2,2,1,Software Engineer,1,1,0,0,0,0,0,0
-MCA,7.26,0,7,0,Frontend Developer,0,0,1,0,0,0,0,1
-B.Tech,6.89,5,5,1,Cloud Architect,1,0,1,0,0,1,1,0
-B.Sc,8.87,4,2,3,ML Engineer,1,0,1,0,0,1,0,1
-MCA,5.75,0,1,0,Cloud Architect,1,0,0,0,0,1,0,0
-B.Tech,7.62,2,4,3,Backend Developer,1,1,0,0,1,0,1,0
-BCA,9.22,3,5,2,ML Engineer,1,1,0,1,0,1,1,1
-M.Tech,7.99,1,4,1,ML Engineer,0,0,0,0,0,1,0,1
-B.E,5.61,2,2,1,Software Engineer,1,1,0,1,1,0,0,0
-B.E,7.71,2,8,0,Backend Developer,0,1,0,1,1,0,1,0
-B.Sc,8.37,3,6,2,Data Scientist,1,0,1,0,0,0,0,1
-BCA,6.55,2,4,3,Cloud Architect,1,1,0,1,1,1,1,1
-MBA,6.69,0,4,2,DevOps Engineer,0,0,0,0,0,0,1,0
-B.Tech,8.55,1,2,0,Full Stack Developer,1,0,0,1,1,0,0,0
-M.Sc,6.09,0,4,3,Software Engineer,1,1,0,0,1,0,0,1
-M.Tech,9.57,0,7,3,Frontend Developer,0,0,0,1,0,0,0,0
-MCA,6.47,4,8,0,Frontend Developer,0,0,1,0,0,0,0,0
-BCA,7.22,5,6,3,Data Scientist,1,0,0,0,1,0,1,1
-MCA,9.61,3,6,1,Cloud Architect,1,0,0,0,0,1,1,1
-M.Tech,6.62,3,6,1,Frontend Developer,0,0,1,1,0,0,0,0
-M.Sc,8.17,1,8,2,Frontend Developer,0,0,1,0,0,0,0,0
-MBA,5.67,1,6,0,Frontend Developer,1,0,0,1,0,0,0,0
-B.Sc,8.14,0,6,2,Software Engineer,1,1,0,0,1,0,0,0
-B.Sc,9.89,4,6,1,ML Engineer,1,0,0,0,0,1,0,1
-B.E,6.88,0,3,2,Frontend Developer,0,1,1,1,0,0,0,0
-M.Tech,9.72,5,6,3,Backend Developer,0,1,0,0,1,0,0,0
-BCA,6.44,3,8,3,Software Engineer,1,1,0,0,0,0,0,0
-B.E,5.96,2,5,0,ML Engineer,1,0,0,0,0,0,0,1
-MCA,6.27,0,7,1,Data Scientist,1,0,0,0,0,0,0,1
-B.Sc,5.74,0,1,3,Full Stack Developer,1,0,1,1,1,0,0,0
-B.Sc,5.75,0,8,0,Cloud Architect,0,1,0,0,0,0,1,0
-B.E,7.62,3,8,2,DevOps Engineer,1,0,0,0,0,1,1,1
-BCA,8.04,0,7,3,Backend Developer,1,1,1,0,1,0,1,0
-M.Sc,7.64,0,8,1,Cloud Architect,0,0,0,0,0,1,1,0
-M.Sc,9.14,5,2,0,Frontend Developer,1,0,1,1,0,0,0,0
-B.E,7.98,1,3,0,Full Stack Developer,1,0,1,0,1,0,0,1
-M.Tech,9.04,3,3,3,Data Scientist,1,0,0,0,1,0,0,1
-B.E,9.5,2,8,0,Software Engineer,1,1,0,0,1,1,0,0
-B.Sc,6.85,3,8,2,Backend Developer,1,1,0,0,1,1,1,0
-B.Sc,5.8,0,4,0,Software Engineer,1,1,0,0,1,0,0,0
-B.Tech,9.63,4,8,1,Cloud Architect,1,0,0,0,0,0,0,0
-MCA,7.05,1,4,1,Cloud Architect,1,0,0,1,1,0,1,0
-BCA,8.43,1,5,2,Backend Developer,1,1,0,0,1,1,1,0
-B.E,9.53,5,6,2,DevOps Engineer,1,0,0,0,0,1,1,1
-M.Tech,7.67,4,4,0,DevOps Engineer,1,0,0,0,0,1,1,0
-MCA,8.56,4,4,2,Full Stack Developer,1,0,1,1,1,0,1,0
-MBA,9.58,2,3,2,Backend Developer,1,1,0,0,1,0,0,1
-M.Sc,7.1,5,2,3,Data Scientist,1,0,0,0,1,0,0,1
-M.Tech,9.4,3,3,2,Backend Developer,1,1,1,0,0,0,1,0
-M.Tech,7.69,3,2,1,Frontend Developer,0,0,1,0,0,0,0,0
-B.E,7.32,1,1,0,Full Stack Developer,1,0,0,1,1,1,0,0
-M.Sc,8.62,5,6,3,Backend Developer,1,0,0,0,1,0,1,0
-MCA,9.98,1,1,1,Frontend Developer,0,0,1,1,0,1,0,0
-MCA,8.7,0,1,0,Data Scientist,1,0,0,0,1,0,1,0
-MBA,7.21,2,3,3,Full Stack Developer,1,0,1,1,1,0,0,0
-M.Tech,6.77,1,1,3,Data Scientist,1,0,0,0,1,0,0,1
-MBA,6.99,5,2,2,Backend Developer,0,1,0,0,1,1,0,0
-MBA,9.95,5,2,0,Backend Developer,1,1,1,0,0,0,1,0
-B.Tech,9.33,1,2,3,Software Engineer,1,1,0,0,1,0,1,0
-MBA,6.72,1,2,3,Full Stack Developer,1,0,1,1,1,1,0,1
-MBA,6.32,0,7,3,Cloud Architect,1,0,1,0,0,1,0,0
-M.Tech,6.68,2,2,3,Software Engineer,1,1,0,0,1,0,0,0
-MBA,7.06,3,8,1,Backend Developer,1,1,0,0,1,1,1,0
-MBA,6.94,4,8,0,Data Scientist,1,0,0,0,1,0,1,1
-MBA,6.92,4,5,1,Cloud Architect,1,0,1,0,1,1,1,0
-MCA,7.14,0,2,1,Cloud Architect,0,0,0,0,0,1,1,0
-MCA,7.1,5,7,0,Software Engineer,1,1,0,0,0,0,0,0
-M.Sc,6.34,5,2,3,DevOps Engineer,1,0,0,0,0,0,1,0
-B.Sc,9.84,5,3,1,Cloud Architect,0,0,0,0,0,1,1,0
-B.E,8.46,2,5,3,Data Scientist,1,0,0,0,1,0,0,1
-B.Sc,7.36,1,4,2,Frontend Developer,0,0,1,1,0,0,0,0
-B.Sc,9.92,4,7,2,ML Engineer,1,0,0,0,0,0,0,1
-B.Tech,7.85,0,5,1,Full Stack Developer,0,1,1,1,1,0,0,0
-MCA,9.16,5,5,0,Software Engineer,0,1,0,0,1,0,0,0
-B.E,7.37,3,4,2,Full Stack Developer,1,0,1,0,1,0,0,0
-M.Sc,6.82,1,3,2,Backend Developer,1,1,0,0,1,0,1,0
-MCA,7.6,4,6,0,Software Engineer,1,0,0,0,1,0,0,0
-M.Sc,9.81,2,6,2,ML Engineer,1,0,0,0,0,1,0,1
-MBA,9.98,0,6,3,Backend Developer,1,1,1,0,1,0,1,0
-B.E,6.65,5,4,2,Data Scientist,1,1,0,0,1,0,0,1
-M.Tech,6.25,0,4,3,Data Scientist,1,0,1,1,1,0,0,1
-B.Sc,5.61,3,7,3,Data Scientist,1,1,1,0,1,1,0,1
-B.E,6.92,2,2,2,Full Stack Developer,1,1,0,1,0,0,1,0
-M.Tech,6.77,4,5,1,DevOps Engineer,1,0,0,1,0,1,1,0
-MCA,9.81,1,6,1,DevOps Engineer,0,0,1,1,0,1,1,1
-B.Sc,6.22,4,8,0,Full Stack Developer,1,0,1,1,1,0,0,0
-M.Tech,6.63,1,6,3,DevOps Engineer,1,0,0,0,0,1,1,1
-MCA,8.27,1,7,2,Cloud Architect,1,0,0,0,0,1,0,0
-B.Sc,8.56,2,3,1,ML Engineer,1,0,0,0,0,0,0,0
-M.Tech,8.77,2,8,1,DevOps Engineer,1,0,0,0,0,1,1,1
-B.E,6.5,4,3,1,ML Engineer,1,0,0,0,0,1,0,1
-B.Sc,6.31,0,5,2,Cloud Architect,1,0,0,0,0,1,1,0
-B.Tech,8.51,4,5,2,Backend Developer,1,1,0,0,1,1,1,1
-B.E,8.44,2,8,3,Frontend Developer,0,0,1,1,0,0,0,0
-B.Sc,7.48,3,6,0,Software Engineer,1,1,0,0,1,0,0,0
-MBA,7.66,4,3,0,Cloud Architect,1,0,0,0,1,1,0,0
-BCA,9.65,1,8,3,Frontend Developer,0,0,1,1,0,0,0,0
-B.Sc,6.49,3,2,1,Cloud Architect,1,1,0,0,0,1,1,0
-B.E,6.09,4,1,0,Full Stack Developer,0,0,1,1,1,0,0,0
-MBA,8.47,5,7,1,Data Scientist,1,0,1,0,1,0,0,1
-B.E,7.08,0,5,3,Cloud Architect,1,0,0,0,0,1,1,0
-M.Sc,5.52,0,3,3,DevOps Engineer,1,1,0,0,0,1,1,0
-BCA,9.35,2,8,2,DevOps Engineer,1,0,0,0,0,1,1,0
-MCA,8.98,4,7,2,DevOps Engineer,1,1,0,1,0,1,1,1
-B.Sc,7.25,4,1,3,Software Engineer,1,1,0,0,1,1,0,0
-BCA,8.7,2,4,0,Full Stack Developer,1,0,1,1,1,0,0,0
-B.Sc,8.53,1,1,0,Backend Developer,1,1,0,1,1,0,1,0
-BCA,8.77,0,5,1,Data Scientist,1,0,0,0,1,0,0,1
-M.Tech,8.01,3,7,3,Full Stack Developer,1,0,0,1,1,0,0,0
-MCA,9.83,5,4,2,Backend Developer,1,1,0,1,0,1,1,0
-MCA,7.82,3,6,2,Full Stack Developer,0,0,1,0,1,0,1,0
-BCA,6.32,1,6,1,Backend Developer,1,1,0,0,1,0,1,0
-M.Tech,9.64,3,5,3,Data Scientist,1,0,0,0,1,1,0,1
-BCA,7.29,1,8,0,Frontend Developer,0,1,1,1,0,1,0,0
-MCA,8.6,3,6,2,Cloud Architect,0,0,0,0,0,1,1,0
-MBA,7.41,0,5,1,Frontend Developer,0,0,1,1,0,0,0,0
-B.E,6.38,4,6,3,Full Stack Developer,1,0,1,0,1,1,0,0
-BCA,8.03,2,5,2,DevOps Engineer,1,0,0,1,0,1,1,0
-BCA,7.05,2,6,2,ML Engineer,1,0,0,0,0,1,0,1
-MBA,9.5,4,7,0,Cloud Architect,1,0,0,1,0,1,1,0
-B.Sc,7.05,5,8,3,Data Scientist,1,0,0,0,1,0,0,1
-B.Sc,9.34,3,1,0,Frontend Developer,1,0,1,1,0,0,0,1
-M.Tech,5.97,4,3,0,Full Stack Developer,1,1,1,1,1,0,0,1
-MCA,9.37,1,8,3,Software Engineer,1,1,0,0,1,0,0,0
-MCA,7.67,1,6,2,DevOps Engineer,1,1,0,0,0,0,1,0
-B.Tech,8.59,1,7,3,Cloud Architect,1,0,0,0,0,1,1,0
-M.Sc,6.23,5,5,2,Full Stack Developer,1,0,1,1,1,0,0,0
-B.E,6.35,1,1,0,DevOps Engineer,0,1,1,0,0,1,1,0
-M.Tech,6.77,3,6,3,Frontend Developer,1,0,0,0,1,0,0,0
-MCA,5.86,3,1,0,Software Engineer,1,0,0,0,1,0,0,0
-B.E,8.97,5,5,2,Backend Developer,1,1,1,0,1,0,1,0
-B.Tech,8.85,1,7,2,Frontend Developer,0,1,1,1,0,1,0,0
-B.Sc,9.07,0,4,1,Software Engineer,1,1,0,0,1,0,0,0
-M.Tech,8.59,3,4,2,Cloud Architect,1,0,0,1,0,1,1,1
-MBA,8.8,3,4,1,ML Engineer,0,0,0,0,1,1,0,1
-MCA,8.8,2,8,0,ML Engineer,1,0,0,0,1,1,0,1
-B.Sc,9.47,5,8,1,Full Stack Developer,1,0,1,1,0,0,0,0
-MCA,7.34,1,2,0,DevOps Engineer,1,1,0,1,0,1,0,1
-MBA,7.87,0,8,0,Full Stack Developer,1,0,1,1,0,0,0,0
-B.E,9.2,4,2,0,ML Engineer,1,1,0,0,0,1,1,1
-B.E,6.35,2,8,3,Backend Developer,1,1,0,0,1,0,0,0
-B.Sc,9.07,2,6,3,Data Scientist,1,0,0,0,1,0,0,1
-MCA,8.24,5,1,2,Full Stack Developer,1,0,1,1,1,0,0,0
-B.Sc,9.97,4,3,0,Software Engineer,1,1,0,0,0,0,0,0
-MBA,7.1,5,2,2,Software Engineer,0,1,0,0,1,1,0,0
-B.Sc,7.7,0,6,2,Cloud Architect,1,0,0,1,0,0,1,0
-B.E,9.69,4,1,2,Full Stack Developer,0,0,1,1,1,0,0,1
-MCA,7.76,2,7,1,Frontend Developer,0,1,1,1,0,0,0,0
-MCA,5.87,4,4,3,Frontend Developer,0,1,1,0,0,0,1,1
-M.Sc,8.03,3,7,2,Full Stack Developer,1,0,1,1,1,0,0,1
-M.Sc,6.94,0,4,1,ML Engineer,1,1,0,0,0,1,0,0
-B.Sc,8.91,5,2,2,ML Engineer,1,1,1,0,0,1,0,0
-MBA,5.6,5,1,3,Cloud Architect,1,0,0,0,0,1,1,1
-BCA,6.27,5,6,0,Software Engineer,1,1,0,1,1,1,0,0
-BCA,9.4,1,4,3,Software Engineer,1,1,0,0,0,0,0,0
-B.Tech,6.61,4,5,0,Software Engineer,1,1,0,0,1,0,0,0
-B.E,9.51,3,4,3,DevOps Engineer,1,1,0,0,0,1,1,1
-B.Sc,7.42,1,5,1,Backend Developer,1,1,0,1,1,0,1,0
-B.Sc,8.45,0,6,3,Full Stack Developer,1,0,0,1,1,0,0,1
-BCA,7.49,4,5,1,Full Stack Developer,1,0,1,1,1,1,0,0
-M.Sc,8.59,3,8,1,Backend Developer,1,1,0,0,1,0,1,0
-M.Sc,6.52,1,8,3,Frontend Developer,0,0,1,1,0,0,0,0
-MBA,9.49,4,1,0,ML Engineer,1,0,0,0,0,1,0,1
-MBA,9.22,0,4,2,Cloud Architect,0,0,0,0,0,1,1,0
-B.E,9.48,5,8,0,Cloud Architect,1,0,0,0,0,1,1,0
-B.Sc,9.0,1,8,0,Data Scientist,1,0,1,0,1,0,0,1
-MCA,8.61,3,3,3,DevOps Engineer,1,0,0,1,1,1,1,0
-B.Tech,8.96,2,8,2,Full Stack Developer,1,0,1,1,1,0,0,0
-M.Tech,9.54,3,4,1,Frontend Developer,0,1,1,0,0,0,0,0
-MBA,7.35,1,1,2,Cloud Architect,0,0,0,0,0,1,1,1
-B.Sc,9.34,4,3,3,Software Engineer,1,1,0,0,0,0,0,0
-B.Tech,5.92,5,5,2,ML Engineer,1,0,0,1,0,1,0,0
-M.Sc,8.63,5,5,3,Full Stack Developer,1,1,1,1,1,0,0,0
-BCA,7.86,4,4,2,ML Engineer,1,0,1,0,0,1,0,1
-B.Tech,6.03,5,4,0,Backend Developer,1,1,0,0,1,0,0,0
-BCA,6.64,0,3,1,Backend Developer,0,1,0,0,0,0,1,0
-MCA,9.65,3,7,0,ML Engineer,1,0,1,1,0,1,0,1
-MCA,8.0,2,7,1,DevOps Engineer,0,0,0,0,0,0,0,0
-B.Sc,8.18,3,5,1,Full Stack Developer,1,0,1,1,0,0,0,0
-B.Sc,6.01,3,5,2,DevOps Engineer,1,0,0,0,1,1,1,0
-M.Tech,9.2,0,2,2,Frontend Developer,0,0,0,1,0,0,0,1
-B.Tech,5.96,4,6,3,Cloud Architect,1,0,1,0,0,1,1,0
-BCA,6.17,5,5,1,Data Scientist,1,1,0,0,1,0,0,0
-M.Tech,6.9,3,3,3,Frontend Developer,0,0,0,0,0,1,0,1
-BCA,7.0,5,8,0,ML Engineer,1,0,0,1,0,1,0,0
-BCA,8.58,5,6,2,Cloud Architect,1,0,0,0,0,1,1,0
-MBA,5.64,5,2,2,Cloud Architect,1,0,0,0,0,1,0,1
-BCA,7.9,4,7,3,Data Scientist,1,0,0,0,1,0,0,1
-M.Sc,6.28,3,3,2,ML Engineer,1,0,0,0,1,1,0,0
-M.Tech,8.19,4,1,1,Full Stack Developer,1,0,1,1,1,1,0,1
-MBA,7.89,3,6,0,Frontend Developer,0,0,1,1,0,0,0,0
-B.E,9.31,2,1,1,Software Engineer,1,0,0,0,0,0,0,1
-B.E,8.31,2,7,1,Full Stack Developer,1,0,1,1,1,1,0,0
-B.Sc,6.1,3,8,3,DevOps Engineer,0,1,0,0,0,1,0,0
-MBA,7.79,4,5,3,Frontend Developer,0,0,1,1,0,0,0,0
-B.Tech,9.9,2,8,0,ML Engineer,1,0,1,0,0,0,0,1
-M.Sc,7.63,0,8,3,Data Scientist,1,0,1,0,1,0,1,1
-MCA,7.39,0,8,1,Cloud Architect,1,0,0,1,0,1,1,0
-BCA,9.14,2,1,0,Software Engineer,1,1,1,0,1,0,1,0
-B.Sc,8.47,1,3,3,Frontend Developer,0,0,1,1,0,0,1,0
-B.E,6.57,1,8,3,Full Stack Developer,1,0,1,1,1,0,0,1
-BCA,7.64,2,8,3,Cloud Architect,1,0,0,0,0,1,1,0
-B.Tech,5.94,2,7,3,ML Engineer,1,0,0,0,0,1,0,1
-M.Sc,7.84,5,8,2,Backend Developer,1,1,0,1,0,1,1,0
-BCA,6.63,0,2,1,Backend Developer,0,1,1,0,1,0,1,1
-B.Sc,9.53,5,6,2,Full Stack Developer,1,0,1,1,1,0,0,0
-M.Tech,6.75,1,7,1,Frontend Developer,1,0,1,1,0,0,1,0
-M.Tech,6.15,2,8,0,Cloud Architect,1,0,0,0,0,0,0,0
-B.Sc,8.44,3,8,3,Cloud Architect,0,1,0,0,0,1,0,0
-M.Tech,7.93,3,1,0,Full Stack Developer,0,0,1,1,1,0,0,0
-MCA,5.86,0,6,3,ML Engineer,1,0,0,0,1,1,0,1
-MBA,8.81,4,8,0,Data Scientist,0,0,0,0,1,1,0,1
-MCA,5.75,1,4,0,Software Engineer,1,0,1,0,1,0,0,0
-B.Sc,7.7,0,8,1,Software Engineer,0,1,0,0,1,1,0,0
-M.Tech,6.01,0,3,2,Data Scientist,1,0,1,0,1,0,0,1
-B.Tech,8.17,0,3,0,Backend Developer,1,0,1,0,1,0,1,0
-B.Sc,5.57,3,3,1,Full Stack Developer,1,1,1,0,1,0,0,0
-BCA,7.85,2,6,3,Frontend Developer,0,0,1,0,0,0,0,0
-M.Sc,6.36,1,5,0,Software Engineer,1,1,0,0,1,0,0,0
-M.Tech,9.08,3,5,2,Backend Developer,1,1,0,0,1,1,1,0
-B.Tech,5.97,4,6,3,Cloud Architect,0,0,0,1,0,0,1,0
-MCA,6.54,0,7,1,Backend Developer,0,1,0,0,1,0,0,0
-MBA,6.3,2,3,0,Backend Developer,1,1,0,0,1,0,0,0
-MBA,7.38,4,4,0,Cloud Architect,1,0,0,0,0,1,1,0
-MBA,9.38,1,3,0,Full Stack Developer,1,0,1,0,1,0,0,0
-B.Tech,5.68,1,2,0,Full Stack Developer,1,0,0,1,1,0,0,0
-M.Sc,6.1,0,8,3,Full Stack Developer,1,0,0,1,1,0,0,0
-B.E,6.33,2,7,2,Frontend Developer,0,0,1,0,0,0,0,0
-M.Tech,8.29,0,6,2,Backend Developer,1,1,0,0,1,1,1,0
-M.Tech,8.02,5,4,1,Frontend Developer,0,1,1,1,0,0,0,0
-MCA,9.54,4,5,3,ML Engineer,1,0,1,0,0,1,0,1
-M.Tech,6.35,1,8,1,ML Engineer,1,1,0,0,0,0,0,0
-B.Tech,6.82,1,6,3,Backend Developer,1,1,1,0,1,0,1,1
-MCA,7.69,1,8,2,ML Engineer,1,0,0,0,0,1,0,1
-B.Tech,6.17,5,3,1,DevOps Engineer,1,0,0,0,0,1,1,0
-M.Tech,5.69,2,8,1,Backend Developer,1,0,0,0,1,1,1,0
-M.Tech,9.64,2,5,3,DevOps Engineer,1,0,1,0,0,0,1,0
-B.Sc,9.1,0,7,1,DevOps Engineer,1,0,0,1,0,0,1,1
-MCA,5.92,3,2,3,Cloud Architect,0,0,0,0,0,1,0,0
-MBA,6.93,2,6,2,Backend Developer,1,1,0,0,0,0,1,0
-MBA,9.43,3,7,1,DevOps Engineer,0,0,0,0,0,1,1,0
-B.Sc,6.44,2,7,1,Data Scientist,1,0,0,1,1,0,1,1
-B.Sc,6.4,1,1,0,Cloud Architect,1,0,0,0,0,1,1,0
-BCA,6.85,0,2,2,Frontend Developer,0,0,0,1,0,0,0,0
-M.Tech,8.2,5,1,2,Cloud Architect,1,0,0,0,0,1,1,0
-B.Tech,6.16,2,2,1,Frontend Developer,0,0,1,0,0,0,0,1
-M.Tech,8.19,4,6,1,Frontend Developer,0,0,1,1,0,0,0,0
-B.Sc,7.83,4,2,3,Software Engineer,1,1,0,0,0,0,0,0
-M.Tech,6.02,2,3,2,Cloud Architect,0,1,0,0,1,1,1,0
-M.Tech,6.5,0,1,3,Software Engineer,1,0,0,1,0,1,0,0
-B.Tech,6.38,0,2,1,Full Stack Developer,0,0,1,1,1,1,0,1
-B.Sc,8.52,4,4,0,Backend Developer,0,0,0,0,1,0,1,0
-B.Tech,7.88,5,8,2,Data Scientist,1,0,0,0,0,0,0,1
-MBA,8.53,3,2,1,Frontend Developer,1,0,1,1,0,0,0,0
-MCA,8.67,3,4,3,Cloud Architect,1,1,0,1,0,1,1,0
-B.E,6.35,3,2,0,DevOps Engineer,0,0,0,0,0,1,1,1
-B.E,7.3,3,2,1,Frontend Developer,0,1,1,1,1,0,0,0
-MBA,6.75,3,8,2,Full Stack Developer,1,0,1,1,1,0,0,0
-MBA,5.99,1,7,2,Frontend Developer,0,0,1,0,1,1,1,0
-BCA,8.3,2,6,0,Frontend Developer,1,1,1,1,0,0,0,0
-B.E,9.46,5,3,3,Software Engineer,0,1,0,0,0,0,0,0
-B.Sc,6.91,1,1,3,Full Stack Developer,1,0,1,1,1,0,0,0
-MBA,8.16,5,1,2,DevOps Engineer,1,0,0,0,1,1,0,0
-M.Tech,7.43,2,2,2,Full Stack Developer,1,0,0,1,1,0,1,0
-B.Tech,7.92,2,7,3,Frontend Developer,1,0,1,1,0,1,0,1
-M.Tech,9.14,3,4,3,ML Engineer,0,0,0,0,0,1,0,1
-M.Sc,6.79,2,5,0,Data Scientist,0,0,0,0,1,1,0,0
-B.E,6.44,4,8,1,Cloud Architect,1,0,0,0,0,1,1,0
-B.Sc,8.1,3,1,1,Software Engineer,1,1,0,0,1,0,0,0
-MBA,6.16,3,5,2,ML Engineer,1,0,0,0,0,1,1,1
-BCA,8.59,3,1,1,Frontend Developer,0,0,0,0,0,0,0,0
-BCA,6.11,0,6,2,Frontend Developer,0,0,1,1,0,0,0,1
-B.E,9.54,0,5,3,Data Scientist,1,0,0,0,1,0,0,1
-M.Sc,8.2,0,3,1,Data Scientist,1,0,0,0,1,0,0,1
-MBA,7.34,2,3,2,DevOps Engineer,1,1,0,0,1,1,1,0
-MCA,9.2,1,5,3,Cloud Architect,0,0,0,0,0,1,1,0
-MCA,9.56,2,2,1,DevOps Engineer,1,0,0,0,1,1,1,0
-M.Sc,9.37,3,8,3,DevOps Engineer,1,0,0,0,0,1,1,1
-B.E,9.45,3,1,0,ML Engineer,1,0,0,0,0,1,0,1
-MBA,9.06,5,3,3,Frontend Developer,1,0,1,1,1,0,0,0
-MBA,7.65,3,4,0,ML Engineer,1,0,0,0,0,1,0,1
-M.Sc,9.58,2,3,0,Software Engineer,1,1,0,0,1,0,0,1
-B.E,8.98,5,8,3,Software Engineer,1,1,0,0,1,0,0,0
-B.E,9.35,2,4,3,Frontend Developer,0,0,1,1,0,0,1,0
-MCA,8.12,3,5,0,Backend Developer,1,0,0,0,1,0,1,0
-B.Tech,5.73,0,5,3,Data Scientist,1,0,0,0,1,0,0,1
-B.E,8.52,0,6,3,DevOps Engineer,0,0,1,0,0,1,1,0
-BCA,6.03,4,5,2,Frontend Developer,1,1,1,1,0,0,0,0
-B.Sc,6.92,1,3,0,Full Stack Developer,1,0,1,1,1,0,1,1
-BCA,6.24,0,3,0,Cloud Architect,1,1,0,0,0,1,1,0
-M.Tech,6.42,0,3,3,ML Engineer,1,0,0,0,0,1,0,1
-M.Sc,8.96,2,3,0,Data Scientist,1,0,1,0,1,0,0,1
-MBA,9.24,2,3,1,Data Scientist,1,0,0,0,0,0,0,1
-BCA,6.95,0,1,1,Software Engineer,0,0,0,0,1,0,0,0
-B.E,9.01,5,3,2,Frontend Developer,0,0,1,0,0,0,0,0
-MCA,7.81,3,7,0,Data Scientist,1,0,0,0,1,0,0,1
-MCA,9.88,0,8,2,Software Engineer,1,1,0,0,1,0,1,0
-B.Sc,8.58,3,2,3,Frontend Developer,0,0,1,1,0,0,0,0
-MCA,6.65,5,5,2,DevOps Engineer,0,0,1,0,0,1,1,1
-MBA,8.31,0,7,0,Cloud Architect,1,0,0,0,0,1,1,0
-B.E,6.03,4,6,3,Software Engineer,1,1,0,0,1,0,0,0
-M.Tech,6.06,3,4,0,DevOps Engineer,0,1,1,0,0,1,1,0
-MBA,6.17,1,4,2,DevOps Engineer,1,1,0,0,0,1,0,0
-B.Tech,7.0,0,8,3,Full Stack Developer,0,0,1,1,1,0,0,0
-MBA,6.54,4,6,3,Cloud Architect,0,1,0,0,0,1,1,1
-B.Tech,6.23,5,8,1,Full Stack Developer,1,0,1,1,1,0,0,0
-B.E,9.82,5,2,3,DevOps Engineer,1,0,0,0,0,1,1,0
-B.Sc,6.4,2,6,1,Frontend Developer,0,1,1,1,0,0,1,1
-B.Tech,9.13,4,5,1,Frontend Developer,0,1,1,1,0,0,0,0
-B.Tech,9.67,4,1,0,Data Scientist,1,0,0,1,0,0,0,1
-M.Tech,9.42,2,3,0,Frontend Developer,0,0,1,1,0,0,1,0
-MBA,9.86,3,6,1,Backend Developer,1,0,0,0,1,0,1,0
-B.E,9.04,3,3,0,Frontend Developer,1,0,1,1,0,0,0,0
-M.Tech,7.02,5,5,3,Data Scientist,1,0,0,0,0,0,0,1
-BCA,8.75,4,8,2,Full Stack Developer,1,0,1,1,1,1,0,0
-M.Sc,9.46,4,5,2,Full Stack Developer,0,0,1,1,1,0,0,0
-B.Tech,5.63,2,5,2,Frontend Developer,0,0,1,1,0,0,1,1
-B.Tech,8.9,5,4,2,Data Scientist,1,0,0,1,1,0,0,1
-BCA,8.5,2,8,0,DevOps Engineer,1,0,1,0,0,0,1,0
-B.E,9.23,4,7,2,Frontend Developer,1,1,1,1,0,0,0,0
-B.E,9.98,5,2,1,Cloud Architect,1,0,0,0,0,1,1,0
-MBA,5.65,4,3,0,Cloud Architect,1,0,0,1,0,0,1,0
-BCA,9.96,1,3,3,ML Engineer,1,0,0,1,0,0,0,1
-M.Tech,7.96,4,3,1,Software Engineer,0,0,0,0,1,0,0,0
-MBA,8.5,0,8,2,Cloud Architect,0,0,1,0,0,1,1,0
-B.Sc,8.68,4,1,1,Data Scientist,1,0,0,0,0,0,0,1
-B.Tech,6.04,4,6,3,Cloud Architect,1,0,1,0,0,1,1,0
-MBA,9.38,1,5,1,Software Engineer,0,1,0,0,1,0,1,1
-BCA,8.96,0,6,1,Frontend Developer,0,0,1,0,0,0,0,0
-MCA,6.66,0,5,0,Full Stack Developer,1,0,0,1,1,0,0,0
-MBA,7.99,4,3,2,ML Engineer,0,1,0,0,1,1,0,0
-MBA,5.88,4,8,0,Full Stack Developer,1,0,1,1,1,0,0,0
-MBA,9.83,2,4,2,Software Engineer,1,1,0,1,1,0,0,0
-B.Sc,8.83,4,6,2,Software Engineer,1,1,0,1,0,0,0,0
-MBA,6.73,4,8,0,DevOps Engineer,1,0,0,0,0,1,0,0
-B.Sc,7.36,5,8,0,Software Engineer,1,1,0,0,1,0,1,1
-B.E,9.22,1,1,2,ML Engineer,1,0,0,0,1,1,0,1
-M.Sc,5.9,5,4,0,ML Engineer,1,0,0,0,0,1,0,1
-B.E,6.0,4,3,0,Backend Developer,1,1,0,0,1,0,1,0
-BCA,9.7,4,5,3,Frontend Developer,0,0,1,1,0,1,0,0
-B.E,8.38,2,1,1,Software Engineer,1,0,0,0,1,0,0,0
-BCA,9.63,5,7,0,Software Engineer,1,1,0,0,1,0,0,0
-M.Sc,6.24,2,4,0,Backend Developer,1,1,1,0,1,0,1,0
-M.Sc,9.81,3,2,0,Cloud Architect,1,0,0,0,1,1,1,1
-B.Tech,7.2,0,1,0,Software Engineer,1,1,0,1,1,1,0,0
-B.E,7.31,4,2,2,DevOps Engineer,1,0,0,0,0,1,1,0
-MBA,7.83,4,5,2,Software Engineer,1,0,1,0,1,0,0,1
-MBA,8.76,2,3,1,Full Stack Developer,1,0,1,0,1,0,0,0
-BCA,8.21,0,7,2,Cloud Architect,1,0,0,0,1,1,1,0
-M.Sc,8.38,4,6,2,Backend Developer,1,0,0,0,1,0,1,0
-MCA,6.23,1,8,2,Full Stack Developer,1,0,0,1,0,0,0,0
-M.Sc,7.3,2,1,0,Full Stack Developer,1,1,0,1,1,1,0,0
-M.Sc,6.78,0,1,1,Backend Developer,1,1,0,0,1,0,1,0
-M.Tech,7.02,3,2,0,Full Stack Developer,1,0,1,1,1,0,0,0
-B.Sc,9.08,1,5,1,Frontend Developer,0,0,1,1,0,0,1,0
-M.Sc,5.74,5,2,1,ML Engineer,1,0,0,0,0,1,1,1
-MCA,7.74,4,1,1,Full Stack Developer,1,0,1,1,1,0,0,0
-M.Sc,7.53,0,5,3,Backend Developer,1,1,0,0,1,0,1,1
-M.Sc,8.13,1,8,1,ML Engineer,1,0,0,0,0,1,0,1
-M.Tech,7.12,0,4,2,DevOps Engineer,0,0,0,0,0,1,0,1
-MCA,6.63,4,5,0,Backend Developer,1,1,0,0,1,1,1,0
-BCA,9.2,1,7,1,DevOps Engineer,1,0,0,0,0,1,1,0
-M.Sc,7.63,5,7,1,Backend Developer,1,1,0,0,1,0,1,0
-MBA,9.34,1,7,3,Cloud Architect,0,1,0,0,0,1,1,0
-BCA,6.97,4,7,3,Full Stack Developer,0,0,1,1,1,0,0,0
-B.E,5.79,1,1,3,Backend Developer,1,1,0,0,1,0,1,0
-B.Sc,6.4,2,7,3,Software Engineer,1,1,0,0,1,0,0,1
-M.Tech,6.08,5,8,1,Frontend Developer,0,0,1,1,0,0,0,0
-M.Sc,7.76,4,8,3,DevOps Engineer,1,0,1,1,1,1,1,0
-B.Tech,8.82,1,7,1,Cloud Architect,1,0,0,0,0,1,1,0
-B.E,7.56,5,5,0,Frontend Developer,0,0,1,1,0,0,0,0
-MBA,7.35,1,1,3,Backend Developer,1,0,0,0,1,0,1,0
-M.Tech,8.37,1,6,3,Software Engineer,1,1,0,0,1,1,0,0
-MBA,5.81,0,3,2,Cloud Architect,1,0,0,1,0,1,1,1
-B.E,6.26,3,1,0,Data Scientist,1,1,0,0,1,0,0,1
-BCA,7.5,0,1,2,Full Stack Developer,1,1,1,1,1,0,0,1
-M.Tech,6.49,4,4,1,Backend Developer,1,1,0,0,1,0,0,0
-B.E,6.04,2,6,0,Full Stack Developer,1,0,1,1,1,0,0,1
-M.Sc,7.35,0,6,3,Data Scientist,1,0,0,0,1,0,0,1
-MCA,6.29,4,4,0,Frontend Developer,0,0,1,1,1,1,0,0
-B.Tech,8.27,1,7,1,Backend Developer,1,1,0,0,1,1,1,0
-M.Sc,9.66,3,5,0,Software Engineer,1,1,0,0,1,0,0,0
-MCA,7.04,4,6,1,Backend Developer,1,0,0,0,1,0,1,0
-B.Tech,5.79,1,4,0,Cloud Architect,1,0,1,0,0,0,1,0
-MBA,6.9,3,2,2,Full Stack Developer,1,0,1,1,1,0,0,0
-B.E,6.25,0,5,1,Full Stack Developer,1,0,1,1,1,0,1,0
-BCA,7.21,0,1,2,Frontend Developer,0,0,1,1,0,0,0,0
-B.E,9.67,0,7,1,Cloud Architect,1,0,0,0,0,1,1,1
-B.E,9.81,3,4,1,Backend Developer,1,1,0,0,1,0,0,0
-B.Tech,9.65,1,3,0,Cloud Architect,1,0,1,0,1,1,1,1
-M.Tech,8.4,2,5,3,Data Scientist,1,0,0,0,1,0,0,1
-B.E,8.89,5,7,2,DevOps Engineer,1,0,1,0,0,1,1,0
-B.Sc,9.17,5,3,1,Software Engineer,0,0,0,0,1,0,0,0
-B.Sc,7.76,3,8,0,Cloud Architect,0,0,0,0,0,1,1,0
-M.Tech,6.82,0,1,0,Frontend Developer,0,0,1,1,0,0,1,1
-B.Tech,7.19,2,6,1,Backend Developer,1,1,0,0,1,0,1,0
-B.E,7.2,1,1,0,ML Engineer,0,0,0,1,0,1,0,1
-M.Sc,7.16,0,6,0,DevOps Engineer,1,0,0,0,0,1,1,0
-MBA,6.55,5,2,3,ML Engineer,1,0,0,0,0,1,0,1
-M.Sc,8.7,4,8,1,DevOps Engineer,1,0,0,0,1,1,0,0
-M.Tech,7.67,2,7,2,Cloud Architect,1,0,0,0,0,0,1,1
-BCA,8.5,1,2,2,Backend Developer,1,1,0,0,1,0,1,0
-B.E,8.44,4,4,0,Full Stack Developer,1,0,1,1,1,0,1,0
-B.Sc,9.34,2,3,1,ML Engineer,1,0,1,1,0,1,0,1
-B.E,5.54,5,1,2,Data Scientist,1,0,0,0,1,0,1,1
-M.Tech,6.73,1,4,1,DevOps Engineer,1,0,0,0,0,1,0,0
-B.Sc,9.36,3,6,3,Software Engineer,1,1,0,0,1,1,0,0
-M.Tech,7.88,0,5,3,Full Stack Developer,1,0,1,1,1,1,0,0
-B.Sc,7.49,0,3,3,Frontend Developer,0,0,1,1,0,0,0,0
-B.Sc,9.67,5,7,1,Full Stack Developer,0,0,1,0,1,0,0,0
-M.Tech,6.58,3,7,2,Software Engineer,1,1,0,0,1,0,0,0
-MCA,5.55,5,2,1,Cloud Architect,0,1,0,0,0,1,1,0
-MBA,10.0,5,1,3,Full Stack Developer,1,0,0,1,1,0,0,0
-M.Tech,7.84,4,3,0,Cloud Architect,1,0,0,1,0,1,1,0
-MCA,6.05,2,3,3,Cloud Architect,0,0,0,0,0,0,1,0
-M.Sc,6.85,2,4,0,Software Engineer,1,1,0,0,1,0,0,0
-M.Sc,5.67,3,2,2,Software Engineer,0,1,0,1,1,0,0,0
-B.E,8.42,2,4,2,DevOps Engineer,1,0,0,0,0,0,1,0
-B.E,9.2,3,2,2,Frontend Developer,0,0,1,1,0,0,0,0
-MCA,9.59,0,3,2,Data Scientist,1,1,0,0,0,0,0,1
-M.Tech,7.88,2,7,3,Cloud Architect,1,0,0,0,0,1,1,0
-BCA,5.54,5,4,3,Frontend Developer,0,0,0,1,0,1,0,0
-B.Sc,7.48,5,2,2,Cloud Architect,1,0,0,0,0,1,1,0
-MCA,9.3,0,7,1,Full Stack Developer,1,1,1,0,1,1,0,0
-MBA,7.82,5,6,1,Cloud Architect,1,0,0,0,0,1,1,0
-MBA,9.84,3,8,3,Software Engineer,1,1,0,0,0,0,0,0
-MCA,9.86,0,7,1,Frontend Developer,0,0,1,1,0,0,0,0
-B.Tech,9.71,5,3,3,DevOps Engineer,1,0,1,1,0,1,0,0
-B.Tech,5.96,1,8,3,ML Engineer,1,1,0,0,1,1,0,1
-BCA,7.14,0,6,1,ML Engineer,1,0,0,0,0,1,1,1
-M.Sc,6.78,0,7,3,Data Scientist,0,0,0,1,1,0,0,1
-B.Sc,6.96,0,3,1,Cloud Architect,1,0,0,0,0,1,0,1
-B.Tech,8.95,3,4,1,ML Engineer,1,0,0,0,0,1,0,1
-M.Sc,6.77,5,3,1,Frontend Developer,1,0,1,1,0,0,0,1
-M.Sc,6.04,4,5,1,Frontend Developer,0,0,1,0,1,0,0,0
-MCA,7.42,0,3,0,Backend Developer,0,1,1,1,1,0,1,0
-B.Tech,8.47,0,2,0,Software Engineer,1,1,0,0,1,0,0,0
-MCA,7.12,0,3,0,Frontend Developer,0,0,1,1,0,0,0,1
-M.Sc,6.37,1,1,1,Software Engineer,1,0,0,0,1,0,0,0
-B.E,7.98,3,2,3,Backend Developer,1,1,0,0,1,0,1,0
-B.Tech,6.25,3,2,1,Full Stack Developer,1,0,1,1,0,0,0,0
-B.E,8.03,4,8,2,Cloud Architect,1,0,0,1,0,1,0,0
-M.Sc,6.83,1,5,0,DevOps Engineer,1,1,0,0,0,1,1,0
-M.Sc,7.91,3,5,2,Backend Developer,0,1,0,0,0,0,1,0
-B.Tech,9.21,0,7,2,Software Engineer,1,1,0,0,1,0,0,0
-MBA,6.49,3,2,3,Backend Developer,1,1,0,0,1,0,1,0
-MBA,6.33,3,4,0,Frontend Developer,0,0,1,1,0,1,0,0
-M.Tech,7.42,3,1,0,Frontend Developer,0,0,1,1,1,0,1,1
-B.Tech,6.09,2,2,1,Software Engineer,1,1,0,0,1,1,0,0
-MBA,8.92,0,1,0,Frontend Developer,0,0,1,1,0,0,0,0
-M.Tech,7.8,5,7,0,DevOps Engineer,1,1,0,1,0,0,1,0
-B.Sc,9.96,0,3,1,Cloud Architect,1,0,0,1,0,1,1,1
-MCA,8.2,5,6,2,Full Stack Developer,1,0,1,1,1,0,1,0
-B.Tech,9.38,0,7,2,Data Scientist,1,0,1,1,1,0,0,1
-M.Tech,6.95,1,4,3,Frontend Developer,1,0,1,1,0,0,0,0
-MBA,7.92,1,2,1,Full Stack Developer,1,0,1,0,1,0,0,0
-B.Tech,6.41,1,5,3,ML Engineer,1,0,0,1,1,1,0,1
-B.E,6.59,2,1,0,Frontend Developer,0,1,0,1,0,0,1,0
-MBA,9.27,1,8,1,Data Scientist,1,1,0,1,0,0,0,0
-MBA,7.35,4,3,0,DevOps Engineer,1,0,0,0,0,1,0,0
-B.E,8.56,0,7,1,Full Stack Developer,1,0,1,1,1,0,0,0
-B.E,8.29,5,7,3,Backend Developer,1,1,0,0,1,0,1,0
-B.Tech,9.12,4,2,0,Frontend Developer,0,0,0,0,0,0,1,0
-B.Tech,8.9,3,1,0,Backend Developer,1,1,0,1,1,0,1,0
-M.Tech,9.75,5,2,2,ML Engineer,0,0,0,0,0,1,0,1
-M.Tech,7.76,0,2,1,Full Stack Developer,1,1,1,1,1,1,0,0
-B.Sc,8.96,2,5,2,Backend Developer,1,1,0,0,1,0,1,0
-B.Tech,9.51,0,3,2,Full Stack Developer,1,0,1,1,0,0,0,0
-MBA,5.92,2,8,2,Data Scientist,1,0,0,0,1,1,0,1
-B.Sc,9.73,4,6,2,Cloud Architect,1,0,0,0,0,1,1,0
-B.E,7.78,0,3,0,Data Scientist,1,0,0,0,1,0,0,1
-B.E,6.21,3,2,0,DevOps Engineer,1,1,0,0,1,1,1,0
-M.Tech,9.63,3,2,2,Frontend Developer,0,0,1,1,0,0,0,0
-B.Tech,7.95,3,8,1,Cloud Architect,1,1,0,0,0,1,0,0
-M.Sc,9.41,5,8,3,Software Engineer,1,1,0,0,0,1,0,0
-BCA,6.33,4,3,3,Backend Developer,0,1,0,0,1,0,1,0
-B.E,9.2,5,6,0,ML Engineer,1,0,0,0,0,0,0,1
-MBA,9.7,1,8,0,Frontend Developer,0,0,1,1,0,0,0,0
-M.Sc,8.86,0,6,2,Software Engineer,1,1,0,0,1,0,0,0
-BCA,9.53,4,6,0,Software Engineer,1,1,0,0,1,0,0,0
-MBA,7.43,4,2,0,Frontend Developer,0,0,1,1,0,0,0,0
-M.Tech,8.42,0,5,3,Data Scientist,1,0,0,0,1,1,0,1
-M.Sc,9.0,5,7,0,Backend Developer,1,0,0,0,1,0,1,0
-M.Sc,7.78,0,1,0,ML Engineer,1,0,0,0,0,1,1,1
-MCA,9.28,4,7,0,Frontend Developer,0,0,1,1,0,0,0,0
-B.Sc,9.73,0,7,2,Full Stack Developer,1,0,1,1,1,0,0,1
-MCA,6.42,3,1,1,Frontend Developer,1,0,1,1,1,0,0,1
-MCA,6.34,0,5,0,Cloud Architect,1,0,0,0,0,1,1,0
-B.Tech,8.37,3,6,1,Frontend Developer,0,1,1,1,1,0,0,1
-M.Tech,7.71,1,3,2,Full Stack Developer,0,1,1,0,1,0,0,0
-B.Sc,8.47,4,5,0,Software Engineer,1,1,1,0,1,0,0,1
-B.Tech,7.91,5,3,2,Backend Developer,1,1,0,0,1,1,0,1
-MBA,6.4,2,3,1,DevOps Engineer,0,0,0,0,0,1,1,0
-B.E,5.96,2,6,0,DevOps Engineer,1,0,0,0,0,1,1,0
-B.E,6.4,4,6,3,Full Stack Developer,1,0,1,1,1,0,0,0
-M.Tech,6.31,2,1,2,Software Engineer,1,1,0,1,1,0,0,1
-MBA,8.05,5,2,3,Backend Developer,1,1,1,0,1,0,1,0
-MCA,9.16,4,7,1,Full Stack Developer,1,1,1,0,1,1,0,0
-BCA,5.58,4,1,2,Software Engineer,1,1,1,0,0,0,1,0
-M.Tech,7.61,0,7,2,Software Engineer,1,1,0,0,1,1,0,0
-MBA,9.32,2,7,1,Cloud Architect,1,1,0,0,1,0,0,1
-M.Tech,6.36,0,1,2,Frontend Developer,0,0,1,1,0,0,0,0
-BCA,6.98,4,7,3,Data Scientist,1,0,0,0,0,0,1,1
-M.Sc,8.1,4,4,1,Data Scientist,1,0,0,0,1,0,0,0
-M.Tech,9.87,4,6,2,Data Scientist,0,1,0,0,1,1,0,1
-B.Sc,9.32,0,5,3,Cloud Architect,0,1,0,0,0,1,1,0
-BCA,9.78,3,8,2,Frontend Developer,0,1,1,0,1,1,0,0
-M.Tech,9.67,5,7,3,DevOps Engineer,0,0,0,0,0,0,1,1
-BCA,6.35,0,1,0,Backend Developer,1,1,0,0,0,1,1,1
-M.Sc,5.8,2,8,1,DevOps Engineer,0,0,0,0,0,0,1,0
-M.Sc,7.06,5,4,1,Frontend Developer,0,0,1,0,0,0,0,0
-M.Tech,6.25,1,1,2,ML Engineer,1,0,0,0,0,0,0,1
-B.Tech,7.7,1,2,0,Cloud Architect,1,1,0,0,0,1,1,0
-MCA,7.54,4,8,0,DevOps Engineer,1,0,0,0,0,0,1,0
-B.Tech,6.17,1,2,1,DevOps Engineer,1,0,0,0,1,1,1,0
-M.Tech,9.84,2,7,3,Full Stack Developer,1,0,1,1,1,0,0,0
-BCA,6.36,0,1,3,DevOps Engineer,1,0,0,1,0,1,1,0
-MBA,8.56,1,5,0,Frontend Developer,0,0,1,1,0,1,0,0
-MBA,6.88,4,3,0,Software Engineer,1,1,1,0,1,0,0,0
-B.Sc,9.98,3,7,0,DevOps Engineer,1,0,1,0,0,1,1,0
-BCA,8.19,1,5,2,DevOps Engineer,1,0,0,0,1,1,1,0
-BCA,8.05,5,6,3,Data Scientist,1,0,0,0,1,1,0,1
-B.E,7.6,1,6,1,ML Engineer,1,0,0,1,0,0,1,1
-B.Tech,8.9,5,2,2,DevOps Engineer,1,0,1,0,0,1,0,1
-BCA,8.04,4,8,1,Data Scientist,1,0,1,0,1,0,0,1
-B.Sc,6.85,0,2,1,Backend Developer,1,1,1,0,1,1,0,0
-M.Tech,7.63,4,5,3,Backend Developer,1,1,1,1,1,0,1,0
-B.E,6.16,2,2,3,Data Scientist,0,1,0,0,1,0,0,1
-BCA,7.26,2,1,3,ML Engineer,1,1,0,0,1,1,0,0
-MCA,9.83,5,7,0,Software Engineer,1,1,0,0,1,0,0,0
-B.Sc,7.08,5,8,3,Frontend Developer,0,0,1,1,0,0,0,0
-B.Sc,8.09,3,2,0,Cloud Architect,1,0,0,1,0,1,1,0
-B.Sc,6.54,0,3,3,Software Engineer,1,1,0,0,1,0,0,0
-M.Tech,5.78,0,8,3,Full Stack Developer,1,1,1,1,1,0,1,0
-M.Sc,6.38,0,2,1,Frontend Developer,0,0,1,1,0,0,0,1
-B.Sc,9.52,3,4,1,Software Engineer,1,1,0,1,1,0,0,0
-MCA,7.1,4,5,0,Cloud Architect,1,0,0,0,0,1,1,1
-MBA,6.54,1,5,0,Data Scientist,1,0,0,0,1,0,0,0
-BCA,7.3,2,4,2,Backend Developer,0,1,1,0,1,0,0,0
-B.Sc,6.42,4,1,2,Software Engineer,1,1,0,0,0,0,0,0
-B.E,8.19,5,6,3,Data Scientist,1,1,0,0,1,1,1,1
-BCA,9.02,5,1,3,Cloud Architect,1,0,0,1,0,1,1,0
-B.E,8.95,1,6,3,Software Engineer,1,1,0,1,1,0,0,0
-M.Sc,6.54,5,4,0,Software Engineer,1,1,0,0,1,0,0,1
-B.Tech,6.07,0,2,0,Data Scientist,1,1,0,0,1,0,0,1
-M.Sc,7.73,5,4,2,DevOps Engineer,1,0,0,0,0,1,1,0
-M.Tech,5.74,5,4,0,ML Engineer,1,0,0,0,0,0,0,1
-B.Sc,5.66,2,2,0,ML Engineer,1,0,0,0,1,1,0,1
-B.E,7.73,4,6,0,DevOps Engineer,1,0,1,0,0,1,0,0
-BCA,9.15,0,2,3,ML Engineer,1,0,0,0,0,1,0,1
-MBA,7.41,2,5,0,DevOps Engineer,1,0,0,0,0,1,1,0
-BCA,7.02,4,6,2,Backend Developer,1,1,0,0,1,0,1,1
-MBA,7.58,2,6,0,Frontend Developer,0,0,1,1,0,0,1,0
-B.Sc,6.66,5,1,1,Cloud Architect,1,0,0,0,0,1,1,0
-MCA,5.69,5,1,1,Cloud Architect,1,1,0,0,0,1,1,0
-M.Tech,5.85,2,3,0,ML Engineer,1,0,0,0,0,1,0,1
-MCA,7.01,4,1,0,ML Engineer,1,0,0,0,0,1,1,1
-MCA,7.8,3,2,0,Backend Developer,1,1,0,0,1,0,0,0
-B.E,7.93,4,5,1,Backend Developer,0,1,0,0,1,0,1,0
-M.Sc,9.1,0,6,0,ML Engineer,1,0,0,0,0,1,0,1
-MBA,8.22,4,3,2,ML Engineer,1,0,0,0,1,1,0,1
-MCA,6.91,0,3,0,DevOps Engineer,0,0,0,0,0,1,1,0
-BCA,8.94,4,7,3,Full Stack Developer,1,0,0,1,1,1,0,1
-B.Sc,7.31,0,2,2,ML Engineer,1,0,1,0,0,1,0,1
-B.E,8.34,4,2,1,Cloud Architect,1,0,0,0,0,1,1,0
-MCA,8.53,0,7,2,Software Engineer,1,1,0,0,1,0,0,0
-B.E,6.93,4,6,0,ML Engineer,1,1,0,0,0,1,0,1
-BCA,6.25,1,5,1,ML Engineer,1,0,0,0,0,1,0,0
-M.Sc,7.98,0,6,1,Data Scientist,1,0,0,1,1,0,0,1
-B.E,8.79,2,2,1,DevOps Engineer,1,0,0,1,0,1,1,0
-M.Tech,9.86,5,2,2,DevOps Engineer,1,0,0,1,0,1,1,0
-B.E,5.95,1,3,3,Software Engineer,1,1,0,0,1,0,0,0
-M.Sc,6.69,5,4,0,Backend Developer,1,1,0,0,1,0,1,0
-M.Tech,7.71,4,3,2,Full Stack Developer,1,0,0,1,1,0,0,0
-BCA,8.51,2,7,3,Backend Developer,1,1,0,0,1,0,1,0
-M.Sc,8.48,3,7,1,ML Engineer,0,0,0,1,0,1,0,1
-BCA,6.71,3,7,2,Software Engineer,1,1,0,0,1,0,0,0
-BCA,7.68,0,6,1,Software Engineer,1,1,1,0,1,0,0,0
-B.Tech,9.11,1,3,3,Software Engineer,0,1,0,0,1,0,0,0
-BCA,9.11,0,7,3,Backend Developer,1,1,0,0,1,1,0,0
-B.Sc,6.77,5,5,0,Software Engineer,0,1,0,1,1,0,0,0
-M.Tech,7.77,3,4,2,Data Scientist,1,0,1,0,1,0,1,1
-B.E,7.81,3,5,3,ML Engineer,0,0,0,0,0,1,0,0
-M.Sc,7.22,1,8,2,DevOps Engineer,1,0,0,0,0,1,1,1
-M.Tech,8.39,1,7,3,Cloud Architect,1,0,0,1,0,1,1,0
-B.Tech,8.95,5,4,3,Backend Developer,1,1,0,0,1,0,1,1
-MCA,9.82,0,7,1,Cloud Architect,1,0,0,0,0,1,1,0
-B.Sc,7.84,1,7,3,Software Engineer,0,1,0,1,1,0,0,0
-BCA,6.03,2,4,2,Software Engineer,1,1,0,0,1,0,0,0
-MBA,7.58,3,3,1,DevOps Engineer,1,0,0,0,1,1,1,1
-M.Tech,9.97,0,6,1,Cloud Architect,0,0,0,1,0,0,1,0
-B.Tech,9.68,4,4,0,ML Engineer,1,0,0,0,0,1,0,1
-M.Tech,8.79,4,5,3,Frontend Developer,0,0,0,1,0,0,0,0
-B.Sc,5.51,0,3,3,Backend Developer,1,1,0,0,0,0,0,1
-MBA,6.97,4,2,1,Full Stack Developer,1,1,1,1,1,0,0,0
-BCA,8.7,0,6,3,Frontend Developer,0,0,1,1,0,0,0,0
-B.E,6.46,4,4,0,ML Engineer,1,0,0,0,0,1,1,1
-MCA,5.92,5,5,2,DevOps Engineer,1,0,0,0,1,1,1,1
-B.Tech,9.38,0,6,0,Software Engineer,1,1,0,0,1,0,0,0
-B.Sc,9.42,1,1,2,Frontend Developer,1,0,1,0,0,1,1,0
-B.Sc,9.58,4,3,2,ML Engineer,1,0,0,0,0,1,0,0
-B.Sc,7.5,2,2,2,Data Scientist,1,0,0,0,1,0,1,1
-M.Tech,8.05,0,4,2,Cloud Architect,1,1,1,0,0,1,1,0
-M.Tech,9.45,3,5,1,Cloud Architect,1,0,0,0,0,1,1,0
-B.Sc,8.04,2,6,2,DevOps Engineer,1,0,0,0,0,1,1,1
-B.Sc,5.67,1,6,2,Cloud Architect,1,0,0,0,0,1,1,0
-M.Sc,6.66,3,1,2,Data Scientist,1,1,1,0,1,1,0,1
-MCA,9.41,1,1,3,Data Scientist,0,0,0,0,0,0,0,1
-B.E,8.79,1,2,3,Cloud Architect,1,0,0,0,0,1,0,0
-BCA,9.79,4,3,1,Full Stack Developer,1,1,1,1,1,0,0,0
-B.Tech,9.87,2,5,0,ML Engineer,1,0,0,0,0,0,1,1
-M.Sc,9.36,4,7,1,Frontend Developer,0,0,1,1,0,1,0,1
-B.E,9.24,5,7,3,Cloud Architect,1,0,1,1,0,0,1,0
-MCA,7.7,4,7,0,Data Scientist,1,0,0,0,1,0,0,1
-B.Sc,7.75,3,1,2,Backend Developer,0,1,1,0,1,0,1,0
-B.Sc,6.24,0,3,2,Full Stack Developer,1,0,1,0,1,1,0,0
-B.E,8.59,3,6,3,Frontend Developer,1,0,1,1,1,0,0,1
-MCA,6.0,2,4,3,ML Engineer,1,0,0,0,1,0,0,1
-B.Tech,7.59,0,5,1,Full Stack Developer,0,0,1,0,1,0,0,0
-MCA,7.38,4,2,1,DevOps Engineer,1,0,1,1,0,1,1,0
-MBA,7.44,3,1,0,Frontend Developer,0,0,1,1,0,0,0,0
-MCA,5.67,2,7,3,ML Engineer,1,0,0,1,0,1,0,1
-B.Sc,9.78,2,4,0,Software Engineer,1,1,0,0,1,1,0,0
-MBA,6.47,2,5,0,ML Engineer,1,0,0,0,0,0,0,1
-M.Sc,5.58,2,4,0,Full Stack Developer,1,1,1,1,1,0,0,1
-MBA,8.15,3,8,1,DevOps Engineer,1,0,0,0,1,1,1,0
-B.E,6.65,2,5,2,Frontend Developer,1,0,1,1,0,0,0,0
-MBA,8.54,4,8,1,ML Engineer,0,0,0,0,0,1,1,1
-B.Sc,7.2,5,7,3,Full Stack Developer,1,1,1,1,0,0,0,0
-M.Sc,7.38,4,7,1,ML Engineer,1,0,0,1,0,1,0,1
-MBA,8.91,5,3,0,Full Stack Developer,1,0,1,1,1,1,0,0
-B.E,9.88,0,6,1,Full Stack Developer,1,0,1,0,1,0,0,0
-MBA,8.58,3,6,1,Frontend Developer,0,1,1,1,0,0,0,0
-MBA,9.72,1,3,3,Frontend Developer,0,0,1,1,0,0,0,0
-MCA,9.42,3,7,0,Data Scientist,1,0,0,1,1,0,0,1
-BCA,9.48,3,1,2,Full Stack Developer,1,0,1,1,1,0,0,1
-MBA,7.43,2,3,1,Full Stack Developer,0,1,1,1,1,1,0,0
-M.Sc,6.69,2,8,2,Cloud Architect,1,0,0,0,0,1,1,0
-B.Tech,8.93,5,5,3,DevOps Engineer,0,0,0,0,0,1,1,0
-BCA,6.19,1,1,2,Cloud Architect,1,1,0,0,0,1,1,0
-B.E,7.65,5,3,3,ML Engineer,1,0,0,0,0,1,0,1
-MBA,9.54,5,4,2,Frontend Developer,1,0,1,1,0,0,0,0
-MBA,8.06,0,7,0,Cloud Architect,1,1,0,0,0,1,1,0
-M.Tech,6.72,5,3,1,ML Engineer,1,0,0,1,0,1,0,1
-MBA,6.3,2,1,1,Backend Developer,1,1,0,0,1,0,1,1
-M.Sc,8.14,0,8,1,Backend Developer,1,1,0,0,1,0,1,1
-M.Sc,8.19,5,8,0,Data Scientist,1,1,0,0,1,0,0,1
-B.E,8.21,2,5,3,DevOps Engineer,1,0,0,0,0,1,1,0
-B.Sc,7.69,3,6,1,Data Scientist,1,0,0,0,0,0,0,1
-M.Tech,8.93,1,6,1,Backend Developer,1,1,0,0,0,0,1,0
-B.E,9.04,2,4,2,Backend Developer,1,1,0,0,1,0,1,0
-BCA,7.17,3,1,3,Cloud Architect,1,0,0,0,0,1,1,1
-B.Sc,9.89,3,6,1,ML Engineer,1,1,0,0,0,1,0,1
-MBA,9.35,5,7,3,Backend Developer,0,1,0,0,1,0,1,1
-BCA,9.94,5,2,2,Backend Developer,1,0,1,0,1,0,1,0
-B.Sc,9.43,2,1,1,Full Stack Developer,1,0,1,1,1,0,0,0
-MCA,9.81,5,5,2,Data Scientist,1,0,0,0,1,0,0,1
-B.Sc,6.04,3,1,2,Software Engineer,1,1,0,1,1,0,0,1
-BCA,8.09,0,8,1,Cloud Architect,1,0,0,0,0,1,1,0
-B.E,9.18,5,7,0,Data Scientist,1,0,0,0,1,0,0,1
-BCA,5.53,3,4,2,Full Stack Developer,1,1,1,1,1,0,0,0
-M.Sc,8.98,2,6,1,Frontend Developer,0,0,0,1,0,0,0,0
-M.Sc,6.86,3,1,3,Backend Developer,1,1,0,0,1,1,1,0
-B.E,5.72,4,2,1,Backend Developer,1,1,0,0,0,0,1,0
-M.Tech,9.73,4,2,3,Backend Developer,1,1,0,0,1,1,1,0
-B.Tech,7.21,1,2,3,Software Engineer,1,1,1,0,1,1,0,0
-B.Tech,9.78,5,8,0,Cloud Architect,1,0,0,1,0,1,0,0
-M.Sc,9.4,5,3,2,Software Engineer,1,1,0,0,1,0,0,0
-B.Sc,5.63,3,1,1,Data Scientist,1,0,0,0,1,1,1,0
-B.Tech,7.93,3,8,3,Full Stack Developer,1,0,1,0,1,0,0,1
-B.Sc,9.36,5,2,3,Cloud Architect,1,1,0,0,0,1,1,0
-M.Sc,6.07,1,4,2,Cloud Architect,1,0,1,0,0,1,1,0
-BCA,6.98,5,3,0,Frontend Developer,0,0,1,1,0,0,1,0
-B.Tech,9.07,2,4,3,Full Stack Developer,1,1,1,1,1,0,1,0
-M.Sc,7.54,2,8,3,Cloud Architect,1,0,0,0,0,1,1,0
-MCA,8.93,0,5,1,Data Scientist,1,0,0,1,1,1,0,1
-BCA,7.54,1,4,0,ML Engineer,1,0,0,0,0,1,0,1
-MCA,7.87,1,6,1,Backend Developer,1,1,0,1,1,0,1,0
-B.Sc,8.36,0,7,2,Data Scientist,1,0,0,0,1,0,0,1
-B.E,9.52,4,2,0,Full Stack Developer,1,1,1,0,1,0,0,0
-B.Sc,6.15,1,4,2,Full Stack Developer,1,0,1,1,1,0,0,0
-M.Sc,9.84,2,1,0,Data Scientist,1,0,1,0,1,0,0,1
-M.Tech,8.97,5,6,2,DevOps Engineer,1,0,0,0,0,1,1,0
-B.E,9.27,4,2,0,Software Engineer,1,1,0,0,1,0,0,0
-M.Sc,9.41,2,5,2,ML Engineer,1,0,0,0,0,1,0,1
-BCA,9.92,5,8,3,Full Stack Developer,0,1,1,1,1,0,0,1
-B.Tech,8.21,4,7,3,Full Stack Developer,1,0,1,1,0,0,0,0
-MCA,8.41,0,4,1,Software Engineer,1,1,0,1,1,0,0,0
-MCA,5.94,1,5,3,Software Engineer,1,1,0,0,1,0,0,0
-MCA,7.56,2,3,3,Software Engineer,1,1,0,0,1,0,0,0
-MCA,7.08,4,8,1,Data Scientist,1,0,0,0,1,0,1,1
-M.Sc,6.69,4,5,2,Full Stack Developer,1,0,1,1,1,0,0,1
-B.E,8.28,2,7,1,Frontend Developer,1,1,1,1,0,0,1,0
-M.Tech,9.3,1,3,2,Full Stack Developer,1,0,1,1,1,0,0,0
-MBA,6.51,4,8,3,Software Engineer,1,1,0,0,1,1,0,0
-M.Sc,7.36,2,7,2,Full Stack Developer,1,0,1,1,1,0,0,0
-M.Sc,6.94,4,8,2,ML Engineer,1,0,1,0,0,1,0,0
-M.Sc,8.74,3,7,0,Data Scientist,1,0,0,0,1,0,1,1
-B.Tech,8.02,4,5,0,Frontend Developer,0,1,1,1,1,0,1,0
-B.E,8.67,4,7,1,Cloud Architect,1,0,0,0,0,1,1,0
-B.Tech,9.87,1,4,1,ML Engineer,0,0,0,0,1,0,0,1
-B.Tech,8.42,5,8,1,Frontend Developer,0,1,0,1,0,0,0,0
-B.Sc,5.93,5,2,2,ML Engineer,1,0,0,0,0,1,0,1
-M.Tech,7.86,0,6,3,Cloud Architect,0,0,0,1,0,1,1,0
-B.Tech,9.1,0,3,2,DevOps Engineer,1,0,1,0,0,1,1,0
-MBA,8.68,0,5,2,Frontend Developer,0,0,0,1,1,1,0,0
-MCA,8.57,5,7,3,Data Scientist,1,0,1,0,1,0,0,1
-M.Tech,7.02,5,2,0,Data Scientist,1,0,0,0,1,0,0,1
-B.E,8.91,3,1,3,ML Engineer,1,0,1,0,0,1,0,1
-MCA,8.03,0,5,1,Data Scientist,1,0,0,0,1,0,0,0
-B.Tech,7.9,4,3,2,ML Engineer,0,0,0,0,1,1,0,1
-M.Sc,5.94,3,4,0,Software Engineer,1,1,0,1,1,0,0,1
-B.Tech,9.57,1,3,1,DevOps Engineer,1,0,0,0,0,1,1,0
-B.E,8.56,3,7,2,DevOps Engineer,1,0,0,0,0,1,1,1
-MBA,6.64,1,8,0,Backend Developer,0,1,1,0,0,0,0,1
-MCA,6.25,0,7,1,Frontend Developer,0,0,1,1,0,0,0,0
-MBA,6.4,0,4,3,Data Scientist,1,1,0,1,0,0,1,1
-MBA,8.82,0,3,2,ML Engineer,1,0,0,0,0,1,0,0
-B.Sc,7.08,5,8,0,DevOps Engineer,1,0,0,0,0,0,1,0
-M.Tech,9.3,0,3,2,Cloud Architect,1,0,0,0,0,0,0,0
-B.Tech,6.15,5,1,0,ML Engineer,0,0,0,0,0,1,1,1
-MBA,9.72,5,8,3,Software Engineer,1,1,0,0,1,0,0,0
-MBA,7.91,0,7,2,Frontend Developer,0,1,1,1,0,0,0,0
-B.Tech,7.57,3,8,3,Frontend Developer,0,0,1,1,0,0,0,0
-B.E,7.59,5,6,3,Cloud Architect,1,0,1,0,0,1,1,0
-MCA,8.4,0,4,1,Full Stack Developer,1,1,0,1,1,0,0,0
-B.Sc,8.47,5,3,3,ML Engineer,1,0,0,1,0,1,0,1
-B.Sc,7.35,0,2,0,Backend Developer,1,1,1,0,1,0,1,0
-B.Tech,5.54,0,6,2,Data Scientist,1,1,0,0,1,0,0,1
-MBA,7.02,3,3,3,Cloud Architect,1,0,0,0,0,1,0,0
-M.Sc,9.89,0,6,3,DevOps Engineer,1,1,0,0,1,1,1,0
-MBA,9.52,2,7,1,Frontend Developer,0,0,1,1,0,0,1,1
-M.Sc,9.83,3,3,2,Data Scientist,1,0,0,1,1,0,1,1
-M.Sc,7.81,3,6,0,DevOps Engineer,1,0,1,0,0,1,1,0
-MBA,8.47,3,7,3,DevOps Engineer,1,1,0,0,1,1,1,0
-BCA,8.64,4,4,3,Software Engineer,1,1,0,0,1,0,0,0
-BCA,5.87,0,4,0,DevOps Engineer,1,0,0,0,0,1,0,1
-MCA,5.79,0,3,3,Frontend Developer,0,0,0,0,0,0,0,0
-M.Tech,8.26,5,4,1,ML Engineer,0,1,0,0,0,1,1,1
-M.Tech,7.24,4,1,3,Software Engineer,1,1,0,0,1,0,0,0
-B.Tech,5.86,2,4,1,Frontend Developer,0,0,1,1,0,1,0,0
-BCA,8.21,2,5,1,Full Stack Developer,1,0,1,1,1,0,0,0
-B.Tech,5.78,5,2,2,Data Scientist,1,0,0,0,0,0,0,0
-M.Tech,8.06,5,4,1,ML Engineer,1,0,0,0,0,1,0,1
-B.Tech,8.61,1,3,3,Frontend Developer,0,0,1,1,0,0,0,0
-B.Tech,9.43,1,3,1,Full Stack Developer,1,0,1,0,1,0,0,0
-B.Tech,7.26,3,8,3,Data Scientist,0,0,1,0,1,0,0,1
-B.Sc,7.69,3,4,3,Full Stack Developer,1,0,0,1,1,0,1,0
-B.Tech,9.81,2,3,2,Cloud Architect,1,0,0,0,0,1,1,0
-M.Tech,5.58,3,5,2,Cloud Architect,1,0,0,0,0,1,1,0
-M.Sc,9.56,4,8,0,ML Engineer,1,0,0,0,0,1,0,1
-M.Tech,7.23,3,4,2,ML Engineer,0,0,0,0,0,1,0,0
-MCA,9.31,2,8,2,Frontend Developer,1,0,1,1,0,0,1,0
-M.Sc,9.81,3,1,2,Backend Developer,1,0,0,0,1,0,1,0
-M.Sc,6.15,4,3,3,DevOps Engineer,0,0,0,1,0,1,0,0
-M.Tech,9.72,2,8,2,ML Engineer,1,0,0,0,0,1,1,0
-MCA,9.24,2,1,0,Frontend Developer,0,1,1,1,0,0,0,0
-MBA,5.79,3,6,0,Frontend Developer,1,0,1,1,0,0,0,0
-B.E,7.95,2,4,1,Cloud Architect,1,0,0,0,0,1,1,1
-B.Tech,5.74,2,7,3,Software Engineer,1,1,1,0,1,0,0,0
-BCA,7.72,5,2,2,Software Engineer,1,1,0,1,1,0,0,1
-B.E,6.46,4,5,2,Frontend Developer,0,0,1,1,0,0,0,0
-MCA,9.54,0,1,3,Backend Developer,1,1,0,0,1,0,1,0
-M.Sc,6.4,5,4,2,Data Scientist,1,0,0,0,1,0,0,0
-B.Tech,6.89,1,8,3,Backend Developer,1,1,0,0,1,0,1,0
-M.Sc,5.85,5,3,0,DevOps Engineer,0,1,1,1,1,1,0,0
-MCA,6.47,2,3,2,Software Engineer,1,1,0,1,1,1,0,0
-M.Sc,6.04,3,5,2,Cloud Architect,1,0,0,0,0,1,0,0
-MBA,5.78,0,1,0,Software Engineer,1,1,0,0,0,0,0,0
-BCA,8.73,0,7,3,DevOps Engineer,1,0,0,0,0,1,1,0
-B.Tech,6.79,2,6,3,Backend Developer,0,1,0,0,1,0,1,0
-B.E,7.17,0,5,1,Frontend Developer,0,0,0,1,0,0,0,0
-MCA,8.4,2,3,1,ML Engineer,1,0,0,0,0,1,0,0
-B.E,5.87,1,4,2,Backend Developer,1,0,0,1,0,1,1,0
-M.Tech,6.96,0,4,3,Cloud Architect,1,0,0,0,0,1,1,0
-M.Sc,8.72,2,4,0,Frontend Developer,0,0,1,1,0,0,0,0
-B.Tech,5.57,5,7,0,Backend Developer,1,1,0,0,0,0,0,0
-MCA,7.24,2,6,0,DevOps Engineer,1,0,0,0,0,0,1,1
-MBA,9.38,0,7,0,DevOps Engineer,1,0,1,0,0,1,1,0
-M.Tech,7.64,3,1,2,Cloud Architect,1,1,0,0,0,1,1,0
-MBA,6.47,3,5,3,DevOps Engineer,1,1,1,0,0,1,1,0
-BCA,8.14,1,2,1,Software Engineer,1,1,0,0,1,0,0,1
-MBA,6.62,4,8,1,Cloud Architect,1,0,0,0,0,1,1,0
-M.Tech,5.96,4,6,0,Cloud Architect,0,0,0,0,0,1,1,1
-MBA,5.65,1,3,0,Full Stack Developer,1,0,0,0,1,0,0,0
-B.Sc,5.89,4,7,0,Software Engineer,1,1,0,0,1,0,0,0
-M.Sc,6.41,4,1,2,Software Engineer,1,1,0,0,1,1,0,0
-MCA,9.64,4,2,1,Frontend Developer,0,0,1,1,0,1,0,0
-B.Sc,9.38,1,5,3,Frontend Developer,1,0,1,1,0,0,0,0
-B.E,5.69,1,8,3,Software Engineer,1,1,0,0,1,0,0,0
-M.Sc,8.2,5,1,2,Frontend Developer,0,0,1,0,1,1,0,1
-B.E,6.76,3,7,1,DevOps Engineer,1,0,0,0,0,1,1,0
-MCA,5.91,4,4,2,Cloud Architect,1,0,0,0,0,1,1,0
-M.Sc,8.05,4,3,2,ML Engineer,1,0,0,0,0,1,0,1
-MCA,8.71,4,6,1,Backend Developer,1,1,0,0,0,0,1,0
-MCA,6.61,4,7,0,Cloud Architect,1,0,0,0,1,1,1,0
-M.Sc,9.15,3,8,0,Data Scientist,1,0,0,0,1,0,0,1
-B.E,7.24,2,3,0,Cloud Architect,0,0,0,0,1,1,1,0
-M.Sc,5.68,4,5,2,Full Stack Developer,1,1,0,1,1,0,0,0
-B.Sc,5.6,4,5,3,Backend Developer,1,1,0,0,1,0,0,0
-M.Tech,6.61,3,7,3,Data Scientist,1,0,0,0,1,0,1,1
-M.Sc,5.95,2,4,3,Backend Developer,0,1,0,0,1,0,1,0
-MCA,6.95,3,3,3,Full Stack Developer,1,0,1,1,1,0,0,0
-M.Sc,6.91,1,2,3,Backend Developer,1,1,0,0,1,0,0,0
-B.E,8.07,2,8,1,Software Engineer,1,0,0,0,1,0,0,0
-M.Sc,9.34,1,2,0,Frontend Developer,0,0,1,1,0,0,0,1
-M.Tech,7.86,0,4,0,DevOps Engineer,1,1,1,0,0,1,1,0
-B.Sc,6.8,2,3,0,Software Engineer,1,1,0,1,1,0,1,0
-MCA,8.75,4,1,3,Cloud Architect,1,0,0,1,0,1,1,1
-B.Sc,5.72,0,4,1,Frontend Developer,0,1,1,1,0,0,0,0
-M.Tech,9.92,3,6,3,Software Engineer,0,1,0,0,1,0,0,0
-B.E,6.25,3,7,2,DevOps Engineer,1,1,1,1,0,1,0,0
-B.Tech,6.92,5,5,3,ML Engineer,1,1,0,0,1,1,0,1
-B.Sc,5.57,0,4,1,Backend Developer,1,1,0,0,1,0,1,0
-BCA,7.18,0,8,0,Data Scientist,1,0,0,0,0,0,0,1
-MCA,6.37,4,6,0,ML Engineer,1,0,0,1,0,1,1,1
-B.E,7.0,3,1,0,Cloud Architect,1,0,0,0,0,1,1,0
-B.E,6.99,1,1,0,Frontend Developer,0,0,1,0,0,0,0,0
-B.Tech,9.79,0,2,1,DevOps Engineer,1,0,0,0,0,1,1,0
-BCA,8.77,2,6,3,Software Engineer,1,1,0,0,1,1,0,0
-MCA,8.34,1,1,3,DevOps Engineer,1,0,0,0,0,1,1,0
-BCA,6.98,1,4,1,Cloud Architect,1,0,0,0,0,1,1,1
-MBA,9.57,4,8,0,Backend Developer,1,1,0,0,1,0,1,0
-B.Tech,7.46,3,7,1,ML Engineer,1,0,0,1,0,0,0,1
-B.E,9.32,5,1,1,Full Stack Developer,1,0,1,1,1,0,1,1
-MBA,9.53,2,6,0,Full Stack Developer,1,0,1,1,0,0,1,0
-B.Sc,9.52,3,8,0,Software Engineer,1,0,0,0,1,0,0,0
-BCA,8.27,0,8,1,DevOps Engineer,1,0,0,1,0,1,1,0
-B.Tech,7.27,3,4,2,DevOps Engineer,1,0,0,0,0,1,1,0
-M.Sc,6.58,0,5,2,ML Engineer,0,0,1,0,1,0,0,0
-M.Sc,8.73,3,1,2,ML Engineer,1,1,0,0,0,1,0,1
-B.E,6.36,5,6,3,Frontend Developer,1,1,1,1,0,0,0,0
-MCA,8.85,2,7,0,Frontend Developer,0,0,1,1,0,0,0,0
-MCA,6.17,5,6,2,Cloud Architect,1,0,0,0,0,1,1,0
-MCA,5.51,4,7,1,ML Engineer,1,0,0,0,0,1,0,1
-B.Tech,7.55,0,8,3,Full Stack Developer,1,0,1,1,0,0,0,0
-M.Sc,9.65,3,5,0,Cloud Architect,1,0,0,0,0,1,1,0
-B.Tech,6.5,3,1,2,Backend Developer,1,1,1,1,0,0,1,0
-MBA,9.95,4,4,0,Software Engineer,1,1,0,1,1,0,0,0
-M.Tech,6.98,1,7,1,Full Stack Developer,1,0,0,1,1,0,0,0
-MCA,5.94,0,4,0,Frontend Developer,0,0,1,1,1,0,0,0
-B.Sc,6.01,0,6,0,DevOps Engineer,1,1,0,0,0,0,1,0
-B.Sc,7.25,1,3,2,ML Engineer,1,0,0,0,0,1,0,1
-M.Sc,7.65,3,4,1,Frontend Developer,0,0,0,1,0,0,0,0
-MBA,8.98,3,6,2,Backend Developer,1,0,0,0,1,0,1,0
-B.Tech,5.66,2,8,0,Backend Developer,1,1,1,0,1,0,1,1
-M.Tech,8.18,0,6,1,Frontend Developer,0,1,0,1,0,0,0,0
-B.E,6.82,2,7,0,DevOps Engineer,1,1,0,0,1,1,1,0
-M.Tech,7.74,4,2,2,ML Engineer,1,0,1,0,0,0,1,1
-M.Tech,9.89,4,2,2,Data Scientist,1,0,1,0,1,1,1,1
-M.Tech,9.53,4,1,0,DevOps Engineer,1,1,0,0,0,1,0,1
-B.Tech,7.61,5,2,0,Cloud Architect,1,0,0,0,0,1,0,0
-M.Sc,8.78,4,4,3,Cloud Architect,0,0,0,0,0,1,1,0
-B.Tech,7.43,2,4,0,Backend Developer,1,1,0,0,0,0,1,0
-BCA,8.42,0,4,1,Full Stack Developer,1,0,1,1,1,1,0,0
-M.Sc,9.99,5,2,0,Software Engineer,1,1,0,1,1,0,0,0
-M.Tech,7.04,2,8,1,Full Stack Developer,1,1,1,0,1,0,0,0
-M.Sc,7.25,3,3,0,Frontend Developer,0,0,1,1,0,0,1,1
-MBA,7.86,0,8,2,Software Engineer,1,0,0,0,1,0,0,0
-M.Sc,7.52,1,8,3,DevOps Engineer,1,0,0,0,0,1,1,1
-B.Sc,5.99,4,2,1,Backend Developer,1,1,0,0,1,0,1,1
-BCA,9.14,4,1,1,DevOps Engineer,1,0,0,0,0,1,1,0
-MCA,8.96,5,5,1,Software Engineer,1,1,0,0,1,0,0,0
-MCA,5.93,1,7,0,Full Stack Developer,1,0,1,0,1,0,0,0
-M.Tech,8.04,4,8,1,Data Scientist,0,0,1,0,1,0,1,1
-M.Sc,6.48,0,6,1,Backend Developer,0,1,0,0,1,0,1,0
-M.Tech,9.12,5,1,3,Data Scientist,1,0,0,0,0,0,0,1
-B.E,9.49,4,3,0,Backend Developer,0,1,0,0,0,0,1,0
-B.Tech,8.5,0,8,1,Data Scientist,1,0,0,1,1,0,0,1
-B.Tech,6.03,1,8,3,Frontend Developer,0,0,1,1,0,0,0,1
-B.Sc,7.19,1,3,2,Software Engineer,1,1,0,1,1,0,0,1
-MBA,6.21,2,4,0,ML Engineer,1,0,0,0,0,1,0,1
-B.E,6.83,4,2,3,Backend Developer,1,1,1,0,1,1,0,0
-B.Sc,5.74,4,2,2,Full Stack Developer,1,0,1,1,0,0,0,1
-BCA,6.68,0,3,3,Data Scientist,1,0,1,0,1,1,0,1
-B.E,8.74,0,1,0,Data Scientist,1,0,0,0,1,0,1,1
-MCA,6.24,5,6,0,Data Scientist,1,0,1,0,1,0,0,1
-B.Sc,9.95,1,8,2,Software Engineer,1,1,0,0,1,0,0,0
-M.Tech,6.18,4,1,0,Cloud Architect,1,0,0,1,0,0,1,1
-M.Sc,7.2,2,4,2,DevOps Engineer,1,1,0,0,1,1,0,0
-B.Tech,7.15,3,8,2,ML Engineer,1,0,0,1,0,1,1,1
-B.Sc,6.07,5,1,2,Software Engineer,0,1,0,0,1,0,0,0
-B.Sc,7.96,1,3,0,DevOps Engineer,1,0,0,0,0,1,1,0
-B.E,8.29,3,3,2,Frontend Developer,0,0,1,1,0,0,0,0
-M.Sc,5.97,2,5,0,Full Stack Developer,1,0,1,0,1,0,0,0
-B.E,9.05,3,7,2,Frontend Developer,0,0,1,1,0,0,0,0
-BCA,9.38,5,3,2,Full Stack Developer,1,0,1,1,0,0,1,0
-B.Sc,7.6,1,4,2,ML Engineer,1,1,0,1,0,0,0,1
-BCA,8.14,3,2,0,Backend Developer,1,0,0,0,1,1,1,0
-M.Sc,8.17,5,2,0,Backend Developer,1,1,0,0,1,0,1,0
-MCA,9.96,1,1,0,Cloud Architect,0,0,0,0,0,1,0,0
-MCA,9.0,2,5,0,Data Scientist,0,1,0,0,1,0,0,1
-B.Tech,9.47,4,5,0,Full Stack Developer,1,0,1,1,1,1,0,0
-M.Sc,6.54,1,3,0,DevOps Engineer,1,0,1,1,0,1,1,0
-MBA,6.74,5,1,2,Backend Developer,1,0,0,1,1,0,0,0
-MCA,6.57,0,1,1,Software Engineer,1,1,0,0,1,1,0,0
-M.Sc,7.13,1,2,1,Software Engineer,1,1,0,0,1,0,1,0
-BCA,9.54,4,3,1,Backend Developer,1,1,0,0,1,0,1,0
-BCA,8.87,3,3,3,DevOps Engineer,0,0,0,1,0,1,1,0
-M.Sc,6.55,2,2,2,Software Engineer,1,1,1,0,1,0,0,1
-B.Sc,9.71,3,7,2,DevOps Engineer,1,0,0,0,0,1,1,0
-M.Tech,9.5,0,5,1,Cloud Architect,1,0,0,0,0,1,1,1
-M.Sc,5.99,0,7,0,Frontend Developer,0,0,1,1,0,0,0,0
-B.Sc,7.29,5,4,1,Cloud Architect,0,0,0,1,0,1,1,0
-MCA,8.43,2,7,0,ML Engineer,1,0,0,0,1,1,0,0
-B.E,7.04,4,7,3,Frontend Developer,0,0,0,1,0,0,0,0
-B.E,8.34,4,6,2,ML Engineer,1,0,0,0,1,1,0,1
-BCA,9.29,0,3,3,Data Scientist,1,0,1,0,1,0,0,1
-B.Tech,5.53,4,4,0,Backend Developer,1,1,0,0,0,1,1,0
-M.Sc,9.16,2,2,2,Data Scientist,1,0,0,1,0,0,0,1
-MBA,7.34,1,5,2,Software Engineer,1,1,0,0,1,0,1,0
-MBA,7.48,1,3,2,Software Engineer,1,1,1,0,1,0,0,0
-M.Tech,8.86,2,1,3,Software Engineer,1,1,0,0,0,0,0,0
-M.Tech,9.87,3,2,3,DevOps Engineer,1,0,1,1,0,1,1,0
-MBA,5.55,1,6,1,Data Scientist,1,0,0,1,1,1,1,1
-MBA,7.96,5,3,2,Cloud Architect,1,0,0,0,0,1,1,0
-B.Sc,9.39,0,7,3,Software Engineer,1,0,0,0,1,1,0,0
-B.Sc,9.57,4,3,0,Data Scientist,1,0,0,0,0,0,0,1
-BCA,7.84,3,4,1,Backend Developer,1,1,0,0,1,0,1,0
-B.Sc,7.95,4,7,3,Data Scientist,1,0,0,0,1,0,0,1
-MBA,7.65,0,7,1,Data Scientist,0,0,0,0,1,0,0,0
-B.Sc,6.31,3,2,2,Data Scientist,1,0,0,0,1,0,1,1
-B.Sc,8.8,0,5,1,Full Stack Developer,1,0,1,1,0,0,0,0
-BCA,9.03,1,7,2,Full Stack Developer,1,0,0,1,1,0,0,0
-B.Sc,6.84,4,8,0,DevOps Engineer,1,0,0,0,1,0,1,0
-M.Tech,7.11,4,8,2,Cloud Architect,1,0,0,0,0,1,1,1
-M.Tech,9.84,3,8,1,Full Stack Developer,0,0,1,1,1,0,1,0
-MCA,7.82,5,4,2,Frontend Developer,0,0,0,1,0,0,0,0
-BCA,9.47,5,2,1,Software Engineer,1,1,0,0,1,0,0,1
-B.Sc,9.0,4,5,1,DevOps Engineer,1,0,0,0,0,1,1,0
-B.Sc,8.58,4,2,2,Backend Developer,1,1,0,0,1,0,1,0
-B.Sc,6.67,3,3,1,Full Stack Developer,1,0,1,1,1,0,0,0
-M.Sc,9.41,3,6,2,Full Stack Developer,1,0,1,1,1,0,0,0
-MBA,7.84,1,1,1,Software Engineer,1,1,0,1,1,0,0,0
-M.Tech,9.45,5,6,1,DevOps Engineer,1,0,1,0,0,1,1,0
-B.Tech,5.89,1,6,1,DevOps Engineer,1,0,1,0,1,1,1,0
-MBA,8.78,1,2,2,Full Stack Developer,1,1,1,1,1,1,0,0
-B.Tech,8.99,1,8,0,Data Scientist,1,0,0,0,1,0,0,1
-MCA,6.08,3,7,0,DevOps Engineer,1,0,0,0,0,0,1,0
-B.E,9.07,5,5,2,ML Engineer,1,0,0,0,0,1,0,1
-MCA,9.08,5,7,2,Full Stack Developer,1,0,1,1,0,0,0,0
-B.Sc,9.7,1,3,0,Software Engineer,0,0,0,0,1,0,0,1
-MCA,5.81,2,5,3,ML Engineer,0,0,1,0,0,1,0,0
-MBA,6.15,3,3,0,Full Stack Developer,1,0,1,1,1,0,0,0
-MCA,9.31,5,2,1,Frontend Developer,0,0,1,1,0,1,0,0
-M.Tech,6.07,4,4,3,Backend Developer,1,1,0,0,1,1,1,0
-MBA,6.22,1,6,3,DevOps Engineer,1,0,1,0,0,1,0,0
-MCA,6.67,0,8,3,Cloud Architect,1,0,0,1,0,1,0,1
-M.Tech,7.27,5,4,1,Backend Developer,1,1,0,1,1,1,1,0
-MCA,6.32,2,2,2,Software Engineer,1,1,0,0,1,0,1,0
-B.Sc,6.56,2,5,3,Backend Developer,1,1,0,0,1,0,1,0
-MBA,8.76,2,8,0,Data Scientist,1,0,0,0,1,0,1,1
-MBA,8.22,4,8,3,Frontend Developer,0,0,0,1,0,0,0,0
-M.Sc,7.71,0,3,2,Data Scientist,1,0,0,0,1,0,1,1
-B.Tech,7.97,4,8,2,Full Stack Developer,1,0,1,1,1,0,0,0
-MCA,8.5,0,4,0,Backend Developer,1,1,0,0,1,0,1,0
-BCA,6.56,1,2,0,DevOps Engineer,1,1,0,0,0,1,1,0
-B.Sc,9.01,1,1,1,Frontend Developer,0,0,1,0,0,0,0,0
-B.E,9.96,0,4,1,Software Engineer,0,1,0,0,0,0,0,0
-MBA,7.35,1,1,0,Data Scientist,1,1,1,0,1,1,0,0
-MBA,6.11,2,4,3,Software Engineer,1,1,0,0,1,0,0,0
-MCA,6.44,1,2,0,Full Stack Developer,0,0,1,1,1,0,1,0
-B.Tech,9.05,2,7,1,DevOps Engineer,1,0,1,0,1,1,1,0
-M.Sc,8.65,1,6,1,Software Engineer,1,1,0,0,0,0,0,0
-B.Tech,8.99,1,4,0,Cloud Architect,1,0,1,0,0,1,1,0
-M.Tech,9.5,3,5,0,DevOps Engineer,1,1,0,0,0,1,1,0
-B.Tech,7.49,0,6,2,Frontend Developer,0,1,1,1,0,1,0,0
-B.Sc,9.22,3,8,3,DevOps Engineer,1,0,0,0,0,1,0,0
-B.E,9.52,1,5,3,ML Engineer,1,1,0,0,0,1,0,1
-B.Sc,9.27,0,7,1,Data Scientist,1,0,1,0,1,0,0,0
-MBA,7.29,3,2,1,Data Scientist,1,1,0,0,1,0,0,1
-M.Tech,9.88,0,1,2,Software Engineer,1,1,0,1,1,0,0,0
-BCA,7.71,5,6,3,ML Engineer,1,0,1,0,1,1,0,1
-B.E,8.18,1,8,2,Full Stack Developer,1,0,1,1,1,0,0,0
-B.E,7.47,2,7,3,Full Stack Developer,0,0,0,1,0,0,1,1
-M.Tech,6.9,2,1,0,Full Stack Developer,1,0,1,1,0,0,0,1
-M.Sc,7.95,1,2,2,DevOps Engineer,1,1,0,0,0,1,1,1
-B.Tech,6.65,4,8,1,Frontend Developer,0,1,1,1,0,0,0,0
-M.Sc,7.58,1,4,3,Data Scientist,1,1,0,0,1,1,0,1
-B.Tech,7.68,4,5,0,DevOps Engineer,1,0,0,0,0,1,1,0
-B.Tech,5.8,3,3,0,Cloud Architect,1,0,0,0,0,0,1,1
-B.E,5.75,0,4,2,Data Scientist,1,0,1,0,1,1,0,1
-B.Sc,9.54,0,2,3,Cloud Architect,0,0,1,0,0,1,1,0
-BCA,7.91,4,6,3,DevOps Engineer,1,1,0,0,0,1,1,0
-B.Sc,5.78,4,2,2,Software Engineer,0,1,0,0,1,0,0,0
-M.Tech,8.94,4,3,3,Full Stack Developer,1,0,1,1,1,0,0,0
-MBA,8.49,2,7,0,Full Stack Developer,0,1,1,1,1,0,0,0
-M.Sc,6.3,4,7,1,Cloud Architect,1,0,0,0,0,1,0,0
-B.Tech,9.48,0,5,3,DevOps Engineer,1,0,0,0,0,1,1,0
-B.Sc,5.79,3,5,1,DevOps Engineer,0,0,1,1,0,1,1,0
-M.Sc,6.7,4,8,0,Software Engineer,1,1,0,1,1,0,0,0
-B.Tech,8.3,4,3,1,Full Stack Developer,0,0,1,1,1,0,0,0
-M.Tech,6.55,3,6,0,Full Stack Developer,1,0,0,1,1,0,0,0
-MCA,9.58,2,5,0,Frontend Developer,0,0,0,0,1,0,1,0
-B.E,9.3,4,1,0,Full Stack Developer,1,0,1,1,0,0,0,0
-MBA,9.25,1,7,3,Full Stack Developer,0,0,1,1,1,1,0,0
-B.E,8.27,3,5,0,DevOps Engineer,1,0,0,0,0,1,1,0
-MCA,8.15,3,6,1,ML Engineer,1,0,1,1,1,1,0,1
-B.Tech,7.08,1,7,2,Full Stack Developer,0,1,1,0,1,0,0,0
-B.E,9.89,5,5,1,Backend Developer,1,0,0,0,1,0,0,1
-BCA,6.31,3,7,0,DevOps Engineer,1,0,0,0,0,1,1,0
-B.E,6.68,4,8,2,ML Engineer,0,0,0,0,0,1,0,1
-M.Sc,6.37,1,3,3,ML Engineer,1,0,0,0,0,1,0,1
-BCA,5.74,1,2,1,ML Engineer,1,0,0,0,1,1,0,1
-BCA,6.31,0,7,0,Frontend Developer,0,0,1,1,0,0,1,0
-M.Tech,6.3,3,1,0,Data Scientist,1,1,0,0,1,0,0,1
-M.Tech,7.64,2,8,0,Software Engineer,1,1,0,0,0,0,0,0
-MBA,6.11,1,5,1,DevOps Engineer,1,0,0,0,0,0,0,0
+degree,branch,gpa,num_certs,num_projects,num_internships,job_role,python,java,javascript,react,sql,aws,docker,machine_learning
+B.Tech,Data Science,8.84,0,4,3,Data Scientist,1,0,0,1,1,1,0,1
+MBA,Computer Science,8.15,2,6,2,Backend Developer,1,1,0,0,1,0,0,0
+MBA,AI/ML,7.91,2,2,1,Software Engineer,0,1,0,0,1,0,1,0
+B.E,AI/ML,6.75,1,3,3,Data Scientist,1,0,0,0,1,1,0,1
+BCA,Computer Science,9.95,4,6,1,Full Stack Developer,1,0,1,1,0,0,0,0
+B.E,Computer Science,9.48,1,8,0,Cloud Architect,1,0,0,0,0,1,1,0
+M.Tech,AI/ML,6.19,5,2,2,Software Engineer,1,0,0,0,1,0,0,1
+M.Tech,Computer Science,6.82,5,4,1,ML Engineer,1,0,0,0,0,1,0,1
+B.Sc,Data Science,7.93,1,2,0,ML Engineer,1,0,0,1,0,1,0,1
+M.Tech,Computer Science,9.9,5,4,2,Cloud Architect,0,0,0,0,0,1,1,0
+MCA,Computer Science,7.47,0,1,2,Full Stack Developer,1,1,0,1,1,1,0,1
+M.Sc,Data Science,6.75,2,7,3,Data Scientist,1,0,0,0,1,0,1,1
+B.Tech,IT,8.53,3,4,0,Cloud Architect,0,0,0,1,0,1,0,0
+M.Tech,Computer Science,5.73,3,1,3,Cloud Architect,1,0,0,0,0,1,1,1
+MBA,IT,6.78,4,3,0,DevOps Engineer,1,0,0,0,0,1,0,0
+B.Sc,Data Science,5.81,2,5,1,Data Scientist,1,0,0,0,0,1,0,1
+M.Sc,Data Science,6.7,1,5,1,ML Engineer,1,0,0,1,0,1,0,0
+M.Tech,Computer Science,9.46,5,2,1,ML Engineer,1,0,0,0,0,1,0,1
+M.Tech,Computer Science,9.5,0,2,3,DevOps Engineer,1,0,0,0,0,1,1,0
+B.Tech,IT,5.52,0,6,1,DevOps Engineer,1,0,0,0,1,1,1,1
+B.Sc,Computer Science,5.69,1,4,1,Full Stack Developer,1,0,1,0,1,0,0,0
+B.E,IT,5.61,0,8,1,Frontend Developer,0,0,1,1,0,0,0,0
+MBA,EE,7.07,5,6,0,Backend Developer,1,1,0,0,0,0,1,0
+BCA,ME,6.3,1,5,0,Data Scientist,0,0,0,0,1,0,1,1
+B.Tech,EE,7.84,2,7,2,Full Stack Developer,1,1,1,1,1,0,0,0
+BCA,IT,7.99,4,6,3,Full Stack Developer,1,0,1,1,1,1,0,0
+MBA,Computer Science,8.54,1,3,0,Cloud Architect,1,0,0,0,1,1,1,0
+M.Sc,Computer Science,9.93,0,7,1,Software Engineer,1,1,0,0,1,0,1,0
+MBA,Computer Science,5.73,5,7,3,Frontend Developer,0,0,1,1,0,0,0,0
+MBA,IT,7.53,4,2,1,Frontend Developer,0,0,1,1,1,0,0,0
+M.Sc,Computer Science,7.22,5,1,3,Frontend Developer,1,0,1,1,0,0,0,0
+B.Tech,IT,9.74,3,8,0,Cloud Architect,1,0,0,0,0,1,1,0
+MCA,Computer Science,8.51,3,3,3,Full Stack Developer,1,0,1,1,1,0,0,1
+B.Tech,IT,6.67,4,1,2,Frontend Developer,0,0,1,1,0,0,1,1
+M.Tech,Computer Science,9.02,5,5,2,Backend Developer,1,1,1,0,0,0,1,0
+M.Tech,IT,9.0,5,4,0,Frontend Developer,1,1,1,1,0,0,0,1
+M.Tech,Computer Science,9.08,2,8,1,DevOps Engineer,1,0,0,0,0,1,1,1
+B.Sc,ME,8.8,0,5,3,Full Stack Developer,1,0,1,1,1,0,0,0
+MBA,IT,8.06,2,1,1,Backend Developer,0,1,0,0,1,0,1,0
+M.Sc,Data Science,8.74,4,6,3,Data Scientist,1,0,0,0,0,0,0,1
+B.E,AI/ML,9.98,1,4,1,ML Engineer,1,0,0,1,0,0,0,1
+BCA,BBA,8.76,0,1,2,Cloud Architect,1,0,0,0,0,1,1,1
+MBA,IT,5.96,0,1,1,Frontend Developer,0,0,1,0,0,0,0,0
+BCA,IT,5.88,2,1,0,Frontend Developer,0,0,1,1,0,0,0,0
+M.Sc,Computer Science,6.69,5,8,0,Backend Developer,1,0,1,0,1,0,1,0
+BCA,Computer Science,9.05,5,5,3,Backend Developer,1,1,0,0,1,1,1,0
+MBA,AI/ML,8.6,5,1,2,Data Scientist,1,0,1,1,1,0,0,0
+B.Sc,IT,7.62,1,6,3,Software Engineer,1,1,0,0,0,0,0,0
+BCA,Computer Science,8.48,4,8,3,Cloud Architect,1,0,0,0,0,1,1,0
+M.Sc,IT,7.83,5,4,1,Software Engineer,1,1,0,0,1,0,0,1
+B.Tech,Computer Science,7.99,3,4,3,DevOps Engineer,1,1,0,0,0,1,1,0
+B.E,Computer Science,6.36,2,8,1,Frontend Developer,0,0,1,1,0,0,0,0
+MBA,IT,7.05,5,8,3,Cloud Architect,1,0,0,0,0,1,1,1
+B.Sc,IT,7.73,1,2,3,Full Stack Developer,1,0,1,1,1,0,0,0
+MCA,Computer Science,8.3,0,2,1,DevOps Engineer,1,0,0,0,0,1,1,0
+M.Sc,Computer Science,8.86,2,6,3,DevOps Engineer,1,0,1,0,0,0,1,1
+M.Sc,Computer Science,7.89,2,8,2,Frontend Developer,0,1,1,1,0,0,1,0
+MBA,Computer Science,9.56,3,8,0,Software Engineer,0,1,0,0,1,0,0,0
+B.E,IT,8.07,5,8,2,Backend Developer,0,1,0,1,1,0,1,0
+MCA,IT,6.49,3,1,2,Backend Developer,1,1,0,0,1,0,1,0
+M.Tech,IT,9.59,3,5,2,Frontend Developer,0,1,1,1,0,0,0,0
+MBA,Data Science,9.83,4,2,3,Data Scientist,1,0,0,0,1,0,0,0
+BCA,Civil,8.13,3,5,3,ML Engineer,0,0,1,0,0,1,0,0
+B.Sc,IT,5.7,4,3,3,Data Scientist,0,0,0,0,1,0,0,1
+MBA,ME,8.27,5,6,0,Data Scientist,0,0,0,0,1,1,0,1
+BCA,IT,6.35,1,2,1,Full Stack Developer,0,0,1,1,0,0,0,0
+M.Sc,Computer Science,6.98,2,4,2,Backend Developer,1,1,0,0,1,1,1,1
+B.Sc,IT,6.69,0,5,3,Software Engineer,1,1,0,0,1,1,0,0
+B.Tech,AI/ML,9.99,5,6,3,Software Engineer,1,1,0,1,0,0,1,0
+MBA,Computer Science,7.77,3,7,3,DevOps Engineer,1,0,0,0,0,1,1,0
+MCA,AI/ML,7.42,1,1,2,Data Scientist,1,0,0,1,0,0,0,1
+B.E,IT,7.09,1,2,2,Data Scientist,1,0,0,0,1,0,0,1
+M.Tech,AI/ML,8.93,2,1,1,ML Engineer,1,0,0,0,0,0,0,1
+BCA,Computer Science,9.65,3,8,2,DevOps Engineer,1,0,0,1,0,0,1,0
+MCA,Computer Science,6.9,3,5,1,Frontend Developer,0,0,1,0,1,0,0,0
+MCA,IT,7.43,2,5,2,Data Scientist,1,0,0,0,0,0,0,1
+B.Tech,Data Science,7.74,0,8,0,Data Scientist,1,0,0,0,1,1,0,0
+B.E,AI/ML,8.08,3,2,1,ML Engineer,1,0,0,0,0,1,0,1
+B.E,IT,7.86,2,3,1,Full Stack Developer,1,0,1,0,1,0,0,0
+B.Sc,Data Science,6.65,4,6,2,Data Scientist,1,0,0,0,1,0,0,1
+MBA,IT,5.81,5,2,3,Frontend Developer,0,0,1,0,0,1,0,0
+B.Tech,EE,7.52,4,3,0,Cloud Architect,1,0,0,1,1,1,1,0
+MBA,Computer Science,9.96,2,2,3,Backend Developer,1,1,0,0,1,1,1,0
+BCA,Computer Science,8.76,0,5,3,DevOps Engineer,1,0,1,0,0,1,1,0
+B.Sc,BBA,8.52,1,4,1,ML Engineer,0,0,0,1,0,1,0,1
+M.Tech,Computer Science,6.83,1,8,0,Frontend Developer,0,0,1,1,0,0,0,0
+MCA,IT,8.54,1,6,3,Full Stack Developer,1,0,1,1,1,0,0,0
+BCA,IT,9.0,0,2,2,Cloud Architect,1,0,0,1,0,1,1,0
+B.Sc,ECE,6.73,2,4,3,Data Scientist,1,1,0,0,1,0,0,1
+MCA,Computer Science,6.51,5,8,3,Data Scientist,1,0,0,1,1,0,0,0
+M.Tech,Computer Science,5.59,4,8,0,Software Engineer,1,1,0,1,1,0,1,0
+MBA,Data Science,8.19,2,2,0,Data Scientist,1,0,1,0,1,0,0,1
+MBA,IT,5.7,2,3,0,Full Stack Developer,1,1,1,1,1,0,0,0
+MCA,Data Science,9.16,0,4,0,ML Engineer,1,0,0,0,1,1,0,1
+BCA,BBA,7.82,2,7,3,ML Engineer,1,1,0,0,0,0,0,1
+B.E,IT,7.03,2,6,0,Cloud Architect,1,0,0,1,0,1,1,0
+MCA,IT,8.47,0,2,3,Data Scientist,1,0,0,0,1,0,0,1
+B.Sc,Data Science,9.79,1,8,2,ML Engineer,1,0,1,0,0,1,0,0
+MBA,Data Science,8.93,0,5,2,ML Engineer,1,0,0,0,1,1,0,1
+M.Sc,IT,9.98,2,6,0,Cloud Architect,1,1,1,0,0,1,1,0
+BCA,Computer Science,9.33,2,8,1,DevOps Engineer,1,0,1,0,1,1,0,0
+M.Tech,Data Science,6.89,2,3,1,Data Scientist,1,0,0,1,1,0,0,1
+B.E,IT,7.76,0,5,1,Frontend Developer,0,0,1,1,0,0,0,0
+B.Sc,Computer Science,8.31,4,1,0,DevOps Engineer,1,0,0,0,0,1,1,0
+B.Tech,AI/ML,9.77,3,4,3,Data Scientist,1,0,0,0,1,0,0,1
+MBA,IT,5.83,3,3,2,DevOps Engineer,1,0,0,1,0,1,1,0
+MCA,IT,6.59,2,6,1,Data Scientist,1,1,0,0,1,0,0,1
+MBA,IT,9.98,4,8,2,Frontend Developer,0,1,1,1,0,0,1,0
+M.Tech,Civil,7.44,4,5,0,Software Engineer,1,1,0,0,1,0,1,0
+M.Tech,IT,7.27,3,8,1,Frontend Developer,0,0,0,1,0,1,1,0
+MCA,IT,9.69,0,6,2,Frontend Developer,0,0,1,1,0,0,0,0
+B.E,Computer Science,8.13,4,7,1,Data Scientist,1,0,0,0,1,0,1,1
+B.Tech,Computer Science,8.08,5,1,1,Backend Developer,0,1,0,0,1,0,1,0
+MCA,IT,9.99,5,5,3,Backend Developer,1,1,0,0,1,0,1,0
+M.Sc,IT,6.76,2,2,3,Backend Developer,1,1,0,0,1,0,1,0
+MCA,ME,9.8,2,5,1,Full Stack Developer,0,0,0,1,1,0,0,0
+M.Sc,Data Science,6.59,1,7,3,Data Scientist,1,1,0,0,0,0,1,1
+M.Sc,IT,8.9,1,7,1,Cloud Architect,1,0,1,0,0,1,1,0
+B.E,AI/ML,9.05,5,8,1,Software Engineer,1,1,0,1,1,1,0,0
+BCA,Computer Science,6.37,4,7,3,Cloud Architect,1,0,0,1,0,1,1,0
+M.Tech,Computer Science,7.3,4,1,2,ML Engineer,1,0,1,0,0,1,0,1
+M.Sc,AI/ML,5.78,2,4,1,ML Engineer,1,0,0,0,0,1,0,1
+MBA,IT,6.19,0,8,2,Frontend Developer,0,0,1,1,0,0,0,0
+M.Tech,Data Science,5.78,4,8,0,Data Scientist,1,1,0,0,0,0,0,0
+B.Sc,Computer Science,7.81,3,6,0,Cloud Architect,1,0,0,1,0,0,1,1
+M.Tech,IT,9.94,3,7,0,Software Engineer,1,1,0,0,1,0,0,0
+MCA,AI/ML,6.03,4,7,1,Frontend Developer,0,0,1,0,1,0,0,0
+MBA,Computer Science,7.06,3,1,1,Backend Developer,0,1,0,0,1,0,0,0
+B.E,Computer Science,7.48,1,5,1,Software Engineer,0,1,0,0,1,0,0,0
+B.E,Computer Science,6.85,3,7,1,Backend Developer,1,1,0,0,1,0,1,0
+B.E,Computer Science,6.33,1,7,1,DevOps Engineer,1,0,0,0,0,1,1,0
+M.Sc,IT,6.99,1,4,3,DevOps Engineer,1,1,0,0,0,1,1,0
+MCA,EE,6.86,1,6,2,Backend Developer,1,1,1,0,1,0,1,0
+MBA,IT,7.9,2,7,0,Full Stack Developer,1,0,1,1,1,0,0,0
+B.Sc,IT,5.57,3,8,3,Backend Developer,1,1,0,0,1,0,1,0
+MCA,IT,6.26,0,1,3,Frontend Developer,0,0,1,1,0,0,1,0
+M.Sc,Computer Science,5.81,4,7,0,Frontend Developer,0,0,1,1,0,0,0,1
+BCA,AI/ML,7.91,4,5,2,Software Engineer,1,1,0,0,0,1,1,0
+B.E,Data Science,5.86,0,7,3,DevOps Engineer,1,0,0,0,0,1,1,0
+MBA,Computer Science,5.75,1,4,3,Full Stack Developer,0,0,1,1,1,0,0,0
+B.Tech,IT,9.66,5,7,0,DevOps Engineer,1,0,1,0,0,1,1,0
+B.Sc,IT,8.04,2,1,0,DevOps Engineer,1,0,0,0,0,1,0,0
+M.Sc,IT,9.27,1,7,0,Full Stack Developer,1,0,1,1,1,0,0,0
+M.Sc,Computer Science,8.71,2,2,1,DevOps Engineer,1,0,0,0,0,0,1,0
+B.Sc,IT,7.44,0,4,1,Data Scientist,0,1,0,0,1,0,1,1
+B.Sc,IT,6.12,3,4,3,Full Stack Developer,0,0,1,1,1,0,0,0
+B.Sc,Civil,6.87,2,6,1,Data Scientist,1,0,0,0,1,0,0,1
+MCA,IT,6.3,0,4,1,Cloud Architect,1,0,0,0,0,1,1,0
+MBA,IT,9.74,1,7,3,Software Engineer,1,0,0,0,1,1,0,0
+MBA,IT,9.96,4,2,0,Data Scientist,1,0,0,0,0,0,0,1
+MCA,IT,6.25,5,4,3,Backend Developer,1,1,0,1,0,0,1,0
+B.E,Data Science,7.58,1,6,2,ML Engineer,1,0,1,1,0,1,1,1
+MBA,AI/ML,9.03,5,2,1,ML Engineer,1,0,0,0,0,1,1,1
+B.Sc,IT,7.98,1,8,3,Backend Developer,1,1,0,0,1,0,0,0
+B.Tech,Computer Science,8.67,5,6,3,Full Stack Developer,1,0,1,1,1,1,0,0
+M.Tech,Other,7.07,0,3,2,Full Stack Developer,1,0,1,1,1,0,0,0
+B.E,IT,7.38,1,6,3,Frontend Developer,0,0,1,1,0,0,0,0
+MCA,Computer Science,9.78,0,1,1,Software Engineer,1,1,0,0,1,0,0,0
+B.Tech,Computer Science,6.74,2,1,3,DevOps Engineer,1,0,0,0,0,1,1,0
+B.E,EE,5.96,1,4,2,Backend Developer,1,1,0,0,1,0,1,0
+B.Sc,Computer Science,8.27,4,2,1,Full Stack Developer,1,0,1,1,1,0,0,0
+B.Tech,ECE,9.97,5,5,3,Full Stack Developer,1,1,0,1,1,0,0,1
+MBA,Computer Science,5.84,5,2,3,Full Stack Developer,1,0,1,1,1,0,0,0
+M.Tech,AI/ML,9.08,5,1,0,ML Engineer,1,0,0,0,0,0,0,1
+MBA,ECE,5.57,2,2,2,Data Scientist,1,1,0,0,1,1,0,1
+M.Tech,ECE,7.17,0,3,1,DevOps Engineer,0,0,0,0,0,0,0,0
+B.Tech,Computer Science,5.54,2,3,3,Cloud Architect,1,0,1,1,0,1,0,0
+B.Sc,Computer Science,5.81,0,3,0,Frontend Developer,0,0,1,1,0,0,0,1
+MCA,Computer Science,9.83,5,5,1,Full Stack Developer,1,0,1,1,1,0,0,1
+B.E,Computer Science,6.83,1,7,3,Backend Developer,1,0,0,0,1,0,1,0
+B.Sc,IT,8.93,4,7,3,ML Engineer,0,1,0,1,1,1,0,1
+M.Tech,Computer Science,8.38,5,2,2,Full Stack Developer,1,0,1,1,1,0,0,0
+M.Sc,IT,5.76,0,3,3,Full Stack Developer,0,0,0,1,1,0,1,1
+BCA,AI/ML,6.25,5,2,3,ML Engineer,1,1,0,0,0,1,0,1
+MCA,ECE,5.75,0,4,0,Cloud Architect,1,0,1,0,0,1,1,1
+MCA,Computer Science,7.22,0,6,0,Cloud Architect,1,0,0,0,0,1,1,0
+B.Sc,Computer Science,6.5,1,5,2,Software Engineer,1,0,0,0,1,0,0,1
+MBA,EE,7.16,5,1,2,Backend Developer,1,1,0,0,1,1,1,0
+B.E,Computer Science,9.32,1,7,2,Software Engineer,1,1,0,0,1,1,0,1
+M.Tech,IT,8.11,5,6,2,Cloud Architect,0,0,0,0,0,1,1,0
+BCA,ECE,6.55,1,8,2,Cloud Architect,1,0,0,0,0,1,1,0
+BCA,IT,9.34,4,1,2,Cloud Architect,1,0,1,0,0,0,1,0
+B.Sc,IT,5.64,1,3,1,DevOps Engineer,1,0,1,1,0,0,0,0
+MCA,IT,8.59,2,2,0,Full Stack Developer,1,0,1,0,0,0,0,1
+B.Tech,IT,6.26,4,4,2,Cloud Architect,1,0,0,0,0,1,1,1
+B.E,Computer Science,9.47,3,6,3,Cloud Architect,1,1,0,0,0,1,1,0
+MCA,IT,9.61,2,4,1,Cloud Architect,1,1,0,1,0,1,1,0
+M.Sc,Computer Science,8.46,1,6,2,Data Scientist,1,0,0,0,1,0,0,1
+MCA,AI/ML,9.76,4,4,0,Software Engineer,1,1,0,0,1,0,1,1
+B.Tech,Computer Science,6.99,0,6,0,Cloud Architect,1,0,0,0,1,0,1,1
+B.E,AI/ML,8.14,5,6,1,ML Engineer,0,0,0,0,0,1,0,1
+B.E,Computer Science,6.88,2,4,0,Frontend Developer,0,1,1,1,0,0,0,0
+B.Sc,IT,6.99,2,4,1,Cloud Architect,1,0,0,1,0,1,1,0
+MCA,Computer Science,6.65,3,4,1,Data Scientist,0,0,0,0,1,0,0,1
+M.Tech,Computer Science,9.1,0,6,3,Cloud Architect,1,0,1,0,0,1,1,0
+B.E,IT,9.74,2,5,1,Software Engineer,1,0,0,0,1,0,0,0
+B.Tech,IT,7.27,1,5,0,Data Scientist,1,0,0,0,1,0,0,0
+M.Tech,IT,6.89,3,8,2,Cloud Architect,1,0,0,0,0,1,1,1
+BCA,Computer Science,8.04,3,8,1,Backend Developer,0,1,0,0,1,0,1,0
+BCA,Computer Science,5.86,1,4,1,Cloud Architect,1,0,0,0,0,0,1,0
+B.Tech,AI/ML,7.41,4,7,2,Frontend Developer,0,0,0,1,0,0,0,1
+MBA,IT,9.63,2,6,3,DevOps Engineer,0,1,0,0,0,0,0,0
+B.E,IT,8.45,1,1,3,DevOps Engineer,0,0,1,0,0,0,1,0
+MCA,ME,5.59,2,5,3,DevOps Engineer,1,0,0,0,0,1,1,0
+M.Sc,AI/ML,7.49,1,1,1,Data Scientist,1,0,0,0,1,0,0,1
+M.Sc,IT,9.27,1,6,3,Backend Developer,0,1,0,0,1,0,1,0
+B.Sc,IT,9.82,1,4,1,Cloud Architect,1,0,0,0,1,0,0,0
+BCA,Computer Science,8.43,5,5,3,Backend Developer,1,0,0,0,1,0,1,0
+MCA,IT,7.57,5,5,2,Full Stack Developer,1,0,1,0,1,0,0,0
+MBA,Civil,5.79,4,7,2,Data Scientist,1,0,0,0,1,1,0,1
+B.Tech,ME,8.45,5,8,2,Frontend Developer,0,0,1,1,0,0,0,0
+B.Sc,ECE,9.28,5,2,1,DevOps Engineer,1,0,0,0,0,1,1,0
+M.Sc,AI/ML,8.85,3,4,0,ML Engineer,1,0,0,1,1,1,0,1
+BCA,ECE,7.36,0,8,2,Full Stack Developer,0,0,1,1,1,0,0,0
+MCA,IT,8.36,3,7,3,Frontend Developer,0,0,1,1,0,0,1,0
+B.E,IT,5.52,2,5,1,Cloud Architect,1,0,0,0,1,0,1,0
+B.E,Computer Science,7.77,2,8,2,Data Scientist,1,0,0,0,1,0,0,1
+B.Sc,AI/ML,9.77,0,7,2,Backend Developer,0,1,0,0,0,0,0,0
+B.Tech,Computer Science,8.48,0,5,3,Software Engineer,0,0,0,1,1,0,0,0
+BCA,IT,8.3,2,4,2,Data Scientist,1,1,0,1,0,1,0,1
+BCA,Computer Science,6.22,0,2,0,Full Stack Developer,1,0,1,0,0,1,0,0
+M.Sc,ME,7.56,0,1,0,DevOps Engineer,1,1,0,1,0,1,1,0
+B.Sc,Other,6.98,5,8,3,Frontend Developer,0,0,1,1,1,0,0,0
+M.Tech,Computer Science,6.1,5,3,3,Frontend Developer,1,0,1,1,0,0,0,0
+M.Tech,Computer Science,9.49,5,6,0,Cloud Architect,1,0,0,0,0,1,1,0
+M.Sc,IT,7.67,3,3,0,Full Stack Developer,0,0,1,1,0,0,0,0
+MCA,Computer Science,6.58,3,8,2,Cloud Architect,1,0,0,0,1,1,1,1
+MBA,IT,8.85,1,8,2,Data Scientist,1,0,1,1,1,0,0,1
+B.Tech,Civil,9.17,2,6,2,ML Engineer,1,0,0,0,0,0,0,1
+M.Tech,Computer Science,5.71,1,6,0,ML Engineer,1,0,0,0,0,0,0,1
+B.Tech,Other,9.67,4,7,3,Full Stack Developer,0,0,1,1,1,0,1,0
+B.Sc,IT,8.79,3,6,2,Frontend Developer,0,0,1,1,0,0,0,0
+B.Sc,IT,6.12,5,6,1,Cloud Architect,1,0,0,0,0,1,1,0
+MCA,IT,8.7,0,2,0,Frontend Developer,0,0,1,1,0,0,0,0
+B.Sc,IT,5.74,0,6,3,Full Stack Developer,1,0,1,1,1,0,0,0
+M.Sc,Data Science,8.84,5,6,0,Data Scientist,1,0,0,0,0,0,0,1
+BCA,Data Science,6.41,1,5,3,Software Engineer,1,1,0,0,1,0,0,0
+M.Tech,Computer Science,6.34,1,1,1,Frontend Developer,0,0,1,0,0,0,0,0
+B.Tech,Data Science,8.98,4,3,3,ML Engineer,1,0,0,1,0,1,0,1
+M.Tech,Civil,7.07,0,6,3,Full Stack Developer,1,0,1,1,1,0,0,0
+M.Sc,IT,9.82,4,8,3,Backend Developer,1,1,1,0,1,1,1,0
+BCA,AI/ML,9.54,1,7,0,Software Engineer,0,0,0,0,1,0,0,0
+B.E,ECE,8.41,2,7,3,Backend Developer,0,1,1,1,1,0,0,0
+B.E,Computer Science,7.45,0,5,2,Cloud Architect,1,0,0,0,0,1,0,0
+BCA,IT,8.94,5,3,2,Data Scientist,1,1,0,0,1,0,0,1
+B.Tech,Computer Science,7.99,1,7,1,ML Engineer,0,0,0,0,1,1,0,1
+B.Sc,EE,6.49,0,5,0,Frontend Developer,1,0,1,0,0,0,0,0
+M.Tech,IT,6.39,5,5,1,DevOps Engineer,1,0,0,0,1,1,1,0
+MCA,AI/ML,9.81,3,8,2,ML Engineer,1,0,0,0,0,0,0,1
+MBA,Computer Science,7.98,0,1,3,DevOps Engineer,1,0,1,0,0,1,0,1
+B.Tech,IT,7.98,0,7,2,Backend Developer,1,0,0,0,1,0,0,0
+M.Sc,Other,9.32,5,8,2,Software Engineer,1,1,1,0,1,0,0,1
+M.Sc,IT,8.93,5,6,0,Software Engineer,1,0,0,0,1,0,0,1
+BCA,IT,8.1,2,6,3,DevOps Engineer,1,0,0,0,0,1,1,0
+B.Tech,Computer Science,7.76,3,6,0,Cloud Architect,1,0,0,0,0,1,1,0
+MBA,IT,7.66,2,3,3,Cloud Architect,0,1,0,0,0,0,1,1
+BCA,AI/ML,9.76,5,5,1,Software Engineer,1,1,0,0,1,0,0,0
+MBA,AI/ML,8.18,3,1,0,ML Engineer,1,1,0,0,0,1,1,0
+MBA,BBA,8.47,1,8,3,Data Scientist,1,0,0,0,1,0,1,1
+M.Tech,Computer Science,7.41,4,2,0,ML Engineer,1,1,0,0,0,0,0,0
+M.Sc,IT,8.59,3,4,3,Full Stack Developer,0,0,1,1,1,0,0,0
+B.Sc,IT,7.17,5,3,0,Cloud Architect,1,0,0,0,1,1,0,0
+B.E,Other,9.04,3,2,0,Backend Developer,1,1,0,0,0,1,0,0
+M.Sc,IT,7.17,3,8,0,DevOps Engineer,1,0,0,0,0,0,1,0
+BCA,Computer Science,6.38,5,7,3,Backend Developer,1,1,0,0,1,1,1,0
+B.Tech,Computer Science,8.82,3,7,0,Backend Developer,1,1,0,0,1,0,1,0
+B.Sc,Computer Science,7.33,3,7,3,DevOps Engineer,1,0,1,0,0,1,1,0
+MCA,IT,9.83,2,7,2,Backend Developer,1,1,0,0,1,0,1,0
+BCA,AI/ML,6.62,5,4,3,Software Engineer,1,1,0,0,1,0,0,0
+M.Sc,EE,8.81,3,1,0,Backend Developer,1,1,0,0,1,1,0,0
+MCA,IT,8.29,3,1,2,Cloud Architect,1,0,0,0,0,1,0,0
+B.Sc,IT,7.56,2,4,2,Full Stack Developer,1,1,1,1,0,0,0,0
+MCA,Computer Science,7.15,0,5,1,Cloud Architect,1,0,0,0,0,1,1,0
+B.E,ECE,6.38,3,5,2,Full Stack Developer,1,1,1,0,1,0,0,0
+B.E,Computer Science,5.95,2,6,0,Software Engineer,1,1,0,0,1,0,0,0
+M.Tech,Computer Science,7.08,3,2,3,Full Stack Developer,1,0,1,1,1,0,0,0
+MBA,Computer Science,8.34,2,6,2,DevOps Engineer,1,0,0,0,0,1,0,0
+B.E,IT,6.72,5,2,1,DevOps Engineer,1,0,0,0,0,0,1,0
+B.E,IT,5.96,3,5,1,Frontend Developer,0,1,1,1,1,0,0,0
+BCA,Computer Science,7.49,3,3,1,Backend Developer,0,1,0,0,1,0,1,0
+B.E,IT,7.86,4,3,2,Cloud Architect,1,0,0,1,0,1,1,1
+MBA,IT,7.91,3,7,3,DevOps Engineer,1,0,1,0,0,1,0,0
+B.Sc,IT,8.72,5,5,3,Backend Developer,1,0,0,0,1,0,1,0
+M.Tech,IT,6.32,0,5,2,Backend Developer,1,1,0,0,0,1,1,0
+MBA,Computer Science,8.77,0,3,0,Frontend Developer,1,0,1,1,0,0,0,1
+B.E,Computer Science,5.82,1,1,1,DevOps Engineer,1,0,0,1,0,1,1,0
+M.Tech,Data Science,7.85,3,5,1,Cloud Architect,1,0,0,0,0,1,1,1
+B.Tech,Computer Science,9.39,4,8,1,ML Engineer,1,0,1,0,0,1,0,1
+M.Tech,Data Science,6.62,1,8,1,ML Engineer,1,0,0,0,1,1,0,1
+MCA,Computer Science,9.12,3,4,1,ML Engineer,0,0,0,0,1,1,0,1
+MCA,Data Science,8.8,5,7,1,ML Engineer,1,0,1,0,0,1,0,0
+MCA,AI/ML,8.99,3,6,0,Software Engineer,0,1,0,0,1,0,0,0
+M.Tech,ECE,5.7,5,5,0,Data Scientist,1,0,0,1,1,0,0,1
+M.Sc,Computer Science,8.23,2,1,2,ML Engineer,1,0,0,0,0,1,0,1
+M.Tech,Computer Science,9.26,1,7,0,Software Engineer,1,0,0,0,1,0,0,0
+MBA,Computer Science,8.66,2,6,2,ML Engineer,1,0,0,0,0,1,0,1
+B.E,Computer Science,9.22,5,1,2,Full Stack Developer,1,0,1,1,1,0,0,0
+B.Sc,IT,9.97,4,3,0,Software Engineer,1,1,0,0,1,0,0,0
+MBA,IT,7.1,2,8,1,Software Engineer,1,1,0,0,1,0,0,1
+M.Tech,IT,8.18,1,1,3,Cloud Architect,0,1,0,0,0,1,1,0
+BCA,AI/ML,7.86,4,2,1,Software Engineer,0,1,0,1,1,0,0,0
+BCA,IT,9.04,1,8,1,Full Stack Developer,0,0,0,1,0,0,0,1
+B.E,Computer Science,8.44,1,6,2,Cloud Architect,1,0,0,0,0,0,1,0
+BCA,IT,6.26,5,1,1,Software Engineer,1,1,0,0,1,0,0,1
+BCA,Computer Science,5.56,4,3,0,Frontend Developer,0,0,1,1,0,0,0,0
+B.Tech,Computer Science,6.65,5,6,0,Full Stack Developer,1,0,0,1,0,0,0,0
+BCA,Computer Science,9.4,3,1,0,Software Engineer,1,1,0,0,1,0,1,0
+BCA,Computer Science,7.0,2,7,0,Backend Developer,0,1,0,0,1,0,1,1
+M.Sc,ECE,6.18,2,6,3,DevOps Engineer,0,0,0,0,0,1,1,0
+M.Sc,Computer Science,8.44,4,3,2,Frontend Developer,0,0,1,1,1,0,0,1
+M.Tech,ECE,6.33,5,5,1,Data Scientist,1,0,0,0,1,0,0,1
+M.Tech,IT,6.09,4,8,2,Backend Developer,1,1,0,0,0,1,1,1
+B.E,Computer Science,7.71,1,2,1,Frontend Developer,0,0,1,1,0,0,0,0
+MBA,EE,8.6,4,1,0,Cloud Architect,1,0,0,0,0,1,1,0
+MBA,Computer Science,9.22,3,5,2,Cloud Architect,1,0,0,0,0,1,0,0
+B.Sc,Computer Science,7.4,5,3,3,Cloud Architect,1,0,0,0,1,1,1,0
+MCA,Computer Science,7.53,5,8,2,Full Stack Developer,1,1,1,1,1,0,0,1
+B.E,Other,8.77,1,3,0,Data Scientist,1,0,0,0,1,0,0,1
+BCA,IT,6.89,3,1,3,Full Stack Developer,1,0,1,1,0,0,1,0
+M.Sc,IT,8.15,1,3,0,Backend Developer,1,1,1,0,1,0,1,0
+B.Tech,Data Science,6.15,5,3,3,ML Engineer,1,0,0,1,0,1,0,1
+B.Tech,AI/ML,5.92,2,7,1,ML Engineer,1,0,0,0,1,1,1,1
+B.Tech,Computer Science,5.99,4,6,1,Backend Developer,1,1,0,0,1,0,1,0
+MBA,Computer Science,7.72,3,7,0,Cloud Architect,1,0,1,1,0,0,1,0
+MCA,Computer Science,8.02,2,6,3,ML Engineer,1,0,0,1,0,1,0,0
+B.Sc,Data Science,6.37,3,1,2,Software Engineer,1,1,0,0,1,0,0,0
+B.Tech,AI/ML,6.44,1,2,2,ML Engineer,0,1,0,0,0,1,0,1
+B.Tech,Computer Science,6.72,0,8,0,ML Engineer,1,0,0,0,0,1,1,1
+B.Sc,BBA,6.36,0,8,3,Cloud Architect,1,0,0,1,0,1,1,0
+B.Tech,Computer Science,6.9,1,6,1,Data Scientist,1,0,1,0,1,1,0,1
+BCA,IT,6.74,4,6,2,Backend Developer,1,1,0,1,1,0,0,0
+BCA,IT,8.08,3,7,1,Frontend Developer,0,0,1,0,0,0,1,1
+MCA,BBA,6.91,2,8,3,Cloud Architect,0,0,0,0,1,1,1,1
+M.Sc,ME,6.15,3,2,2,Backend Developer,1,1,0,0,1,0,1,1
+MBA,IT,9.31,4,8,3,Cloud Architect,1,1,1,0,0,1,1,0
+M.Sc,IT,8.29,1,3,0,Full Stack Developer,1,0,1,1,1,0,0,0
+M.Tech,Computer Science,8.16,3,1,0,Cloud Architect,1,0,0,1,1,1,1,0
+B.Sc,Computer Science,9.49,2,5,3,Backend Developer,1,1,0,0,1,0,1,0
+M.Tech,Data Science,8.12,2,2,2,ML Engineer,1,1,0,0,0,0,0,1
+M.Sc,AI/ML,7.44,2,7,1,Software Engineer,1,1,0,0,1,0,0,0
+B.Sc,Computer Science,6.1,5,7,1,DevOps Engineer,0,0,0,0,1,0,1,0
+B.E,IT,7.98,4,6,0,Cloud Architect,1,0,1,0,0,1,1,0
+MBA,IT,8.67,4,2,1,Software Engineer,1,0,0,0,1,0,0,0
+M.Tech,IT,8.58,2,5,2,Cloud Architect,1,0,0,1,0,1,1,0
+B.Tech,IT,8.63,4,1,2,Frontend Developer,0,0,0,1,0,1,0,0
+M.Tech,IT,6.07,5,8,2,Cloud Architect,1,0,0,0,0,1,1,0
+BCA,Computer Science,9.02,3,7,1,Frontend Developer,0,0,1,0,1,0,0,0
+B.Sc,IT,6.45,4,4,3,Cloud Architect,0,0,0,1,0,1,1,0
+MBA,IT,6.68,5,6,3,Full Stack Developer,0,0,1,1,1,0,1,0
+MCA,ME,6.72,5,3,2,DevOps Engineer,1,0,0,0,0,1,1,0
+B.Tech,Computer Science,9.24,4,4,0,Software Engineer,1,1,0,0,1,1,0,1
+M.Tech,Data Science,9.35,3,6,2,Data Scientist,1,0,0,0,1,0,0,1
+M.Tech,IT,6.75,1,8,0,Frontend Developer,0,1,1,1,0,0,0,0
+B.E,IT,6.48,5,1,0,Frontend Developer,0,1,0,1,0,0,0,1
+BCA,IT,6.18,4,4,0,Full Stack Developer,1,0,1,1,1,0,0,0
+MBA,IT,6.05,3,5,1,Full Stack Developer,1,0,0,1,1,0,0,0
+B.Tech,IT,9.85,1,1,1,Frontend Developer,0,0,1,1,1,0,0,1
+B.E,IT,5.78,3,2,1,Cloud Architect,1,0,0,0,1,1,1,0
+B.Sc,Computer Science,8.83,1,1,2,Cloud Architect,0,1,0,0,0,0,1,1
+MBA,IT,8.25,5,7,2,Data Scientist,1,1,0,0,1,0,0,1
+B.Sc,EE,6.95,3,4,0,Data Scientist,1,0,0,1,0,0,0,1
+M.Tech,IT,9.06,3,8,1,Frontend Developer,0,1,1,0,0,1,0,0
+B.Sc,IT,8.38,2,6,3,Backend Developer,1,1,0,0,1,0,0,0
+M.Sc,IT,6.36,0,3,3,Software Engineer,1,1,0,0,1,0,0,1
+B.Sc,Computer Science,6.22,4,3,1,Cloud Architect,1,0,0,0,0,1,0,0
+MBA,Computer Science,7.82,0,4,3,Software Engineer,1,1,0,0,1,0,0,0
+B.E,IT,9.51,2,5,1,Backend Developer,0,1,0,0,1,0,1,0
+B.Sc,AI/ML,5.64,5,3,1,ML Engineer,0,0,0,0,0,1,0,1
+B.E,Data Science,9.36,4,3,0,Data Scientist,1,0,0,0,1,0,0,1
+B.Tech,Computer Science,5.68,5,7,1,Full Stack Developer,1,0,1,1,0,0,1,0
+MCA,Computer Science,6.83,1,7,1,Frontend Developer,1,0,1,1,0,0,0,0
+MBA,Data Science,8.67,1,2,2,ML Engineer,0,0,0,1,0,1,0,1
+MCA,IT,9.5,2,4,0,Software Engineer,1,0,0,0,1,0,0,1
+M.Sc,IT,8.89,0,8,2,Cloud Architect,1,0,0,0,1,1,1,0
+MCA,IT,9.1,0,3,3,Cloud Architect,1,0,1,0,0,1,0,0
+M.Sc,IT,7.84,0,4,2,Frontend Developer,0,0,1,1,0,0,1,0
+MCA,IT,8.45,2,4,3,Full Stack Developer,1,0,1,1,1,1,0,0
+BCA,AI/ML,8.96,5,3,1,ML Engineer,1,0,0,0,0,1,0,1
+M.Tech,Computer Science,5.69,1,5,0,Backend Developer,1,1,0,0,1,0,0,0
+B.E,IT,9.69,4,3,3,Software Engineer,1,1,0,0,1,0,0,0
+M.Tech,ECE,8.79,1,4,2,ML Engineer,1,1,1,0,0,1,0,1
+B.Tech,IT,5.88,5,7,2,Backend Developer,1,1,0,0,1,1,1,0
+MCA,IT,5.55,5,7,3,Full Stack Developer,1,0,0,1,1,0,0,0
+M.Tech,IT,6.15,5,3,1,Frontend Developer,1,0,1,0,0,0,0,0
+B.E,IT,6.8,5,8,0,Frontend Developer,0,0,1,1,1,1,0,0
+B.E,EE,6.31,2,8,0,DevOps Engineer,0,0,0,0,0,1,1,0
+B.Tech,Computer Science,9.3,0,5,2,ML Engineer,0,0,0,0,1,1,0,1
+M.Sc,Computer Science,8.95,2,2,2,Data Scientist,1,0,0,0,1,0,0,1
+B.Tech,IT,6.12,5,2,3,Frontend Developer,0,0,1,1,0,0,0,0
+M.Tech,Computer Science,6.02,5,5,0,Cloud Architect,1,0,0,0,0,1,1,0
+M.Sc,Data Science,6.08,3,1,1,Data Scientist,1,0,0,0,1,1,1,1
+B.Tech,Computer Science,9.07,4,4,1,Data Scientist,1,0,1,0,0,1,1,1
+B.Tech,ME,5.91,4,1,1,ML Engineer,1,0,0,0,0,1,0,0
+BCA,Computer Science,6.27,0,3,2,Backend Developer,1,0,0,0,1,0,1,0
+B.E,Computer Science,6.46,0,6,3,Full Stack Developer,1,0,1,1,1,0,0,0
+B.E,AI/ML,6.78,3,6,1,Data Scientist,1,0,0,0,1,0,0,1
+MBA,AI/ML,8.52,0,6,1,Software Engineer,1,0,1,0,1,1,0,0
+M.Sc,IT,8.18,3,6,3,ML Engineer,1,0,0,0,0,1,0,1
+MBA,IT,7.8,5,1,1,Full Stack Developer,0,0,1,1,0,1,1,1
+MCA,Computer Science,6.19,4,6,0,Full Stack Developer,1,0,1,1,1,0,0,0
+B.E,IT,9.46,3,7,1,Software Engineer,1,1,0,1,1,0,0,0
+B.E,IT,7.69,3,6,2,DevOps Engineer,1,0,0,0,0,1,1,0
+B.Tech,AI/ML,5.63,2,1,1,ML Engineer,1,0,1,0,0,0,0,1
+M.Sc,Computer Science,8.42,3,5,0,Backend Developer,1,0,0,0,0,0,1,0
+B.Tech,IT,9.94,1,5,2,Cloud Architect,1,1,0,0,0,1,1,0
+M.Sc,IT,7.74,0,2,2,Full Stack Developer,1,0,1,0,1,0,0,0
+M.Tech,IT,8.05,3,5,3,DevOps Engineer,1,0,0,0,0,1,1,0
+B.Tech,Computer Science,8.33,3,1,1,Frontend Developer,0,0,1,1,0,0,0,0
+MBA,Data Science,6.16,2,3,2,ML Engineer,1,0,0,0,0,1,0,1
+B.E,Computer Science,6.57,1,1,2,Backend Developer,1,1,0,0,1,0,0,0
+B.Sc,IT,8.4,5,2,3,DevOps Engineer,1,1,0,0,0,0,1,0
+M.Sc,Computer Science,6.0,2,6,3,Frontend Developer,0,0,1,1,0,0,0,1
+B.E,Computer Science,6.48,3,8,1,Backend Developer,1,1,0,0,1,0,1,0
+B.Sc,IT,7.13,1,5,3,DevOps Engineer,0,0,0,0,0,1,1,0
+MCA,Computer Science,9.56,1,5,1,DevOps Engineer,1,0,0,0,0,1,0,0
+MBA,AI/ML,8.34,3,2,1,Frontend Developer,0,0,0,1,0,0,0,0
+M.Tech,IT,7.08,5,5,2,DevOps Engineer,1,1,1,0,0,1,0,0
+M.Tech,Data Science,6.21,2,5,1,Data Scientist,1,0,0,0,1,0,0,1
+B.E,IT,7.15,3,4,2,Data Scientist,1,0,0,0,1,0,0,1
+B.Tech,IT,7.3,5,8,0,Frontend Developer,1,0,1,1,1,0,0,0
+M.Sc,ME,6.36,3,3,3,Backend Developer,1,1,1,0,1,0,1,0
+B.Tech,IT,6.81,5,4,3,Frontend Developer,0,0,1,1,1,1,0,0
+BCA,Computer Science,5.83,0,1,2,Full Stack Developer,1,0,1,1,1,0,0,0
+BCA,Computer Science,9.9,2,7,1,Full Stack Developer,1,0,1,1,1,0,0,1
+M.Tech,Data Science,6.91,2,6,3,DevOps Engineer,1,0,0,0,0,1,1,0
+MCA,Computer Science,8.82,1,8,3,Frontend Developer,0,0,1,1,0,1,0,0
+MBA,IT,5.68,5,5,1,Data Scientist,1,1,0,1,1,0,0,1
+B.Sc,IT,7.37,2,3,0,Software Engineer,1,1,1,0,1,0,0,0
+MBA,IT,9.24,5,3,1,Data Scientist,1,0,0,0,0,0,0,1
+BCA,Computer Science,6.95,1,3,3,Software Engineer,1,1,1,0,1,0,0,1
+BCA,ECE,8.41,2,4,3,Full Stack Developer,0,0,1,1,1,0,1,0
+B.E,IT,7.64,5,4,1,Cloud Architect,0,0,0,0,0,0,1,0
+M.Tech,IT,6.81,0,2,3,Cloud Architect,1,0,0,0,0,1,1,0
+M.Tech,IT,7.59,0,2,3,Full Stack Developer,1,0,1,0,1,0,0,0
+MCA,IT,8.14,5,2,3,DevOps Engineer,1,0,0,0,0,1,1,0
+B.Tech,AI/ML,7.28,2,7,2,Software Engineer,1,1,0,0,1,0,0,0
+B.Sc,Computer Science,6.11,4,4,0,Data Scientist,1,0,1,0,0,0,0,1
+MBA,Computer Science,6.17,4,7,0,DevOps Engineer,1,0,0,0,0,1,1,0
+B.Tech,AI/ML,5.96,4,8,1,ML Engineer,1,0,0,0,0,1,0,1
+B.Tech,Computer Science,7.4,1,5,1,Software Engineer,1,1,0,1,1,0,0,0
+MCA,IT,7.47,5,6,3,Cloud Architect,1,0,0,0,0,1,1,0
+M.Sc,IT,6.77,0,1,2,Frontend Developer,1,0,1,0,0,0,0,0
+MCA,Computer Science,8.55,0,5,1,DevOps Engineer,1,0,1,0,0,1,1,0
+B.Tech,IT,9.67,4,2,1,Data Scientist,1,0,0,0,1,0,1,1
+M.Sc,AI/ML,9.6,1,8,3,Data Scientist,1,0,0,0,1,0,0,0
+M.Sc,IT,9.26,3,4,1,Software Engineer,1,0,0,0,1,0,0,0
+B.E,BBA,9.63,2,7,1,Full Stack Developer,1,0,0,0,0,0,0,1
+B.Tech,Computer Science,7.27,5,5,2,Full Stack Developer,1,1,1,1,1,0,0,0
+B.Tech,Other,9.22,5,7,1,ML Engineer,1,0,0,0,0,1,0,1
+M.Tech,Computer Science,5.67,4,5,1,DevOps Engineer,1,0,0,0,0,1,1,1
+B.E,Computer Science,9.94,0,8,2,DevOps Engineer,1,0,0,1,0,1,1,0
+M.Sc,Computer Science,7.08,5,7,3,Backend Developer,1,1,0,0,1,0,1,1
+M.Tech,Data Science,5.78,5,7,3,Data Scientist,1,1,0,0,1,0,0,1
+B.E,Computer Science,9.21,1,6,0,Cloud Architect,1,0,0,0,0,1,1,1
+M.Tech,Computer Science,6.04,3,1,2,Full Stack Developer,1,1,1,1,1,1,1,0
+M.Sc,Computer Science,6.32,3,3,1,DevOps Engineer,0,0,0,0,0,1,1,0
+MBA,IT,8.5,3,5,0,Cloud Architect,0,0,0,0,0,1,0,0
+B.Tech,IT,8.07,1,8,0,Frontend Developer,0,1,1,1,0,0,1,0
+B.Sc,Data Science,9.83,0,6,3,Data Scientist,1,0,0,0,1,0,0,0
+B.E,IT,5.61,3,3,0,Frontend Developer,0,1,0,1,1,0,1,0
+B.Sc,AI/ML,5.62,4,4,3,ML Engineer,0,1,0,0,0,1,1,1
+M.Tech,IT,6.71,4,3,2,Full Stack Developer,0,1,1,1,0,0,0,1
+MBA,Computer Science,5.88,0,1,3,Full Stack Developer,1,1,1,1,1,0,0,0
+B.Sc,Data Science,5.5,1,2,2,DevOps Engineer,1,0,0,0,0,1,1,0
+B.E,BBA,8.64,5,8,2,Data Scientist,1,0,0,0,1,0,0,1
+MCA,IT,7.04,5,8,3,Backend Developer,0,1,0,1,1,0,1,0
+M.Tech,Data Science,7.92,0,2,3,Data Scientist,1,0,0,0,1,0,0,1
+M.Sc,Computer Science,7.5,3,6,0,ML Engineer,1,0,0,0,0,1,0,1
+MBA,Computer Science,9.57,5,3,0,DevOps Engineer,0,0,0,1,0,1,1,0
+M.Tech,EE,6.07,5,8,0,Frontend Developer,0,0,1,1,1,0,0,0
+B.Tech,IT,9.34,3,8,2,Full Stack Developer,1,0,1,1,1,0,0,0
+B.E,AI/ML,6.38,0,2,0,Software Engineer,1,1,0,0,1,0,0,0
+B.E,IT,9.14,0,8,0,Cloud Architect,1,0,0,0,0,1,1,0
+M.Tech,Computer Science,5.88,3,2,0,Cloud Architect,1,0,0,0,1,1,0,0
+B.Tech,Computer Science,6.83,4,2,2,Software Engineer,1,1,0,0,1,0,0,0
+MBA,Computer Science,7.83,3,8,3,Software Engineer,0,1,1,0,1,0,0,0
+M.Sc,Computer Science,6.12,2,6,2,Frontend Developer,0,0,1,1,0,0,0,1
+B.Tech,Computer Science,7.83,0,6,1,ML Engineer,0,0,0,0,0,1,0,1
+MBA,IT,8.2,1,4,3,Cloud Architect,1,0,0,0,0,0,1,1
+M.Sc,IT,7.66,1,5,3,Backend Developer,1,1,0,0,0,1,1,0
+MCA,Computer Science,5.7,2,2,0,Backend Developer,1,1,0,0,1,0,1,0
+B.E,Civil,8.45,3,2,0,Frontend Developer,0,0,1,1,0,0,0,0
+B.Sc,IT,9.08,2,3,2,Frontend Developer,0,0,1,1,0,0,0,0
+B.Tech,Computer Science,8.33,4,7,2,Backend Developer,1,1,0,0,0,0,1,1
+MBA,IT,6.31,1,8,1,Cloud Architect,1,0,0,0,0,1,0,0
+M.Sc,Other,6.88,0,8,2,Full Stack Developer,1,0,1,0,1,0,0,0
+MBA,IT,7.6,4,2,2,Full Stack Developer,1,0,1,1,1,0,1,0
+M.Tech,Computer Science,6.03,1,5,0,Backend Developer,1,1,0,0,1,0,1,0
+BCA,IT,9.2,1,4,1,DevOps Engineer,1,0,0,1,0,1,1,0
+M.Sc,IT,7.82,3,1,2,Cloud Architect,1,0,0,0,0,1,1,0
+B.Sc,IT,6.88,2,1,0,Frontend Developer,0,0,1,1,0,0,0,0
+B.Sc,Other,9.9,1,8,0,Frontend Developer,0,0,1,1,0,0,0,0
+MBA,Computer Science,8.38,2,4,1,ML Engineer,0,0,1,0,0,1,1,1
+M.Tech,Computer Science,7.55,1,3,1,DevOps Engineer,1,0,0,0,1,1,1,1
+B.E,Computer Science,9.18,0,7,1,DevOps Engineer,1,0,0,0,0,1,0,1
+MBA,Data Science,7.57,1,7,1,ML Engineer,0,0,0,0,0,1,0,1
+B.E,ECE,7.56,5,2,1,Frontend Developer,0,1,1,0,0,0,0,0
+B.E,IT,9.97,0,8,3,Cloud Architect,0,1,0,0,0,1,1,0
+B.E,Computer Science,9.35,5,8,1,ML Engineer,1,0,1,0,0,1,1,1
+BCA,Computer Science,9.29,3,6,1,Cloud Architect,1,0,1,0,0,1,0,0
+B.Tech,IT,9.52,0,1,0,Backend Developer,1,1,0,0,1,0,1,0
+M.Sc,Computer Science,9.68,0,3,1,Full Stack Developer,1,1,0,0,1,0,1,0
+B.E,Civil,7.81,1,1,3,Software Engineer,1,1,0,0,1,1,0,0
+B.Tech,Computer Science,7.25,0,3,2,ML Engineer,1,0,0,1,0,1,0,1
+MCA,Data Science,9.92,4,8,3,Data Scientist,1,0,0,0,1,0,0,1
+B.Tech,Computer Science,6.55,1,1,1,Backend Developer,1,1,0,0,0,0,1,0
+MCA,Computer Science,6.1,4,1,1,Cloud Architect,1,0,0,0,1,1,1,0
+B.E,Computer Science,7.85,4,4,1,Backend Developer,0,1,0,1,1,0,0,0
+B.E,Data Science,8.76,0,6,3,Data Scientist,1,0,0,0,1,0,0,1
+B.Sc,IT,7.62,4,3,1,Full Stack Developer,1,0,1,0,1,0,0,0
+B.E,IT,7.59,5,6,3,DevOps Engineer,1,0,0,0,0,1,0,0
+B.E,Civil,9.73,1,4,3,Full Stack Developer,1,0,1,0,1,0,1,0
+MCA,IT,7.79,5,1,1,DevOps Engineer,1,0,0,0,0,0,1,0
+MBA,Computer Science,9.75,4,2,1,DevOps Engineer,1,0,0,1,0,1,1,0
+B.Sc,IT,9.23,0,6,1,Full Stack Developer,1,0,1,1,1,0,0,0
+M.Sc,IT,9.69,3,3,1,DevOps Engineer,0,0,0,1,0,1,1,0
+B.Sc,Computer Science,8.67,3,8,0,ML Engineer,1,1,0,0,0,1,0,1
+M.Tech,IT,6.82,5,1,0,Frontend Developer,1,1,1,1,0,1,0,0
+B.Tech,IT,7.19,2,7,3,Backend Developer,1,1,0,0,1,0,1,0
+MCA,Computer Science,9.43,5,4,2,Software Engineer,1,1,0,0,0,0,0,0
+MBA,Computer Science,7.82,3,4,3,Cloud Architect,1,0,0,1,0,0,1,0
+M.Tech,Data Science,7.07,4,1,1,Full Stack Developer,1,0,1,1,1,0,1,0
+M.Tech,IT,6.86,0,2,3,Cloud Architect,1,0,1,0,0,1,1,0
+B.Sc,IT,9.68,5,8,0,Software Engineer,1,1,0,0,1,1,1,0
+M.Sc,Data Science,9.69,3,4,1,ML Engineer,0,0,0,0,0,1,0,1
+M.Tech,IT,6.81,0,5,0,DevOps Engineer,1,0,0,1,0,1,1,0
+B.E,IT,9.91,2,3,2,Backend Developer,1,1,1,0,1,1,0,0
+MBA,IT,8.56,5,8,1,Backend Developer,0,1,0,0,1,0,1,1
+BCA,IT,8.67,3,7,2,Cloud Architect,1,0,0,0,0,1,1,0
+B.Tech,IT,7.97,3,2,1,Frontend Developer,0,0,1,1,0,0,0,0
+B.Tech,AI/ML,9.32,5,1,2,ML Engineer,1,0,0,0,0,1,0,1
+B.Sc,ECE,7.19,1,7,1,Data Scientist,1,1,0,0,0,0,0,1
+M.Tech,AI/ML,6.58,5,7,2,Software Engineer,1,1,0,0,1,0,1,0
+MCA,Computer Science,5.55,4,3,3,Cloud Architect,1,0,0,1,0,1,1,0
+B.E,IT,6.84,4,8,0,Cloud Architect,0,0,0,0,0,0,1,0
+M.Sc,ECE,9.85,0,5,0,Data Scientist,1,0,1,0,1,1,0,1
+M.Tech,Data Science,7.78,3,3,3,Data Scientist,1,0,1,0,1,0,0,1
+MCA,Data Science,8.23,1,6,2,ML Engineer,0,0,0,0,0,1,0,1
+B.E,IT,5.83,5,5,1,Frontend Developer,0,0,1,1,0,0,1,0
+B.Sc,AI/ML,7.39,0,6,2,ML Engineer,1,0,0,0,0,1,0,1
+B.Sc,Computer Science,9.41,4,8,0,DevOps Engineer,0,0,0,0,0,0,1,0
+BCA,Computer Science,7.98,3,8,1,ML Engineer,1,0,0,0,0,1,0,1
+B.Tech,Computer Science,8.59,3,8,1,DevOps Engineer,0,0,0,0,0,1,1,0
+MCA,IT,9.09,2,2,0,Cloud Architect,1,0,0,0,0,1,0,0
+M.Sc,Computer Science,9.75,1,8,3,Data Scientist,0,0,0,0,0,0,0,1
+B.E,Computer Science,5.56,4,1,3,Data Scientist,1,0,0,0,1,0,0,1
+M.Sc,Computer Science,6.29,4,2,2,Frontend Developer,0,0,1,1,0,1,0,0
+MBA,IT,6.82,3,1,2,DevOps Engineer,1,0,0,0,0,0,1,0
+MBA,Computer Science,6.98,3,2,3,Software Engineer,1,1,0,1,1,0,0,0
+B.Sc,IT,8.96,1,3,2,Software Engineer,1,1,0,0,1,1,0,0
+B.Tech,EE,7.12,5,5,0,Full Stack Developer,0,0,0,1,1,1,0,0
+MBA,Computer Science,7.98,0,1,1,Full Stack Developer,1,0,1,1,1,0,0,1
+MCA,Computer Science,7.75,3,4,1,Frontend Developer,1,0,1,1,1,0,0,1
+M.Sc,IT,6.77,1,4,1,Frontend Developer,0,0,1,1,0,0,0,0
+M.Tech,Computer Science,6.1,1,4,2,Backend Developer,1,1,0,1,0,0,1,0
+MBA,Computer Science,5.78,0,6,1,Full Stack Developer,1,0,1,1,1,0,1,1
+MBA,IT,6.76,2,6,2,DevOps Engineer,1,0,0,0,1,0,1,0
+M.Sc,AI/ML,8.43,1,8,0,ML Engineer,0,1,0,0,1,1,0,1
+MCA,Data Science,6.86,4,6,2,Data Scientist,1,0,1,0,1,0,0,1
+M.Tech,IT,9.6,0,4,3,Cloud Architect,1,0,0,0,0,1,1,0
+M.Tech,IT,6.24,4,8,2,Cloud Architect,1,0,0,0,1,1,1,1
+M.Sc,Computer Science,6.83,0,4,1,DevOps Engineer,1,1,0,1,1,1,1,0
+B.Tech,AI/ML,8.42,5,1,2,Data Scientist,1,0,0,0,0,0,0,1
+BCA,BBA,6.3,5,4,3,Backend Developer,1,1,0,0,1,0,1,0
+MCA,IT,6.71,1,4,3,Backend Developer,1,1,0,0,1,1,1,0
+BCA,Computer Science,5.59,5,3,0,Frontend Developer,0,0,1,0,0,0,0,0
+B.E,Computer Science,7.23,0,2,2,Data Scientist,1,0,1,0,0,1,0,0
+M.Sc,IT,6.13,0,2,2,Data Scientist,1,0,0,0,1,0,0,0
+B.E,Computer Science,6.14,0,8,1,Data Scientist,1,0,0,0,1,0,0,1
+M.Sc,Civil,5.96,2,3,3,Data Scientist,0,0,0,0,0,1,0,1
+BCA,Computer Science,8.31,1,3,2,Frontend Developer,0,0,1,1,0,0,0,0
+B.E,IT,7.51,2,6,3,Frontend Developer,0,1,1,1,1,0,1,0
+MBA,IT,8.62,1,7,0,Full Stack Developer,0,0,1,1,1,0,0,0
+M.Sc,Computer Science,8.66,1,5,3,Full Stack Developer,1,0,1,1,0,1,0,0
+B.E,Computer Science,6.59,0,2,3,Frontend Developer,0,1,1,0,0,0,0,1
+B.Tech,Computer Science,6.16,2,8,3,Frontend Developer,1,0,1,0,0,0,0,0
+MBA,AI/ML,9.02,3,5,2,ML Engineer,0,1,0,0,0,1,0,1
+B.E,Computer Science,9.69,4,2,3,Backend Developer,1,1,1,0,1,0,1,0
+MCA,IT,8.44,0,4,2,Cloud Architect,1,0,0,0,1,0,1,0
+M.Tech,IT,5.79,3,1,0,Frontend Developer,0,0,1,1,1,0,1,0
+M.Tech,AI/ML,9.75,2,7,0,ML Engineer,1,0,0,0,0,1,1,1
+B.Tech,Computer Science,8.14,5,3,1,Frontend Developer,0,0,1,1,1,0,0,0
+MBA,AI/ML,9.03,1,8,0,ML Engineer,1,0,1,0,0,1,0,1
+B.Sc,Computer Science,8.95,5,8,2,Software Engineer,1,1,0,0,0,0,0,1
+BCA,Computer Science,8.93,3,6,2,Cloud Architect,1,0,0,0,0,1,1,0
+M.Tech,AI/ML,8.57,1,2,2,ML Engineer,1,0,1,0,1,1,0,1
+B.Sc,EE,8.07,5,2,3,Full Stack Developer,1,0,0,1,1,0,0,1
+M.Sc,IT,7.31,5,4,2,Full Stack Developer,1,0,1,1,1,1,0,0
+B.E,AI/ML,5.78,1,2,2,Software Engineer,1,1,0,1,1,0,0,0
+M.Tech,IT,6.84,1,4,2,Full Stack Developer,1,0,1,1,0,0,0,0
+MBA,Computer Science,7.64,5,3,2,Full Stack Developer,1,0,1,1,1,0,0,0
+B.Tech,Computer Science,6.18,1,8,0,ML Engineer,1,0,0,0,0,1,0,1
+M.Sc,AI/ML,8.86,2,1,2,Software Engineer,1,1,0,0,1,0,0,1
+M.Tech,IT,8.65,2,3,1,DevOps Engineer,1,0,0,0,0,1,1,0
+B.E,IT,6.78,0,7,0,Full Stack Developer,1,0,1,1,0,1,0,1
+M.Tech,Computer Science,8.35,2,8,3,Cloud Architect,1,0,0,0,0,0,1,0
+B.Tech,IT,9.73,0,1,0,Full Stack Developer,1,0,1,1,1,0,1,0
+MCA,IT,9.28,4,7,1,Frontend Developer,0,0,1,1,0,0,0,0
+B.Sc,Computer Science,7.31,2,3,2,Full Stack Developer,1,1,1,1,1,0,0,0
+M.Tech,Computer Science,5.92,5,6,1,Backend Developer,0,1,0,1,1,0,0,0
+M.Sc,Computer Science,6.84,4,2,0,Backend Developer,1,1,0,0,0,1,0,1
+M.Tech,Computer Science,5.98,5,2,1,Cloud Architect,0,0,0,0,0,1,0,1
+B.E,IT,9.5,2,8,0,Full Stack Developer,1,0,0,1,1,0,1,0
+BCA,Computer Science,9.67,0,3,2,Frontend Developer,0,0,1,1,0,0,1,1
+MBA,IT,6.4,5,5,3,DevOps Engineer,1,0,0,0,0,1,1,0
+BCA,IT,6.25,2,6,0,Data Scientist,1,0,0,0,1,1,0,1
+B.Sc,ME,9.5,2,7,1,Cloud Architect,1,0,0,0,0,1,0,0
+M.Sc,AI/ML,5.83,1,2,3,ML Engineer,0,0,1,0,0,1,0,1
+M.Sc,IT,7.87,2,4,1,DevOps Engineer,1,0,0,0,0,1,1,0
+MBA,AI/ML,7.74,4,1,3,Software Engineer,0,1,0,0,1,1,1,0
+B.Sc,Computer Science,9.29,0,6,3,DevOps Engineer,1,1,0,0,0,1,1,0
+B.E,Data Science,6.84,0,6,3,Software Engineer,1,1,1,0,1,1,1,1
+B.Sc,IT,5.9,2,2,2,Backend Developer,1,1,1,0,0,0,0,1
+B.E,Computer Science,6.71,5,2,1,ML Engineer,1,1,0,1,0,1,0,1
+MBA,IT,9.89,1,2,0,Cloud Architect,1,0,0,1,0,1,1,0
+B.Tech,IT,6.46,2,8,1,Cloud Architect,1,0,1,0,0,1,1,0
+B.Sc,IT,6.48,5,2,1,Data Scientist,1,0,0,0,1,0,0,1
+M.Tech,IT,8.85,1,7,3,Cloud Architect,1,1,0,0,0,1,0,0
+B.Tech,Computer Science,7.49,3,2,0,ML Engineer,1,0,0,0,0,1,0,1
+M.Tech,Computer Science,6.49,1,5,3,Backend Developer,1,1,0,0,1,0,1,0
+B.Sc,IT,9.04,5,4,1,Backend Developer,1,1,1,0,1,0,1,0
+M.Tech,AI/ML,6.25,0,6,3,ML Engineer,0,1,0,0,0,1,1,1
+MBA,Computer Science,9.43,2,6,3,Software Engineer,1,1,0,0,1,0,1,1
+MCA,IT,9.95,4,8,0,Cloud Architect,1,0,0,0,0,1,1,0
+B.Tech,Computer Science,6.17,1,7,0,DevOps Engineer,1,1,0,0,0,1,1,0
+MBA,ECE,9.94,4,6,0,DevOps Engineer,1,0,0,0,0,1,1,1
+MBA,IT,8.05,5,3,2,Full Stack Developer,1,0,1,1,1,0,0,0
+BCA,IT,5.79,2,3,2,Cloud Architect,0,0,0,1,0,1,1,1
+B.Sc,Computer Science,9.79,5,7,3,DevOps Engineer,1,0,0,1,0,1,1,0
+M.Tech,Other,9.52,4,4,2,Full Stack Developer,1,0,1,1,1,0,0,1
+M.Tech,Data Science,6.84,5,6,3,DevOps Engineer,1,0,0,0,1,1,1,0
+B.E,Data Science,7.6,4,6,1,ML Engineer,0,0,0,0,0,1,0,1
+B.Tech,IT,8.9,0,6,0,DevOps Engineer,1,0,0,0,0,0,1,0
+MBA,IT,8.61,1,3,2,DevOps Engineer,1,0,0,1,0,0,1,0
+B.Tech,Computer Science,9.13,3,7,0,DevOps Engineer,0,1,0,1,1,1,1,0
+BCA,EE,7.32,1,3,1,Data Scientist,1,0,0,0,1,0,0,1
+M.Sc,Computer Science,7.64,0,5,3,Frontend Developer,0,0,1,1,0,1,0,0
+B.E,IT,5.55,4,4,2,Data Scientist,0,0,0,0,1,0,0,1
+M.Tech,IT,6.29,3,7,3,Full Stack Developer,1,0,0,1,1,0,1,0
+BCA,IT,6.08,5,8,2,Frontend Developer,0,0,0,0,0,0,0,0
+M.Sc,AI/ML,5.97,4,1,1,Backend Developer,1,1,1,0,0,0,0,0
+M.Tech,Data Science,8.64,1,2,0,ML Engineer,1,0,0,0,0,1,0,1
+M.Sc,Computer Science,5.65,3,4,1,Data Scientist,1,0,0,1,1,0,0,1
+MCA,ECE,7.1,3,4,0,Cloud Architect,1,0,0,0,0,0,1,1
+B.Tech,ME,6.51,4,5,3,ML Engineer,1,0,0,0,0,1,0,1
+M.Tech,ME,8.12,2,1,1,Software Engineer,1,0,0,0,1,1,0,0
+M.Tech,Computer Science,9.13,5,1,0,Cloud Architect,1,1,0,0,0,1,1,1
+MBA,IT,7.78,4,7,0,Software Engineer,1,1,0,0,1,1,0,0
+B.Tech,Computer Science,7.24,3,1,1,Cloud Architect,1,0,1,0,0,1,1,0
+M.Tech,Computer Science,8.15,2,4,2,Backend Developer,1,0,0,0,0,1,1,1
+B.E,Computer Science,7.65,2,6,2,Frontend Developer,1,0,1,1,0,0,0,0
+BCA,Computer Science,6.93,1,5,1,Backend Developer,0,1,0,0,1,0,0,0
+MCA,Computer Science,8.76,3,5,0,Data Scientist,1,0,0,0,0,0,1,1
+BCA,Computer Science,9.35,4,6,0,Software Engineer,1,1,1,0,1,0,1,0
+BCA,Computer Science,9.15,3,5,3,ML Engineer,1,0,0,0,0,1,1,0
+BCA,Computer Science,6.23,3,1,2,Full Stack Developer,0,1,1,1,0,0,0,0
+BCA,Data Science,8.47,0,6,3,ML Engineer,0,0,0,0,0,1,1,0
+B.E,ME,5.76,1,3,1,Backend Developer,1,1,0,0,1,0,1,0
+M.Sc,AI/ML,6.02,0,6,0,Software Engineer,1,1,0,0,1,0,0,0
+MCA,Computer Science,5.99,1,1,2,Backend Developer,1,1,0,0,1,0,1,0
+MCA,Civil,9.89,4,4,2,ML Engineer,1,0,0,0,1,1,0,0
+M.Sc,Data Science,7.2,4,7,0,ML Engineer,1,0,0,1,1,1,0,1
+MBA,IT,8.47,5,2,1,Software Engineer,1,1,0,0,1,0,0,0
+B.E,Computer Science,7.13,4,4,3,Cloud Architect,1,0,0,0,0,1,1,1
+BCA,Computer Science,9.08,0,3,0,Frontend Developer,1,0,1,1,0,0,0,0
+BCA,IT,8.94,3,7,2,Full Stack Developer,1,1,0,1,1,0,1,0
+B.E,IT,8.64,2,8,3,Frontend Developer,1,0,1,1,0,0,1,0
+B.E,Computer Science,6.8,5,8,3,Cloud Architect,1,0,0,0,0,1,0,0
+MBA,AI/ML,6.3,3,5,2,ML Engineer,1,1,0,0,0,1,0,1
+MCA,Computer Science,8.91,2,3,0,Full Stack Developer,1,0,1,1,1,0,0,1
+BCA,Computer Science,7.69,4,3,0,DevOps Engineer,1,0,0,0,0,1,0,0
+M.Sc,Computer Science,5.53,5,2,3,Software Engineer,1,1,0,0,1,1,0,0
+MBA,ME,6.68,2,8,0,Full Stack Developer,1,1,1,0,1,0,0,0
+B.Tech,BBA,7.45,3,4,1,ML Engineer,1,0,0,0,1,1,1,0
+MBA,Data Science,6.18,4,4,1,DevOps Engineer,1,0,0,0,0,1,0,1
+B.E,AI/ML,8.6,3,8,3,Software Engineer,1,1,0,0,1,0,0,0
+MBA,AI/ML,6.83,3,3,3,ML Engineer,1,0,0,0,0,1,0,1
+B.E,IT,8.59,3,7,3,Cloud Architect,1,0,0,1,0,1,1,0
+B.Tech,IT,6.71,4,6,1,DevOps Engineer,1,1,0,0,0,1,1,1
+B.Tech,AI/ML,9.11,4,7,1,Software Engineer,1,1,0,1,0,0,0,0
+B.Sc,Computer Science,9.6,0,3,2,DevOps Engineer,1,0,1,0,0,1,1,0
+B.Tech,Computer Science,6.54,0,2,3,DevOps Engineer,0,0,0,0,0,1,1,0
+B.Tech,Computer Science,8.84,2,5,3,Software Engineer,0,1,0,0,1,0,0,0
+M.Tech,IT,6.69,3,1,3,Backend Developer,1,1,0,0,1,0,1,0
+MCA,IT,8.93,5,2,0,Full Stack Developer,1,0,1,1,1,0,0,0
+M.Sc,Computer Science,9.39,3,5,2,Frontend Developer,1,0,1,1,0,0,1,0
+B.Tech,IT,6.95,3,8,0,Frontend Developer,0,0,1,1,0,0,0,0
+B.E,Computer Science,8.65,4,8,1,Data Scientist,1,0,0,0,1,1,0,1
+B.E,IT,5.54,5,4,2,Full Stack Developer,1,0,1,1,1,0,0,0
+MBA,ECE,7.58,5,4,1,DevOps Engineer,1,0,0,0,0,1,1,1
+MBA,IT,6.99,3,5,2,Data Scientist,1,1,0,0,1,1,0,1
+BCA,Computer Science,8.03,3,6,2,Full Stack Developer,0,0,1,1,1,1,0,0
+M.Sc,Computer Science,6.26,4,8,3,Cloud Architect,0,0,1,0,0,1,1,1
+MCA,Computer Science,6.86,1,3,2,Cloud Architect,1,0,0,0,0,1,1,0
+B.E,IT,8.02,5,7,1,Frontend Developer,0,0,1,1,1,0,0,0
+B.E,Computer Science,7.18,0,5,0,Backend Developer,1,1,0,0,1,0,1,0
+MBA,ME,7.29,1,8,0,DevOps Engineer,1,1,0,1,0,1,1,0
+MCA,ECE,5.63,2,2,2,Software Engineer,1,1,0,1,1,1,0,0
+B.Tech,IT,7.0,5,1,0,Backend Developer,1,1,0,0,1,1,1,0
+B.Sc,IT,8.78,4,6,0,Backend Developer,0,1,0,0,1,0,1,0
+MBA,Data Science,8.06,1,1,1,ML Engineer,1,1,0,0,1,1,0,0
+MBA,Computer Science,5.87,2,3,2,ML Engineer,1,0,0,0,0,1,0,1
+MCA,ME,7.36,5,8,1,Frontend Developer,0,0,1,1,0,0,0,0
+B.E,AI/ML,6.2,2,2,1,Software Engineer,1,1,0,0,1,0,0,0
+M.Sc,Computer Science,7.6,2,2,2,DevOps Engineer,1,0,0,0,0,1,1,0
+B.Sc,AI/ML,7.4,4,7,3,Software Engineer,1,1,0,0,1,0,0,0
+M.Sc,IT,6.64,3,5,3,Cloud Architect,1,0,1,0,0,1,1,1
+B.Sc,Other,7.8,0,5,1,Software Engineer,1,1,0,0,1,1,0,0
+MBA,Data Science,7.28,5,6,0,ML Engineer,0,0,0,1,0,1,1,1
+B.Sc,IT,7.05,1,7,2,Cloud Architect,1,0,0,0,0,1,0,1
+B.E,IT,8.19,0,7,0,DevOps Engineer,1,0,0,0,0,1,1,0
+B.Sc,IT,7.75,3,3,1,Backend Developer,1,1,0,0,1,0,1,1
+M.Tech,Computer Science,7.59,5,7,3,Full Stack Developer,1,0,1,1,0,0,0,1
+BCA,Computer Science,7.41,1,7,3,Software Engineer,1,1,0,0,1,0,0,0
+B.Sc,Other,5.53,3,6,0,Data Scientist,1,0,0,0,1,0,1,1
+BCA,Computer Science,7.42,0,7,1,ML Engineer,1,0,0,1,0,1,0,1
+M.Tech,Computer Science,7.91,5,8,0,Frontend Developer,0,0,1,1,0,0,0,0
+MCA,Computer Science,7.18,2,2,3,Data Scientist,1,0,1,0,1,0,1,1
+M.Sc,Other,8.07,5,3,2,Data Scientist,1,0,0,0,1,0,0,1
+B.E,IT,9.59,0,4,1,Software Engineer,0,1,0,0,1,0,0,0
+MCA,AI/ML,6.49,2,6,2,Software Engineer,1,1,0,0,1,0,0,1
+B.Sc,Computer Science,7.58,2,2,1,Cloud Architect,1,0,0,0,0,1,0,0
+BCA,Data Science,6.81,2,8,1,ML Engineer,1,0,0,0,0,1,0,1
+B.Sc,IT,7.2,3,7,2,Full Stack Developer,0,0,1,1,1,0,0,0
+B.E,IT,9.55,3,8,3,Backend Developer,1,1,0,0,1,0,1,0
+MBA,AI/ML,6.21,3,7,1,DevOps Engineer,1,0,0,0,0,1,1,0
+M.Sc,Computer Science,6.12,2,1,3,Software Engineer,1,1,0,0,1,0,0,1
+B.Sc,Computer Science,7.56,1,8,1,Backend Developer,1,1,0,0,1,0,1,0
+MBA,IT,7.75,4,8,3,Frontend Developer,0,0,1,1,1,0,0,0
+B.E,BBA,9.81,3,1,2,Data Scientist,0,0,0,0,0,0,0,1
+MBA,Computer Science,7.43,1,8,1,Full Stack Developer,1,0,1,1,1,0,0,1
+M.Tech,IT,6.99,4,5,0,DevOps Engineer,1,0,0,0,0,1,1,0
+B.Sc,IT,7.85,1,3,1,Frontend Developer,0,0,1,1,0,0,0,0
+B.E,Computer Science,6.66,1,6,1,DevOps Engineer,1,1,1,0,0,1,1,0
+MCA,ECE,7.2,1,5,0,ML Engineer,1,0,0,0,0,0,0,1
+MCA,Computer Science,7.74,0,6,0,Backend Developer,1,1,0,0,1,0,1,0
+M.Tech,Computer Science,9.87,4,5,2,DevOps Engineer,1,0,0,0,0,1,1,0
+M.Sc,ECE,8.8,2,2,1,Data Scientist,1,1,0,0,1,0,0,1
+M.Tech,Computer Science,7.49,5,4,3,Cloud Architect,1,0,0,0,0,1,0,0
+BCA,IT,8.9,5,5,3,Software Engineer,1,1,0,0,1,0,0,0
+B.Sc,IT,7.69,1,4,0,Data Scientist,1,0,0,0,0,0,0,1
+M.Sc,IT,6.88,1,3,2,Backend Developer,0,1,0,0,1,0,1,0
+B.E,IT,9.01,3,7,3,Cloud Architect,1,0,0,1,0,1,1,0
+B.E,AI/ML,5.75,2,1,2,Software Engineer,1,1,0,1,1,0,0,0
+B.E,Computer Science,6.97,4,8,0,Full Stack Developer,1,0,1,1,0,0,0,0
+MBA,Other,6.62,5,2,2,Full Stack Developer,1,1,1,1,1,0,1,1
+B.Sc,Computer Science,9.43,1,2,2,Full Stack Developer,1,0,1,1,1,0,0,0
+MBA,AI/ML,8.86,0,7,3,ML Engineer,1,0,0,0,0,1,0,0
+MBA,Computer Science,9.09,3,5,2,Full Stack Developer,1,0,0,1,0,0,0,0
+M.Tech,IT,8.04,5,7,2,Data Scientist,1,0,0,1,1,0,0,1
+MBA,ECE,9.5,0,7,2,Cloud Architect,1,1,0,0,0,1,1,0
+B.E,IT,5.58,2,3,1,Software Engineer,1,1,0,0,1,0,0,0
+M.Sc,Computer Science,6.89,3,5,1,Frontend Developer,0,0,1,1,0,0,0,0
+MCA,Data Science,5.62,1,4,3,Backend Developer,0,1,1,0,1,0,0,0
+M.Tech,Computer Science,9.86,0,6,3,Data Scientist,1,0,0,0,1,0,0,1
+M.Tech,IT,9.75,2,4,0,DevOps Engineer,1,0,0,0,0,1,1,0
+MBA,Civil,5.57,4,4,2,Full Stack Developer,0,0,1,0,1,1,0,1
+B.E,Computer Science,9.2,3,4,2,ML Engineer,1,0,0,0,0,1,1,1
+MCA,IT,9.59,4,3,1,Full Stack Developer,0,1,0,1,1,1,0,0
+B.Tech,IT,7.07,5,1,2,Data Scientist,1,1,0,0,1,0,1,1
+MBA,IT,9.55,1,3,1,Cloud Architect,1,0,0,0,0,1,1,0
+M.Tech,IT,8.84,4,5,1,Backend Developer,1,0,0,0,1,0,1,0
+B.E,Data Science,7.19,0,4,1,ML Engineer,1,1,0,0,1,1,0,0
+MCA,IT,5.55,5,5,2,Full Stack Developer,1,0,1,1,1,0,0,0
+B.Sc,Data Science,6.65,0,3,0,ML Engineer,1,0,1,0,0,1,0,1
+MBA,IT,9.24,4,4,1,Backend Developer,0,1,0,0,1,0,1,0
+B.Tech,Computer Science,6.39,1,2,1,Backend Developer,1,1,1,0,1,0,1,0
+B.Sc,AI/ML,7.93,3,6,1,Backend Developer,1,1,0,0,1,0,1,0
+B.Tech,IT,5.84,1,7,1,DevOps Engineer,1,0,0,1,0,0,1,0
+B.E,IT,8.16,3,3,2,Full Stack Developer,0,0,1,1,0,0,0,0
+B.Tech,Data Science,8.37,0,6,2,ML Engineer,0,0,0,0,0,0,0,1
+B.E,AI/ML,9.27,5,6,1,Software Engineer,1,1,0,0,1,0,0,1
+B.E,IT,7.4,0,2,3,Cloud Architect,1,0,0,0,0,1,1,0
+MBA,IT,6.5,3,1,0,Backend Developer,0,1,0,0,1,0,1,0
+M.Tech,AI/ML,6.03,3,1,3,Data Scientist,1,0,0,0,1,1,0,1
+B.Tech,IT,6.47,1,5,3,Full Stack Developer,0,0,1,1,1,0,0,0
+MCA,ME,7.56,1,8,0,Software Engineer,1,1,0,0,1,0,0,0
+MCA,Computer Science,8.27,1,5,3,ML Engineer,1,0,0,1,0,1,0,1
+MCA,ECE,9.13,4,3,3,ML Engineer,1,0,1,0,0,1,0,1
+M.Sc,IT,5.92,2,2,2,Data Scientist,1,1,0,0,0,0,0,1
+MBA,Computer Science,9.22,1,3,0,Backend Developer,1,1,0,0,1,0,1,0
+M.Sc,Data Science,9.84,3,5,2,DevOps Engineer,1,0,0,0,0,1,1,0
+B.E,EE,7.17,1,2,3,DevOps Engineer,1,0,0,1,0,1,1,0
+M.Tech,Data Science,9.13,3,8,3,ML Engineer,1,0,0,0,0,1,0,1
+B.Sc,Computer Science,5.6,5,1,3,Data Scientist,1,0,0,1,1,0,0,1
+B.Sc,IT,9.94,5,6,0,Full Stack Developer,1,0,1,1,1,0,0,0
+MCA,Computer Science,8.14,1,1,3,Software Engineer,1,1,0,0,1,0,0,0
+MCA,Other,5.9,1,7,2,Data Scientist,1,0,0,0,1,0,0,1
+M.Tech,Computer Science,6.33,4,1,2,Cloud Architect,1,0,1,0,1,1,1,1
+B.Sc,Computer Science,5.51,4,8,1,Data Scientist,0,0,1,0,1,0,0,1
+MCA,Computer Science,5.94,0,1,0,Backend Developer,1,1,0,0,1,0,0,0
+BCA,Computer Science,5.98,3,8,0,DevOps Engineer,1,0,0,0,0,1,1,0
+MCA,IT,6.61,4,2,0,Data Scientist,1,0,0,0,1,0,0,1
+B.E,AI/ML,8.91,0,6,3,ML Engineer,1,0,0,0,0,1,1,0
+BCA,IT,7.74,4,3,2,Full Stack Developer,1,0,1,0,1,0,0,0
+B.Tech,Computer Science,5.71,5,1,1,Software Engineer,1,1,0,0,1,0,0,0
+MBA,Civil,9.77,2,1,1,Data Scientist,0,0,0,0,0,0,0,1
+B.Sc,Civil,9.94,5,5,1,ML Engineer,1,0,0,0,0,1,0,1
+B.E,IT,8.61,3,3,1,DevOps Engineer,1,0,0,0,0,0,1,1
+M.Tech,Data Science,6.02,2,5,2,Data Scientist,0,0,0,0,1,0,0,1
+M.Tech,EE,7.28,3,3,0,Data Scientist,1,0,0,1,1,0,1,1
+M.Sc,Data Science,7.46,0,3,2,Data Scientist,1,0,0,0,1,0,0,0
+B.Sc,Computer Science,7.08,3,2,1,DevOps Engineer,1,0,0,1,0,1,1,0
+B.Sc,Computer Science,6.15,0,4,0,DevOps Engineer,0,1,0,1,0,1,1,1
+B.Tech,Other,8.03,5,7,2,Full Stack Developer,0,0,1,1,0,0,0,0
+MBA,IT,9.6,1,5,1,Full Stack Developer,1,0,1,1,1,0,0,0
+BCA,Computer Science,9.47,5,6,1,Full Stack Developer,1,0,0,1,1,0,0,1
+B.E,IT,9.48,1,4,2,Full Stack Developer,1,0,1,1,1,0,0,0
+B.E,IT,7.19,1,6,1,Cloud Architect,0,1,0,0,0,1,1,1
+B.E,Computer Science,6.31,1,3,3,Full Stack Developer,1,0,1,1,1,0,0,0
+MBA,AI/ML,6.61,0,1,2,ML Engineer,1,0,0,0,0,1,0,0
+MCA,Data Science,9.69,1,5,2,Data Scientist,1,0,1,0,1,0,0,1
+B.Sc,IT,9.55,1,2,1,Data Scientist,0,0,0,0,1,0,0,1
+M.Tech,IT,8.9,3,1,3,Cloud Architect,1,0,0,0,0,1,1,0
+MCA,IT,9.95,5,6,2,ML Engineer,1,0,0,0,1,1,0,1
+MCA,Computer Science,8.21,0,8,2,Data Scientist,1,0,0,0,1,0,0,1
+B.Tech,IT,8.42,1,1,0,Frontend Developer,0,0,0,1,0,0,1,0
+B.E,IT,6.4,2,3,2,DevOps Engineer,0,0,0,0,0,1,1,0
+M.Sc,IT,7.7,0,4,0,DevOps Engineer,1,1,0,0,0,0,1,0
+MCA,Computer Science,5.79,5,8,2,Frontend Developer,0,0,0,0,0,0,0,0
+M.Tech,Computer Science,5.75,5,4,3,Data Scientist,1,0,1,0,1,0,0,1
+MBA,IT,8.22,4,4,0,Backend Developer,1,1,0,0,1,1,1,0
+M.Sc,Data Science,6.34,5,4,0,Data Scientist,1,0,0,0,1,0,0,1
+BCA,Computer Science,8.89,5,2,2,DevOps Engineer,1,0,1,0,0,1,1,0
+M.Tech,AI/ML,8.06,4,3,0,ML Engineer,1,0,0,0,0,1,0,1
+B.E,AI/ML,7.59,2,7,1,ML Engineer,1,0,0,1,0,1,1,0
+MCA,Computer Science,5.56,1,5,2,Full Stack Developer,1,0,1,0,1,0,0,0
+M.Sc,IT,7.69,4,5,1,Backend Developer,1,1,0,0,1,1,1,0
+MBA,Computer Science,9.12,2,6,1,Backend Developer,1,1,0,0,1,0,1,0
+MBA,AI/ML,5.78,2,6,2,ML Engineer,1,0,0,0,0,1,0,1
+B.Sc,Computer Science,9.84,3,3,2,Backend Developer,1,1,0,0,1,0,1,0
+MBA,ME,7.58,1,1,2,Data Scientist,0,0,0,0,1,0,0,1
+MBA,AI/ML,8.03,2,1,1,ML Engineer,1,0,0,0,0,1,0,1
+M.Sc,Computer Science,9.06,1,8,3,DevOps Engineer,1,0,0,1,0,1,1,0
+MBA,IT,8.91,2,8,2,Frontend Developer,0,0,1,1,0,0,1,1
+MCA,Computer Science,9.24,4,1,0,Frontend Developer,0,0,1,1,0,1,0,0
+MBA,Computer Science,5.79,0,8,3,Frontend Developer,1,0,1,0,0,0,1,0
+B.E,Computer Science,8.39,5,1,0,Software Engineer,1,0,0,0,1,0,0,1
+MBA,Computer Science,5.69,2,8,0,Backend Developer,1,1,1,0,1,0,1,0
+M.Tech,Computer Science,5.68,1,1,2,Full Stack Developer,1,0,1,0,1,0,0,0
+MCA,Computer Science,7.8,5,7,1,DevOps Engineer,1,0,0,0,0,1,1,0
+M.Tech,EE,5.69,0,4,2,Frontend Developer,0,0,1,1,0,0,0,0
+B.Tech,Computer Science,6.89,3,8,2,Backend Developer,1,1,0,0,1,0,1,0
+M.Tech,Computer Science,8.27,0,6,1,Backend Developer,1,1,0,0,1,0,1,0
+B.E,IT,8.84,1,2,0,Backend Developer,1,0,0,0,1,0,1,0
+B.Sc,Computer Science,5.56,1,2,3,Cloud Architect,1,0,0,0,1,1,0,0
+B.Tech,IT,5.67,3,4,2,Full Stack Developer,1,0,1,0,0,0,0,0
+BCA,AI/ML,9.83,1,1,2,Software Engineer,1,0,0,0,1,0,0,0
+M.Tech,AI/ML,8.19,4,7,2,ML Engineer,1,0,0,0,0,1,0,1
+MCA,IT,8.95,3,3,0,Cloud Architect,1,0,0,1,0,0,1,0
+B.Sc,Data Science,8.19,0,1,0,ML Engineer,1,0,1,0,0,1,1,1
+BCA,Computer Science,9.71,4,7,1,Software Engineer,1,1,0,0,1,0,0,0
+B.E,EE,8.6,0,8,1,ML Engineer,1,0,0,0,0,0,0,1
+BCA,Data Science,6.59,0,2,2,Data Scientist,1,1,0,1,0,1,0,1
+M.Tech,IT,7.4,4,1,3,Cloud Architect,0,0,0,0,0,1,1,0
+MBA,AI/ML,6.94,5,8,0,Software Engineer,1,1,0,0,1,0,0,0
+B.Tech,Computer Science,9.83,1,8,0,Full Stack Developer,1,0,0,1,1,0,0,0
+BCA,AI/ML,7.99,4,3,3,ML Engineer,1,0,1,1,0,1,0,1
+B.E,Computer Science,9.11,3,2,1,DevOps Engineer,1,1,0,0,0,1,0,0
+M.Sc,IT,7.67,3,4,3,Data Scientist,1,0,0,0,0,0,0,1
+M.Tech,Computer Science,6.24,3,1,2,Data Scientist,1,0,0,1,1,0,0,0
+B.E,IT,5.8,1,8,2,Full Stack Developer,1,0,1,1,0,1,1,0
+MBA,Computer Science,5.8,4,1,0,DevOps Engineer,1,1,1,0,0,1,1,0
+B.Tech,Civil,6.87,5,2,1,DevOps Engineer,1,0,0,0,0,1,0,0
+B.Sc,Computer Science,9.38,3,1,2,Frontend Developer,0,0,1,1,0,0,0,1
+B.Tech,IT,6.37,5,3,1,Full Stack Developer,1,0,1,1,0,0,0,0
+MBA,Computer Science,8.98,5,6,2,DevOps Engineer,1,0,0,0,0,0,1,0
+BCA,AI/ML,9.35,3,6,0,ML Engineer,1,0,0,0,0,1,0,1
+MCA,Computer Science,7.9,4,4,2,Cloud Architect,1,0,0,0,0,1,1,0
+M.Sc,IT,9.22,1,6,2,DevOps Engineer,1,0,0,0,0,1,1,0
+MBA,IT,8.12,3,5,3,Backend Developer,1,1,0,0,1,0,1,0
+B.Sc,Computer Science,6.65,4,5,3,ML Engineer,1,0,0,1,0,1,0,1
+BCA,IT,5.73,0,5,0,Backend Developer,1,1,0,1,1,0,1,1
+B.Sc,AI/ML,9.03,1,4,2,DevOps Engineer,1,0,0,1,0,1,1,0
+M.Sc,AI/ML,6.18,4,5,3,ML Engineer,1,0,0,0,0,0,0,1
+M.Tech,Data Science,6.61,4,7,3,Data Scientist,1,0,0,0,0,0,0,1
+M.Sc,IT,5.95,3,7,2,Backend Developer,1,1,0,0,1,0,1,0
+B.Tech,AI/ML,7.75,2,6,3,ML Engineer,1,0,0,0,0,1,0,1
+M.Sc,AI/ML,8.72,3,6,2,DevOps Engineer,1,0,1,0,0,1,1,0
+B.Tech,IT,7.71,5,4,0,Full Stack Developer,0,0,1,1,1,0,0,0
+MCA,Computer Science,5.72,2,3,1,Full Stack Developer,0,0,0,0,1,0,0,0
+BCA,Computer Science,6.25,3,3,1,Full Stack Developer,1,0,1,1,1,0,0,0
+M.Sc,Computer Science,8.21,1,4,0,Software Engineer,1,1,0,0,1,0,0,0
+B.Sc,Computer Science,8.95,2,5,3,ML Engineer,1,0,0,0,0,1,0,1
+MBA,Computer Science,6.29,3,7,3,Backend Developer,1,1,1,0,0,0,1,0
+B.E,AI/ML,8.88,3,7,3,ML Engineer,1,0,1,1,1,1,0,0
+MCA,Computer Science,5.61,3,4,1,DevOps Engineer,1,0,0,0,0,1,0,0
+M.Sc,IT,9.57,0,5,2,Software Engineer,1,1,0,0,1,1,0,0
+MCA,AI/ML,7.59,0,6,2,Software Engineer,1,0,0,0,1,1,0,0
+BCA,Computer Science,9.65,4,8,2,Backend Developer,0,1,0,1,1,0,0,0
+BCA,Other,7.16,0,3,3,ML Engineer,0,0,0,0,1,1,0,1
+MBA,Computer Science,8.79,1,7,1,ML Engineer,0,0,1,0,0,0,0,1
+B.Sc,Computer Science,7.42,5,8,0,Full Stack Developer,0,1,1,1,1,1,0,0
+MBA,AI/ML,9.15,4,3,2,Data Scientist,1,0,0,0,1,0,0,1
+M.Sc,IT,9.17,0,3,1,Backend Developer,1,1,0,0,1,0,1,0
+M.Sc,Computer Science,7.59,5,2,2,Backend Developer,1,1,0,0,1,0,1,0
+B.E,IT,7.33,4,4,3,Software Engineer,1,0,0,1,1,0,0,0
+M.Sc,Computer Science,6.79,3,8,0,Full Stack Developer,1,0,1,1,0,1,0,0
+B.Tech,Computer Science,5.51,2,6,0,Frontend Developer,0,0,1,1,0,0,1,0
+M.Tech,Computer Science,9.95,4,5,1,Software Engineer,1,1,0,0,1,0,0,1
+MBA,Computer Science,8.23,4,5,2,Data Scientist,1,0,0,0,1,0,0,1
+B.E,IT,9.13,3,3,1,Full Stack Developer,1,0,1,1,0,1,0,1
+BCA,Data Science,8.97,1,8,0,Data Scientist,1,0,1,0,1,0,0,1
+B.Sc,Computer Science,7.26,2,8,1,ML Engineer,0,0,0,0,0,1,0,1
+B.E,Other,8.46,0,3,1,ML Engineer,1,0,0,0,0,0,0,1
+BCA,IT,9.58,4,4,1,Cloud Architect,0,1,0,0,0,1,0,0
+MCA,BBA,8.56,0,8,2,Frontend Developer,0,0,1,1,0,0,0,0
+B.Tech,Computer Science,6.78,3,5,2,Cloud Architect,1,0,0,0,0,1,1,0
+M.Sc,IT,8.51,2,7,0,Software Engineer,1,1,1,0,1,0,0,0
+B.Tech,IT,7.73,3,2,2,DevOps Engineer,1,0,0,0,0,1,1,1
+MBA,IT,5.59,2,5,0,Backend Developer,1,1,0,0,1,0,1,0
+B.Sc,Computer Science,9.43,4,8,0,Data Scientist,1,1,0,0,1,0,0,1
+BCA,Computer Science,9.03,0,2,1,Cloud Architect,1,0,0,0,0,1,1,0
+MCA,BBA,6.22,4,7,1,Frontend Developer,0,0,1,1,0,0,0,1
+M.Sc,Computer Science,8.29,2,4,0,Frontend Developer,0,0,1,1,0,0,0,0
+MBA,Computer Science,6.35,0,2,1,Software Engineer,1,1,0,0,1,0,0,1
+MBA,IT,7.99,0,1,2,Cloud Architect,0,0,0,0,0,1,1,1
+BCA,ME,9.17,2,6,1,Frontend Developer,0,0,0,1,1,0,0,1
+B.Sc,Computer Science,9.69,1,1,2,Data Scientist,1,1,0,0,1,0,0,1
+M.Tech,IT,9.15,2,5,0,DevOps Engineer,1,0,1,0,0,1,1,1
+M.Tech,Computer Science,5.92,1,2,2,Frontend Developer,1,0,1,1,0,0,0,0
+B.Sc,Computer Science,8.42,3,1,2,Frontend Developer,0,1,1,1,0,0,0,0
+MBA,Computer Science,7.96,2,4,0,Backend Developer,1,1,0,0,0,0,1,0
+BCA,Computer Science,8.42,1,1,1,Full Stack Developer,1,0,1,0,1,0,1,0
+B.Tech,Computer Science,8.79,2,4,3,Backend Developer,1,1,1,1,1,1,1,0
+B.Sc,IT,8.76,2,4,1,Frontend Developer,0,0,1,1,0,0,0,0
+MBA,IT,9.77,2,3,2,Cloud Architect,0,0,1,0,1,1,1,0
+B.Sc,Computer Science,7.42,1,8,1,DevOps Engineer,1,0,0,0,0,1,1,0
+B.Sc,IT,5.58,0,5,2,Cloud Architect,1,0,0,0,1,1,1,0
+B.Tech,IT,5.78,4,3,3,Full Stack Developer,1,0,1,1,1,0,0,0
+B.Sc,AI/ML,9.81,5,5,1,Software Engineer,1,1,0,0,1,0,0,0
+MCA,Computer Science,5.93,4,1,0,Full Stack Developer,1,0,1,1,1,0,0,0
+B.Sc,EE,6.54,1,4,2,Data Scientist,1,0,0,1,1,0,0,1
+B.Tech,AI/ML,6.65,2,4,0,Data Scientist,0,0,0,0,1,0,0,0
+BCA,Computer Science,7.93,4,5,0,Cloud Architect,1,0,0,0,0,0,1,0
+MCA,Computer Science,9.71,5,3,1,Full Stack Developer,0,1,1,0,1,0,0,0
+M.Sc,IT,6.1,5,7,1,Backend Developer,1,0,1,0,1,0,1,0
+B.Sc,AI/ML,7.63,3,4,1,Data Scientist,0,0,0,0,0,0,1,1
+MCA,Computer Science,9.49,0,4,3,DevOps Engineer,1,0,0,0,0,1,1,0
+B.E,Computer Science,8.98,3,7,1,DevOps Engineer,1,1,0,0,0,1,1,1
+B.Sc,Computer Science,7.93,0,5,2,Software Engineer,1,0,0,0,0,0,1,0
+B.Sc,AI/ML,9.23,5,2,2,ML Engineer,1,0,0,0,0,1,0,0
+B.Sc,Civil,8.57,1,2,0,Cloud Architect,0,0,0,0,0,1,1,1
+MBA,IT,9.79,4,5,2,Backend Developer,0,1,0,1,0,0,1,1
+B.Sc,Other,5.88,4,1,2,DevOps Engineer,1,0,0,0,0,1,1,0
+MBA,Computer Science,5.68,2,3,3,Full Stack Developer,0,1,1,1,1,0,1,0
+M.Tech,IT,6.56,4,1,3,Full Stack Developer,1,0,1,0,1,0,0,0
+B.E,AI/ML,6.44,1,3,0,Software Engineer,1,1,0,1,1,0,0,0
+BCA,AI/ML,9.11,5,3,3,Software Engineer,1,1,0,0,1,0,0,0
+M.Sc,Computer Science,7.82,1,5,3,Cloud Architect,1,1,0,0,1,1,1,0
+B.Sc,ECE,5.59,3,5,3,DevOps Engineer,1,0,0,0,0,1,0,0
+MCA,IT,9.76,5,1,0,Frontend Developer,0,1,1,1,0,0,0,0
+B.E,IT,6.88,5,3,2,Cloud Architect,1,0,0,0,1,1,0,0
+B.Sc,Computer Science,7.6,2,4,2,ML Engineer,1,0,0,0,0,1,0,1
+M.Tech,Computer Science,7.28,1,4,0,ML Engineer,1,1,0,0,0,1,1,0
+MBA,IT,6.48,3,6,3,Backend Developer,1,0,0,1,0,1,1,0
+MBA,BBA,9.82,2,7,0,Data Scientist,1,0,1,0,1,1,0,1
+B.Tech,IT,6.6,4,4,3,Frontend Developer,0,0,1,1,0,0,0,0
+MCA,AI/ML,6.1,4,8,2,ML Engineer,1,0,0,0,0,0,0,1
+B.Sc,Computer Science,8.9,0,2,2,Software Engineer,1,1,0,0,0,0,0,0
+BCA,AI/ML,6.09,5,1,0,Software Engineer,0,1,1,0,1,0,0,0
+B.Sc,Computer Science,7.42,0,7,1,Data Scientist,1,0,1,0,1,0,0,1
+M.Tech,Computer Science,6.94,0,8,3,Cloud Architect,1,0,0,0,1,1,1,0
+B.Sc,ME,8.3,2,5,1,Full Stack Developer,1,0,0,1,1,0,0,0
+B.Sc,IT,7.33,4,2,2,Cloud Architect,1,1,1,0,0,0,1,0
+B.Sc,IT,9.71,4,7,2,DevOps Engineer,1,0,0,0,0,1,1,0
+M.Tech,IT,9.5,4,4,1,Cloud Architect,1,0,0,1,0,1,1,0
+M.Tech,Computer Science,6.33,4,8,1,Backend Developer,1,0,0,0,1,0,1,0
+M.Tech,Computer Science,7.56,5,6,1,Full Stack Developer,1,0,1,1,1,0,0,0
+B.Tech,Computer Science,9.26,4,3,3,Frontend Developer,0,0,1,0,1,0,0,0
+B.Sc,Data Science,7.45,5,3,1,ML Engineer,1,0,0,1,0,0,0,1
+MCA,AI/ML,9.91,0,1,1,ML Engineer,1,0,0,1,0,1,0,1
+M.Sc,IT,5.5,0,4,2,Cloud Architect,1,0,0,0,1,1,1,0
+B.Tech,Computer Science,9.75,5,4,3,Software Engineer,1,1,0,0,1,0,0,0
+B.Sc,IT,5.73,5,7,3,Full Stack Developer,1,0,1,1,1,1,0,0
+B.Sc,Computer Science,7.05,4,2,2,Frontend Developer,0,0,1,1,0,1,0,0
+B.E,IT,9.71,1,4,2,Software Engineer,0,1,0,0,1,0,0,0
+M.Tech,Data Science,7.6,3,4,2,Full Stack Developer,0,0,1,1,0,0,1,1
+MBA,IT,7.73,1,6,0,Frontend Developer,0,0,1,1,0,0,0,0
+B.E,Computer Science,6.82,1,8,3,Frontend Developer,0,0,0,1,0,0,0,0
+B.Sc,IT,5.84,1,6,3,Frontend Developer,0,0,1,1,1,0,0,0
+M.Sc,EE,8.91,1,8,0,Cloud Architect,1,0,0,0,0,1,1,1
+B.E,IT,7.31,0,6,0,Cloud Architect,1,0,0,0,0,1,1,1
+B.Sc,ECE,5.88,4,8,0,Full Stack Developer,1,0,1,0,1,0,0,0
+B.E,Computer Science,8.06,5,5,1,DevOps Engineer,0,0,0,0,0,1,0,0
+BCA,ECE,9.03,3,5,2,Full Stack Developer,0,0,1,1,1,0,0,0
+BCA,Computer Science,9.47,3,2,2,Frontend Developer,0,0,1,1,0,0,0,0
+M.Sc,IT,9.53,4,2,3,Frontend Developer,0,0,1,1,0,0,0,1
+MBA,IT,7.23,5,6,0,Cloud Architect,1,0,0,0,0,1,1,0
+B.Sc,IT,8.57,5,8,0,Full Stack Developer,0,0,0,1,1,0,0,0
+M.Tech,ECE,6.26,2,5,1,Software Engineer,1,1,0,0,1,0,0,0
+B.Sc,IT,8.58,3,3,2,Backend Developer,1,1,0,0,1,0,1,1
+MCA,IT,6.34,2,6,0,Data Scientist,1,0,0,0,1,0,0,1
+M.Tech,IT,8.02,3,5,2,Backend Developer,0,1,0,0,1,0,0,0
+B.Tech,Computer Science,6.37,1,6,1,Backend Developer,1,1,0,1,1,0,1,0
+B.Tech,IT,5.89,1,7,3,DevOps Engineer,1,0,0,0,0,0,1,0
+M.Sc,AI/ML,9.09,0,1,2,Data Scientist,0,0,0,0,1,0,1,1
+MBA,Computer Science,7.22,1,6,3,Frontend Developer,0,0,1,1,0,0,1,0
+B.Sc,IT,9.71,1,3,3,Frontend Developer,0,0,1,1,0,0,0,0
+MCA,ME,9.92,1,3,2,ML Engineer,1,0,0,0,0,1,0,1
+M.Tech,AI/ML,9.16,1,2,1,Data Scientist,0,0,1,1,1,0,0,1
+M.Tech,IT,9.1,2,5,2,Frontend Developer,0,0,1,1,0,0,0,0
+B.E,Data Science,8.14,2,7,1,Full Stack Developer,0,0,1,1,1,0,0,0
+B.Sc,AI/ML,7.15,0,3,1,Software Engineer,1,1,0,0,0,0,0,0
+B.Sc,Computer Science,6.4,1,8,2,Data Scientist,1,0,1,0,1,0,0,1
+B.Sc,AI/ML,8.95,5,5,3,Software Engineer,0,1,0,0,1,0,0,0
+B.E,Computer Science,6.2,5,2,3,Frontend Developer,0,0,1,1,0,0,0,0
+B.Sc,Data Science,8.73,1,1,2,Software Engineer,1,1,0,0,1,0,0,0
+B.Sc,Other,6.2,2,4,1,Frontend Developer,0,0,1,0,0,0,0,1
+B.Sc,Computer Science,6.96,3,8,1,Backend Developer,1,1,0,0,1,0,0,0
+B.E,Other,6.8,4,8,0,Frontend Developer,0,0,1,1,0,0,1,0
+B.Sc,IT,7.48,2,3,1,Frontend Developer,0,0,1,1,0,1,0,0
+B.Sc,Computer Science,5.63,4,8,3,Frontend Developer,1,0,1,1,1,0,1,1
+MCA,IT,8.58,0,4,0,Cloud Architect,1,0,0,0,0,1,1,0
+BCA,Computer Science,6.56,5,2,0,DevOps Engineer,1,0,0,1,1,1,1,0
+B.Sc,IT,9.01,0,7,3,Frontend Developer,0,1,1,1,0,0,1,0
+M.Sc,Computer Science,8.59,3,7,3,Data Scientist,0,1,0,0,1,1,0,1
+B.Tech,Computer Science,6.02,2,8,1,Frontend Developer,1,0,0,1,1,0,1,1
+M.Sc,IT,5.67,1,5,1,Backend Developer,1,1,1,0,1,0,1,0
+M.Tech,IT,6.78,1,1,1,Data Scientist,1,1,0,1,1,0,0,1
+MCA,IT,8.75,4,8,0,ML Engineer,1,0,1,0,0,1,0,1
+M.Sc,AI/ML,9.86,2,2,1,Data Scientist,1,0,0,0,1,0,1,1
+B.Sc,AI/ML,9.96,5,2,3,Software Engineer,0,1,0,0,1,0,0,0
+B.Tech,IT,7.36,0,4,2,Full Stack Developer,1,0,0,1,1,0,0,0
+M.Sc,IT,5.76,0,6,3,Software Engineer,1,1,0,0,1,0,0,0
+MCA,EE,6.78,0,2,0,ML Engineer,1,0,1,0,0,0,1,0
+B.Tech,IT,9.13,4,2,2,Backend Developer,1,0,0,0,0,0,1,0
+M.Tech,Computer Science,6.17,1,6,0,Cloud Architect,1,0,0,0,1,1,1,0
+BCA,IT,7.13,4,6,3,Software Engineer,1,1,0,1,1,1,0,0
+B.E,Computer Science,8.18,3,5,3,Full Stack Developer,0,1,1,1,1,0,0,0
+B.E,Computer Science,9.2,2,6,0,Full Stack Developer,1,0,1,1,0,0,0,0
+M.Tech,IT,5.73,5,5,0,Data Scientist,0,0,1,0,1,0,0,0
+M.Sc,AI/ML,8.5,3,8,1,ML Engineer,1,1,0,0,0,1,0,1
+M.Sc,Computer Science,7.58,2,1,3,Data Scientist,1,0,0,0,1,0,1,1
+BCA,Civil,6.62,4,8,0,Cloud Architect,1,0,0,0,0,1,1,1
+BCA,Data Science,6.24,1,1,2,Data Scientist,0,0,0,0,1,0,1,0
+M.Tech,IT,6.56,2,1,0,Data Scientist,1,0,1,0,0,0,0,1
+BCA,Computer Science,6.87,3,1,1,Full Stack Developer,1,0,1,1,1,0,0,0
+B.Tech,IT,6.67,5,2,1,Software Engineer,1,1,0,0,1,0,0,0
+BCA,IT,9.06,5,1,2,Cloud Architect,1,0,0,0,0,1,1,0
+MCA,Computer Science,6.53,5,4,2,Software Engineer,1,1,0,1,1,0,0,0
+MCA,Other,5.98,5,5,3,Full Stack Developer,1,0,1,1,1,1,0,0
+M.Sc,AI/ML,8.74,2,4,3,Full Stack Developer,0,0,1,0,0,0,1,1
+B.Sc,EE,5.5,1,8,0,DevOps Engineer,1,0,0,0,1,1,1,0
+B.Tech,IT,8.3,5,3,1,Full Stack Developer,0,0,0,1,1,0,0,0
+M.Tech,IT,6.55,5,1,1,Full Stack Developer,1,0,1,0,1,0,1,0
+BCA,AI/ML,8.88,3,2,3,ML Engineer,0,1,0,1,0,1,1,1
+M.Tech,IT,8.98,4,3,0,Cloud Architect,1,0,0,1,0,1,0,0
+M.Tech,Computer Science,7.49,4,4,3,DevOps Engineer,1,0,0,0,0,1,1,0
+BCA,IT,9.69,1,3,0,Cloud Architect,1,0,0,0,0,1,0,1
+MCA,Computer Science,6.61,3,4,3,Cloud Architect,1,1,1,0,1,1,1,0
+M.Sc,Computer Science,7.35,4,5,1,ML Engineer,0,0,0,0,0,0,1,1
+BCA,IT,6.31,2,7,2,DevOps Engineer,1,0,0,0,0,1,1,0
+B.Tech,Civil,9.19,2,4,1,Frontend Developer,0,0,1,1,0,0,0,0
+B.E,Civil,6.09,0,7,2,Software Engineer,1,1,0,1,1,0,0,0
+M.Sc,Data Science,9.66,3,8,2,ML Engineer,1,0,1,0,0,1,0,1
+B.Sc,IT,8.94,2,7,0,Full Stack Developer,0,1,1,1,0,0,0,0
+B.Tech,IT,5.99,0,5,3,Software Engineer,1,1,0,0,0,0,0,0
+B.E,AI/ML,9.07,1,7,2,Frontend Developer,1,0,1,0,0,0,0,0
+B.Tech,Computer Science,7.58,2,6,2,Full Stack Developer,1,0,1,1,0,0,0,0
+B.Tech,IT,8.54,1,3,3,Software Engineer,1,1,0,0,1,0,1,1
+MBA,Computer Science,8.57,1,1,1,DevOps Engineer,1,0,0,0,0,1,1,0
+B.Sc,Civil,9.19,2,4,0,Full Stack Developer,1,0,0,1,1,0,0,1
+M.Sc,Computer Science,6.96,5,2,0,Full Stack Developer,1,0,1,1,1,1,0,0
+MBA,Computer Science,7.63,4,4,2,Full Stack Developer,1,0,1,1,1,0,0,0
+MBA,Computer Science,8.21,3,5,3,Data Scientist,0,0,0,0,1,0,0,0
+B.Sc,Computer Science,9.48,2,7,1,Full Stack Developer,1,0,1,1,1,1,0,0
+M.Tech,BBA,9.38,1,4,1,Software Engineer,1,1,0,0,1,0,0,0
+B.Sc,BBA,9.89,0,4,1,Data Scientist,1,0,0,0,1,0,0,1
+M.Tech,Computer Science,5.7,4,8,3,Frontend Developer,0,0,0,1,0,0,1,0
+B.Tech,EE,7.96,5,2,0,Data Scientist,1,0,0,0,1,0,0,1
+BCA,Computer Science,7.4,0,8,3,Cloud Architect,1,0,0,0,0,1,0,0
+B.Tech,Civil,7.17,5,7,3,Frontend Developer,0,0,1,0,1,0,0,0
+M.Tech,AI/ML,5.83,3,6,0,DevOps Engineer,1,0,1,1,0,1,1,0
+BCA,Computer Science,8.98,4,7,1,Full Stack Developer,1,0,1,1,1,0,0,0
+MBA,IT,9.03,0,6,0,Full Stack Developer,1,0,1,0,1,0,0,0
+B.E,Computer Science,6.31,2,8,1,ML Engineer,1,0,1,0,1,1,1,1
+B.Tech,Computer Science,6.86,0,8,3,Full Stack Developer,1,0,1,1,1,0,0,0
+BCA,Computer Science,8.68,0,7,1,Cloud Architect,1,0,0,1,0,1,1,1
+BCA,IT,6.3,2,3,0,Full Stack Developer,1,0,1,1,1,0,0,0
+BCA,Computer Science,7.18,5,1,0,ML Engineer,1,0,1,0,1,1,0,1
+B.E,AI/ML,6.49,1,6,2,Data Scientist,1,0,0,0,0,0,0,1
+B.Tech,AI/ML,5.9,2,1,3,Software Engineer,1,1,0,0,0,0,0,0
+B.Tech,Computer Science,9.04,0,6,1,Data Scientist,0,0,0,0,1,0,1,1
+M.Tech,IT,8.86,3,6,0,Full Stack Developer,1,0,1,0,1,0,1,1
+MBA,AI/ML,6.65,4,8,3,Software Engineer,0,1,0,0,1,0,0,1
+B.E,IT,7.05,3,4,2,Backend Developer,1,1,0,0,1,0,1,1
+M.Sc,Computer Science,9.56,2,4,2,Data Scientist,0,0,0,0,1,0,0,0
+BCA,EE,7.86,3,4,1,Cloud Architect,1,0,0,1,0,1,1,0
+BCA,IT,9.69,1,1,2,DevOps Engineer,1,0,0,0,0,1,1,0
+B.Tech,AI/ML,7.5,5,1,0,ML Engineer,1,0,0,0,1,1,0,1
+MCA,Data Science,5.98,4,7,0,ML Engineer,1,1,0,1,0,1,0,1
+B.Sc,IT,6.98,2,2,1,Software Engineer,1,0,0,0,0,0,0,0
+M.Tech,IT,8.5,0,2,2,Software Engineer,1,1,0,0,0,0,0,0
+MCA,Data Science,6.47,3,5,0,Data Scientist,1,0,0,0,1,0,0,1
+M.Tech,Computer Science,8.94,0,1,0,Cloud Architect,1,0,0,0,0,1,0,0
+BCA,IT,9.81,3,1,2,Full Stack Developer,1,1,1,1,0,0,0,0
+M.Tech,Computer Science,7.94,1,6,2,Data Scientist,1,0,0,0,1,0,0,1
+B.Tech,Computer Science,7.13,4,1,0,Frontend Developer,0,0,1,0,1,0,0,0
+MBA,Computer Science,7.65,2,6,1,Full Stack Developer,1,0,1,0,1,0,0,0
+B.Tech,Computer Science,7.27,1,7,1,Software Engineer,1,0,0,0,0,0,0,0
+M.Tech,Computer Science,7.57,0,1,0,DevOps Engineer,1,0,0,0,0,1,1,1
+B.Tech,IT,7.1,0,5,2,Full Stack Developer,1,0,1,1,0,0,0,1
+MCA,BBA,8.89,2,3,3,Cloud Architect,1,0,0,0,0,1,1,0
+M.Sc,AI/ML,9.79,3,1,1,Software Engineer,1,1,1,0,1,0,0,0
+MBA,ECE,6.02,5,3,0,Software Engineer,1,1,1,0,1,0,0,0
+M.Tech,Computer Science,7.85,0,6,3,ML Engineer,1,0,0,0,0,1,0,1
+B.Sc,Computer Science,8.67,0,7,1,Cloud Architect,1,0,0,0,0,1,1,0
+B.Sc,IT,9.12,1,5,1,Cloud Architect,1,0,0,1,0,1,0,0
+B.Sc,IT,8.48,0,7,2,Backend Developer,0,1,0,0,1,0,1,0
+B.Tech,Computer Science,8.53,3,8,2,Backend Developer,0,1,0,0,1,1,1,1
+M.Tech,Computer Science,6.6,0,6,1,Frontend Developer,0,0,1,1,0,0,0,1
+MBA,Computer Science,7.57,5,2,3,Cloud Architect,1,0,0,0,0,1,0,0
+B.E,Computer Science,9.39,2,2,3,DevOps Engineer,1,0,0,0,1,1,1,0
+B.Sc,Computer Science,6.18,3,8,0,Full Stack Developer,1,0,0,0,1,0,0,0
+M.Sc,IT,8.65,0,8,3,Full Stack Developer,1,0,1,0,1,0,0,0
+M.Sc,Computer Science,8.58,3,3,3,Full Stack Developer,1,0,1,1,1,0,0,0
+M.Tech,Data Science,6.83,0,1,3,Data Scientist,1,0,0,0,1,0,0,1
+B.E,AI/ML,6.16,1,5,3,Data Scientist,1,0,0,0,1,0,0,1
+MCA,Computer Science,8.5,5,8,3,Frontend Developer,0,0,1,1,0,0,1,0
+MCA,IT,9.91,5,5,2,Software Engineer,1,1,0,0,1,0,0,0
+MCA,IT,9.85,2,3,0,Backend Developer,1,1,0,0,1,0,1,0
+MCA,Computer Science,6.78,4,3,2,Frontend Developer,0,0,1,1,0,1,0,0
+B.E,ECE,7.29,0,5,1,ML Engineer,0,0,1,0,0,1,0,1
+M.Tech,IT,9.7,2,4,0,Full Stack Developer,1,0,1,1,1,0,0,0
+B.E,Computer Science,6.49,2,3,1,Cloud Architect,0,0,0,1,0,1,1,0
+M.Tech,Computer Science,7.16,4,8,2,Data Scientist,1,0,0,0,1,0,0,1
+MBA,Computer Science,5.72,3,8,3,DevOps Engineer,1,0,0,0,0,1,1,1
+B.E,Computer Science,7.3,1,8,0,Frontend Developer,0,1,1,0,0,0,0,0
+MCA,Computer Science,6.96,1,2,3,Software Engineer,0,1,0,0,1,1,0,0
+BCA,Computer Science,6.52,0,4,3,Software Engineer,1,1,0,0,1,0,0,1
+MCA,AI/ML,8.69,5,6,2,ML Engineer,1,0,0,0,0,1,0,1
+M.Sc,IT,6.17,1,6,1,Backend Developer,1,1,0,0,1,0,1,0
+M.Sc,IT,7.4,0,3,1,Frontend Developer,0,0,0,0,0,1,0,0
+B.Tech,Computer Science,5.94,1,2,3,Full Stack Developer,1,0,1,1,1,0,0,0
+BCA,IT,7.9,1,3,1,Full Stack Developer,1,0,1,0,1,0,0,0
+M.Tech,Computer Science,8.89,1,6,3,Software Engineer,1,1,0,0,1,0,0,0
+B.E,Civil,6.32,0,2,0,Software Engineer,1,1,0,0,1,0,0,0
+B.E,Computer Science,8.58,1,1,0,DevOps Engineer,1,1,0,0,0,1,0,0
+B.E,IT,6.29,0,6,2,Backend Developer,1,1,0,0,1,1,1,0
+M.Tech,IT,9.1,0,2,3,DevOps Engineer,1,0,0,1,0,1,1,0
+MCA,Computer Science,7.53,5,8,0,Backend Developer,0,1,0,1,1,0,1,1
+M.Tech,Computer Science,6.17,4,8,1,Frontend Developer,0,0,1,1,0,0,0,0
+B.Sc,EE,7.42,5,8,3,Data Scientist,0,0,0,1,1,0,1,1
+M.Sc,Other,9.28,4,6,1,ML Engineer,1,0,0,1,1,1,0,1
+M.Tech,Computer Science,6.15,2,8,0,Backend Developer,1,0,0,0,1,0,1,0
+B.Tech,Data Science,6.13,0,7,1,Software Engineer,1,1,0,0,1,0,0,0
+MCA,ME,7.42,2,7,1,Full Stack Developer,1,1,1,1,1,0,1,0
+MBA,Other,5.86,1,6,2,Cloud Architect,1,1,0,0,0,1,1,0
+B.Sc,Data Science,7.88,2,7,2,Data Scientist,1,0,1,0,1,0,0,1
+B.E,IT,8.46,2,2,3,DevOps Engineer,1,0,0,0,0,1,1,0
+M.Sc,ME,9.25,5,3,1,Backend Developer,1,1,0,0,1,0,1,0
+B.Tech,Computer Science,8.17,2,2,1,Backend Developer,1,1,0,0,1,0,1,0
+M.Tech,Other,9.85,2,4,2,Frontend Developer,0,1,1,1,0,0,0,0
+MCA,ECE,7.02,1,4,0,Full Stack Developer,1,1,1,0,1,0,0,0
+B.Sc,IT,9.54,1,6,2,Software Engineer,0,0,0,0,1,0,0,0
+B.Tech,Computer Science,8.0,3,4,0,Cloud Architect,1,0,0,0,0,1,1,0
+M.Sc,Computer Science,9.71,1,5,3,Data Scientist,1,0,0,0,1,0,1,1
+B.Sc,Computer Science,6.69,4,1,0,DevOps Engineer,0,0,0,0,0,1,1,0
+B.Sc,Data Science,8.06,2,4,0,ML Engineer,1,0,0,1,0,1,0,0
+M.Sc,Computer Science,9.29,2,3,3,DevOps Engineer,1,0,0,1,0,1,1,0
+B.Sc,Computer Science,6.4,1,1,1,ML Engineer,1,0,1,1,0,1,0,1
+BCA,Computer Science,7.34,4,6,2,Backend Developer,1,1,0,0,0,0,0,0
+B.Tech,Computer Science,6.28,0,4,2,Backend Developer,0,1,0,0,1,0,1,0
+B.Tech,Computer Science,6.07,1,3,2,Frontend Developer,0,0,1,1,0,1,0,0
+MCA,AI/ML,5.76,5,8,2,Software Engineer,1,1,0,0,1,1,0,0
+B.E,Computer Science,5.98,5,3,2,DevOps Engineer,1,1,0,0,0,1,1,0
+B.Sc,AI/ML,6.2,5,4,3,Data Scientist,1,0,0,0,1,0,0,1
+B.Sc,Computer Science,5.95,4,1,0,Data Scientist,0,0,0,0,1,0,0,1
+B.Tech,Computer Science,9.38,4,6,0,Cloud Architect,1,0,0,0,0,1,1,0
+M.Tech,IT,6.28,0,7,1,Cloud Architect,1,0,0,0,0,0,1,1
+MCA,IT,8.58,2,8,0,Full Stack Developer,1,0,1,1,1,0,0,0
+MBA,IT,7.79,0,6,1,DevOps Engineer,0,0,0,1,0,1,1,0
+MBA,Computer Science,6.66,3,8,2,Cloud Architect,1,0,0,0,0,1,1,0
+B.Sc,Computer Science,9.6,1,3,2,Frontend Developer,0,0,1,0,0,1,0,0
+M.Tech,AI/ML,6.95,5,3,3,Data Scientist,1,0,0,0,1,0,0,1
+BCA,Computer Science,8.49,5,2,1,Frontend Developer,0,1,1,1,1,0,0,0
+B.Tech,Computer Science,6.73,2,5,0,Software Engineer,1,1,0,1,1,1,0,0
+B.Sc,Data Science,9.41,3,5,2,ML Engineer,1,0,0,1,0,1,0,1
+B.Tech,IT,5.69,3,5,0,Frontend Developer,0,0,1,1,0,0,0,0
+B.Sc,Computer Science,6.48,2,3,2,Full Stack Developer,1,0,1,0,0,0,0,1
+M.Tech,Computer Science,6.77,5,2,1,Backend Developer,0,1,0,0,1,0,1,0
+M.Tech,Computer Science,8.81,5,3,2,Backend Developer,1,1,1,0,1,1,0,0
+B.E,IT,6.35,4,3,3,Backend Developer,1,1,0,0,1,0,1,0
+B.Tech,IT,5.77,4,7,1,Frontend Developer,0,0,1,1,0,0,0,0
+MBA,IT,7.33,1,7,2,Backend Developer,1,1,0,0,1,0,1,0
+B.Tech,Data Science,9.88,1,8,0,Data Scientist,1,0,0,1,1,0,0,1
+MCA,Computer Science,8.69,1,1,0,Cloud Architect,1,0,0,1,1,1,1,0
+M.Sc,IT,8.97,4,4,2,DevOps Engineer,1,0,1,0,0,1,1,0
+MBA,Data Science,6.3,2,2,1,ML Engineer,1,0,0,0,0,1,0,1
+MBA,Data Science,6.42,5,5,1,ML Engineer,1,0,0,0,0,1,0,1
+MBA,AI/ML,6.71,4,8,2,Software Engineer,1,1,0,1,1,0,0,0
+BCA,IT,8.02,2,8,2,Cloud Architect,1,1,0,0,0,1,0,0
+B.E,Computer Science,8.8,4,7,0,Backend Developer,1,1,0,1,1,1,1,0
+B.Sc,Computer Science,6.03,1,5,2,ML Engineer,1,1,0,0,0,1,1,1
+M.Tech,Data Science,8.97,4,8,2,ML Engineer,1,0,0,1,0,1,0,1
+MCA,Computer Science,7.37,5,7,0,Data Scientist,0,0,0,0,0,0,0,1
+M.Sc,Civil,5.58,2,7,3,ML Engineer,1,1,0,0,0,1,0,1
+MBA,IT,9.61,5,2,0,Software Engineer,1,1,0,0,0,0,0,0
+BCA,IT,9.64,2,3,2,Backend Developer,0,1,1,0,1,0,1,0
