@@ -14,8 +14,9 @@ const Profile = () => {
   const [userState, setUserState] = useState(null);
   const [formData, setFormData] = useState({
     degree: '', branch: '', gpa: '', specialization: '',
-    experience: '', certifications: '', skills: ''
+    experience: '', certifications: '', skills: '', target_role: ''
   });
+  const [availableRoles, setAvailableRoles] = useState([]);
 
   const [skillsList, setSkillsList] = useState([]);
   const [skillInput, setSkillInput] = useState('');
@@ -49,11 +50,18 @@ const Profile = () => {
         specialization: u.specialization || '',
         experience: u.experience || '',
         certifications: u.certifications || '',
+        target_role: u.target_role || '',
       });
       if (u.skills) {
         const parsedSkills = u.skills.split(',').map(s => s.trim()).filter(Boolean);
         setSkillsList(parsedSkills);
       }
+
+      // Load available roles for target role dropdown
+      try {
+        const rolesRes = await apiGet('/skillgap/roles');
+        if (rolesRes.roles) setAvailableRoles(rolesRes.roles);
+      } catch (e) { /* silent */ }
     };
 
     loadProfile();
@@ -289,6 +297,19 @@ const Profile = () => {
                   <div className="form-group">
                     <label htmlFor="certifications">Active Certifications</label>
                     <input type="text" id="certifications" value={formData.certifications} onChange={handleChange} placeholder="AWS Cloud, PMP..." className="epic-input" />
+                  </div>
+                </div>
+
+                <div className="form-group">
+                  <label htmlFor="target_role">Dream Job Role <span className="label-optional">(for Skill Gap)</span></label>
+                  <div className="select-wrapper">
+                    <select id="target_role" value={formData.target_role} onChange={handleChange} className="epic-input">
+                      <option value="">Select Target Role</option>
+                      {availableRoles.map(role => (
+                        <option key={role} value={role}>{role}</option>
+                      ))}
+                    </select>
+                    <span className="material-symbols-outlined dropdown-icon">expand_more</span>
                   </div>
                 </div>
 

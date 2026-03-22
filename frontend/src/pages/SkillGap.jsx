@@ -1,45 +1,66 @@
 import React, { useEffect, useState } from 'react';
 import Sidebar from '../components/Sidebar';
 import { useNavigate } from 'react-router-dom';
-import { getUser } from '../utils/api';
+import { getUser, apiGet, apiPost } from '../utils/api';
 import { motion } from 'framer-motion';
 import './SkillGap.css';
 
 const SkillGap = () => {
   const navigate = useNavigate();
-  const [searchTerm, setSearchTerm] = useState('');
+  const [roles, setRoles] = useState([]);
+  const [selectedRole, setSelectedRole] = useState('');
+  const [analysis, setAnalysis] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
+
+  const user = getUser();
 
   useEffect(() => {
-    if (!getUser()) navigate('/login');
+    if (!user) { navigate('/login'); return; }
+
+    // Load available roles
+    const loadRoles = async () => {
+      try {
+        const res = await apiGet('/skillgap/roles');
+        if (res.roles) setRoles(res.roles);
+      } catch (e) { /* silent */ }
+    };
+    loadRoles();
+
+    // Pre-select target_role if saved in profile
+    if (user.target_role) {
+      setSelectedRole(user.target_role);
+    }
   }, []);
 
-  const skillGaps = [
-    {
-      id: 'python', name: 'Advanced Python', category: 'Core Architecture',
-      icon: 'code', color: 'blue', level: 'Intermediate', target: 65,
-      learning: 'Advanced Data Structures & Algorithms in Python', time: 'Est. 12 hours'
-    },
-    {
-      id: 'ml', name: 'Machine Learning', category: 'AI Specialization',
-      icon: 'psychology', color: 'purple', level: 'Beginner', target: 30,
-      learning: 'Machine Learning Fundamentals & Predictive Models', time: 'Est. 24 hours'
-    },
-    {
-      id: 'de', name: 'Data Engineering', category: 'Infrastructure',
-      icon: 'storage', color: 'green', level: 'Intermediate', target: 55,
-      learning: 'Building Scalable Data Pipelines with Apache Spark', time: 'Est. 18 hours'
-    },
-    {
-      id: 'cloud', name: 'Cloud Computing', category: 'DevOps',
-      icon: 'cloud', color: 'orange', level: 'Advanced', target: 85,
-      learning: 'AWS Certified Machine Learning – Specialty Prep', time: 'Est. 8 hours'
-    }
-  ];
+  // Auto-analyze when role changes
+  useEffect(() => {
+    if (selectedRole) analyzeGap();
+  }, [selectedRole]);
 
-  const filteredGaps = skillGaps.filter(g => 
-    g.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
-    g.category.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const analyzeGap = async () => {
+    if (!selectedRole) return;
+    setLoading(true);
+    setError('');
+    setAnalysis(null);
+
+    try {
+      const res = await apiPost('/skillgap/analyze', {
+        target_role: selectedRole,
+        skills: user?.skills || '',
+      });
+
+      if (res.error) {
+        setError(res.error);
+      } else {
+        setAnalysis(res);
+      }
+    } catch (e) {
+      setError('Failed to analyze skill gap.');
+    } finally {
+      setLoading(false);
+    }
+  };
 
   const staggerVars = {
     hidden: { opacity: 0 },
@@ -50,6 +71,8 @@ const SkillGap = () => {
     visible: { opacity: 1, y: 0, transition: { type: 'spring', stiffness: 200 } }
   };
 
+  const hasSkills = user?.skills && user.skills.trim().length > 0;
+
   return (
     <div className="app-layout">
       <Sidebar activePage="skillgap" />
@@ -58,74 +81,161 @@ const SkillGap = () => {
         <header className="main-header">
           <h2>Skill Gap Intelligence</h2>
           <div className="header-actions">
-            <div className="search-box search-box-desktop">
-              <span className="material-symbols-outlined search-icon">search</span>
-              <input 
-                type="text" 
-                placeholder="Analyze skills..." 
-                value={searchTerm}
-                onChange={e => setSearchTerm(e.target.value)}
-                className="search-input dark-search"
-              />
+            <div className="header-avatar" id="headerAvatar">
+              {user?.full_name?.charAt(0)?.toUpperCase()}
             </div>
-            <button className="notification-btn dark-btn">
-              <span className="material-symbols-outlined">notifications</span>
-            </button>
-            <div className="header-avatar" id="headerAvatar"></div>
           </div>
         </header>
 
         <div className="page-content content-max-1280">
+          {/* Role Selector */}
           <motion.div className="skill-gap-header-epic" initial={{opacity: 0, y: -20}} animate={{opacity: 1, y: 0}}>
-            <h3>Nodes to Improve</h3>
-            <p>Target active areas for your professional growth based on your desired role as a <strong>Senior Data Scientist</strong>. Master these neural nodes to close your skill gap.</p>
+            <h3>Target Role Analysis</h3>
+            <p>Select your dream job role and we'll analyze the gap between your current skills and what's required.</p>
+
+            <div className="role-selector-wrapper">
+              <div className="select-wrapper">
+                <select
+                  className="epic-input role-select"
+                  value={selectedRole}
+                  onChange={e => setSelectedRole(e.target.value)}
+                >
+                  <option value="">Select your target role...</option>
+                  {roles.map(role => (
+                    <option key={role} value={role}>{role}</option>
+                  ))}
+                </select>
+                <span className="material-symbols-outlined dropdown-icon">expand_more</span>
+              </div>
+            </div>
           </motion.div>
 
-          <motion.div className="skill-gap-grid-epic" variants={staggerVars} initial="hidden" animate="visible">
-            {filteredGaps.map(gap => (
-              <motion.div className="skill-gap-card-epic" key={gap.id} variants={cardVars} whileHover={{y: -8, scale: 1.02}}>
-                <div className={`card-glow-bg glow-${gap.color}`}></div>
-                
-                <div className="skill-card-top">
-                  <div className="skill-info-group">
-                    <div className={`skill-icon-epic stat-${gap.color}`}>
-                      <span className="material-symbols-outlined">{gap.icon}</span>
-                    </div>
+          {/* No role selected */}
+          {!selectedRole && (
+            <motion.div className="empty-state-card" initial={{opacity:0}} animate={{opacity:1}}>
+              <span className="material-symbols-outlined empty-icon">target</span>
+              <h4>Please select a target role to see skill gap</h4>
+              <p>Choose your dream job role above and we'll show you exactly what skills you need to develop.</p>
+            </motion.div>
+          )}
+
+          {/* No skills warning */}
+          {selectedRole && !hasSkills && !loading && (
+            <motion.div className="warning-card" initial={{opacity:0, y:10}} animate={{opacity:1, y:0}}>
+              <span className="material-symbols-outlined">info</span>
+              <p>Add skills in your <a href="/profile">Profile</a> to get a personalized analysis.</p>
+            </motion.div>
+          )}
+
+          {/* Loading */}
+          {loading && (
+            <div className="loading-container-epic">
+              <div className="spinner-epic">
+                <span className="material-symbols-outlined spinner-icon-epic">sync</span>
+              </div>
+              <p>Analyzing skill gap...</p>
+            </div>
+          )}
+
+          {/* Error */}
+          {error && (
+            <motion.div initial={{opacity:0, y:-10}} animate={{opacity:1, y:0}} className="toast-epic toast-error">
+              <span className="material-symbols-outlined">error</span> {error}
+            </motion.div>
+          )}
+
+          {/* Results */}
+          {analysis && !loading && (
+            <motion.div variants={staggerVars} initial="hidden" animate="visible">
+
+              {/* Match percentage ring */}
+              <motion.div className="match-summary-card" variants={cardVars}>
+                <div className="match-ring-container">
+                  <div className="match-ring">
+                    <svg viewBox="0 0 120 120">
+                      <circle cx="60" cy="60" r="52" className="ring-bg" />
+                      <circle cx="60" cy="60" r="52" className="ring-fill"
+                        style={{ strokeDasharray: `${analysis.match_percentage * 3.27} 327` }}
+                      />
+                    </svg>
+                    <span className="match-pct">{analysis.match_percentage}%</span>
+                  </div>
+                  <p className="match-label">Skill Match</p>
+                </div>
+                <div className="match-stats">
+                  <div className="stat-item stat-green">
+                    <span className="material-symbols-outlined">check_circle</span>
                     <div>
-                      <div className="skill-name-epic">{gap.name}</div>
-                      <span className="skill-cat-epic">{gap.category}</span>
+                      <strong>{analysis.matched_skills.length}</strong>
+                      <span>Skills Matched</span>
                     </div>
                   </div>
-                  <span className={`badge-epic badge-${gap.level.toLowerCase()}`}>{gap.level}</span>
-                </div>
-
-                <div className="proficiency-arena">
-                  <div className="prof-row">
-                    <span className="prof-label">Target Synchronization</span>
-                    <span className="prof-value">{gap.target}%</span>
-                  </div>
-                  <div className="prof-track">
-                    <div className={`prof-fill fill-${gap.color}`} style={{ width: `${gap.target}%` }}></div>
+                  <div className="stat-item stat-red">
+                    <span className="material-symbols-outlined">cancel</span>
+                    <div>
+                      <strong>{analysis.missing_skills.length}</strong>
+                      <span>Skills Missing</span>
+                    </div>
                   </div>
                 </div>
+              </motion.div>
 
-                <div className="learning-module">
-                  <p className="module-label">
-                    <span className="material-symbols-outlined">menu_book</span> Recommended Module
-                  </p>
-                  <a href="#" onClick={e => e.preventDefault()} className="module-link">{gap.learning}</a>
-                  <p className="module-time"><span className="material-symbols-outlined">schedule</span> {gap.time}</p>
-                </div>
-              </motion.div>
-            ))}
-            
-            {filteredGaps.length === 0 && (
-              <motion.div className="empty-universe" variants={cardVars}>
-                <span className="material-symbols-outlined">satellite_alt</span>
-                No nodes found matching "{searchTerm}"
-              </motion.div>
-            )}
-          </motion.div>
+              {/* Matched Skills */}
+              {analysis.matched_skills.length > 0 && (
+                <motion.div className="skills-section" variants={cardVars}>
+                  <h4><span className="material-symbols-outlined icon-green">verified</span> Your Matched Skills</h4>
+                  <div className="skill-tags-display">
+                    {analysis.matched_skills.map((skill, i) => (
+                      <span key={i} className="skill-badge skill-badge-green">{skill}</span>
+                    ))}
+                  </div>
+                </motion.div>
+              )}
+
+              {/* Missing Skills */}
+              {analysis.missing_skills.length > 0 && (
+                <motion.div className="skills-section" variants={cardVars}>
+                  <h4><span className="material-symbols-outlined icon-red">pending</span> Skills to Develop</h4>
+                  <div className="skill-tags-display">
+                    {analysis.missing_skills.map((skill, i) => (
+                      <span key={i} className="skill-badge skill-badge-red">{skill}</span>
+                    ))}
+                  </div>
+                </motion.div>
+              )}
+
+              {/* Learning Path */}
+              {analysis.learning_path && analysis.learning_path.length > 0 && (
+                <motion.div className="learning-section" variants={cardVars}>
+                  <h4><span className="material-symbols-outlined icon-purple">school</span> Recommended Learning Path</h4>
+                  <div className="learning-grid">
+                    {analysis.learning_path.map((item, i) => (
+                      <motion.div className="learning-card" key={i} variants={cardVars} whileHover={{y: -4, scale: 1.01}}>
+                        <h5>{item.skill}</h5>
+                        <ul>
+                          {item.topics.map((topic, j) => (
+                            <li key={j}>
+                              <span className="material-symbols-outlined">arrow_right</span>
+                              {topic}
+                            </li>
+                          ))}
+                        </ul>
+                      </motion.div>
+                    ))}
+                  </div>
+                </motion.div>
+              )}
+
+              {/* Message if any */}
+              {analysis.message && (
+                <motion.div className="warning-card" variants={cardVars}>
+                  <span className="material-symbols-outlined">info</span>
+                  <p>{analysis.message}</p>
+                </motion.div>
+              )}
+
+            </motion.div>
+          )}
         </div>
       </div>
     </div>

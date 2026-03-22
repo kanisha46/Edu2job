@@ -32,7 +32,7 @@ def update_profile():
     except Exception:
         return jsonify({"error": "Invalid JSON body"}), 400
 
-    allowed_fields = ["full_name", "degree", "branch", "specialization", "skills", "gpa", "experience", "certifications"]
+    allowed_fields = ["full_name", "degree", "branch", "specialization", "skills", "gpa", "experience", "certifications", "target_role"]
     update_data = {k: data[k] for k in allowed_fields if k in data}
 
     if not update_data:
@@ -157,6 +157,8 @@ def register_routes(app):
     from prediction import prediction_bp
     from charts import charts_bp
     from quiz import quiz_bp
+    from skill_gap import skill_gap_bp
+    from quiz_engine import quiz_engine_bp
 
     app.register_blueprint(auth_bp)
     app.register_blueprint(profile_bp)
@@ -164,5 +166,7 @@ def register_routes(app):
     app.register_blueprint(prediction_bp)
     app.register_blueprint(charts_bp)
     app.register_blueprint(quiz_bp)
+    app.register_blueprint(skill_gap_bp)
+    app.register_blueprint(quiz_engine_bp)
 
     logger.info("All routes registered.")
