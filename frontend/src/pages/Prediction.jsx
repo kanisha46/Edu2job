@@ -32,6 +32,13 @@ const roleCats = {
   'Cloud Architect': 'Cloud',
 };
 
+const SUGGESTED_SKILLS = [
+  'Python', 'Java', 'Javascript', 'React', 'SQL', 'AWS', 'Docker',
+  'Machine Learning', 'AutoCAD', 'SolidWorks', 'Ansys', 'Matlab',
+  'PLC', 'SCADA', 'Management', 'Marketing', 'Finance', 'Communication',
+  'Sales', 'Chemistry', 'Process Engineering', 'HYSYS', 'Thermodynamics'
+];
+
 const Prediction = () => {
   const navigate = useNavigate();
   const user = getUser();
@@ -41,11 +48,30 @@ const Prediction = () => {
     branch: '',
     gpa: '3.8',
     specialization: '',
-    skills: 'Python, React, SQL'
+    skills: 'Python, React, SQL',
+    certifications_count: 0,
+    certifications_details: '',
+    projects: 0,
+    projects_details: '',
+    experience: 0,
+    internship_details: ''
   });
   const [loading, setLoading] = useState(false);
   const [results, setResults] = useState(null);
   const [error, setError] = useState(null);
+
+  const syncFromProfile = () => {
+    if (!user) return;
+    setFormData(prev => ({
+      ...prev,
+      certifications_details: user.certifications || prev.certifications_details,
+      projects_details: user.projects_details || prev.projects_details,
+      internship_details: user.internship_details || prev.internship_details,
+      certifications_count: user.certifications_count || prev.certifications_count,
+      projects: user.num_projects || prev.projects,
+      experience: user.experience || prev.experience
+    }));
+  };
 
   useEffect(() => {
     if (!user) {
@@ -57,13 +83,27 @@ const Prediction = () => {
         branch: user.branch || prev.branch,
         specialization: user.specialization || prev.specialization,
         gpa: user.gpa > 0 ? user.gpa : prev.gpa,
-        skills: user.skills || prev.skills
+        skills: user.skills || prev.skills,
+        certifications_count: user.certifications_count || 0,
+        certifications_details: user.certifications || '',
+        projects: user.num_projects || 0,
+        projects_details: user.projects_details || '',
+        experience: user.experience || 0,
+        internship_details: user.internship_details || ''
       }));
     }
   }, []);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.id]: e.target.value });
+  };
+
+  const handleAddSkill = (skill) => {
+    const currentSkills = formData.skills ? formData.skills.split(',').map(s => s.trim()) : [];
+    if (!currentSkills.includes(skill)) {
+      const newSkills = [...currentSkills, skill].filter(s => s).join(', ');
+      setFormData({ ...formData, skills: newSkills });
+    }
   };
 
   const handleSubmit = async (e) => {
@@ -81,8 +121,10 @@ const Prediction = () => {
       specialization: formData.specialization.trim(),
       skills: formData.skills.trim(),
       gpa: parseFloat(formData.gpa) || 0,
-      experience: 1,
-      certifications: '',
+      experience: parseInt(formData.experience) || 0,
+      projects: parseInt(formData.projects) || 0,
+      certifications_count: parseInt(formData.certifications_count) || 0,
+      certifications: "" // Backend expects this key as well
     };
 
     try {
@@ -140,10 +182,15 @@ const Prediction = () => {
 
           <motion.div className="pred-form-card-epic" initial={{opacity:0, scale:0.95}} animate={{opacity:1, scale:1}}>
             <div className="card-glow orange-glow-soft"></div>
-            <h3>
-              <div className="icon-wrap orange-wrap"><span className="material-symbols-outlined">radar</span></div>
-              Prediction Parameters
-            </h3>
+            <div className="card-top-header">
+              <h3>
+                <div className="icon-wrap orange-wrap"><span className="material-symbols-outlined">radar</span></div>
+                Prediction Parameters
+              </h3>
+              <button type="button" className="sync-btn" onClick={syncFromProfile} title="Sync data from your uploaded resume">
+                <span className="material-symbols-outlined">sync</span> Sync from AI Profile
+              </button>
+            </div>
             
             <form onSubmit={handleSubmit} noValidate className="epic-form">
               <div className="form-grid-2 form-grid-spaced">
@@ -191,9 +238,51 @@ const Prediction = () => {
                   <input type="text" id="specialization" value={formData.specialization} onChange={handleChange} placeholder="e.g. Cloud Computing" className="epic-input" />
                 </div>
               </div>
-              <div className="form-group">
+
+              <div className="form-grid-3 form-grid-spaced">
+                <div className="form-group mb-0">
+                  <label htmlFor="certifications_count" className="form-label">Certifications</label>
+                  <input type="number" id="certifications_count" value={formData.certifications_count} onChange={handleChange} placeholder="0" className="epic-input" />
+                </div>
+                <div className="form-group mb-0">
+                  <label htmlFor="projects" className="form-label">Projects</label>
+                  <input type="number" id="projects" value={formData.projects} onChange={handleChange} placeholder="0" className="epic-input" />
+                </div>
+                <div className="form-group mb-0">
+                  <label htmlFor="experience" className="form-label">Internships</label>
+                  <input type="number" id="experience" value={formData.experience} onChange={handleChange} placeholder="0" className="epic-input" />
+                </div>
+              </div>
+
+              <div className="detailed-parameters">
+                <div className="form-group">
+                  <label htmlFor="certifications_details" className="form-label">Certification Courses (Optional)</label>
+                  <textarea id="certifications_details" value={formData.certifications_details} onChange={handleChange} placeholder="e.g. AWS Certified Solutions Architect, Google Data Analytics..." className="epic-input epic-textarea" rows="2"></textarea>
+                </div>
+                <div className="form-group">
+                  <label htmlFor="projects_details" className="form-label">Project Technologies (Optional)</label>
+                  <textarea id="projects_details" value={formData.projects_details} onChange={handleChange} placeholder="e.g. Python (Django), React (Redux), Java (Spring Boot)..." className="epic-input epic-textarea" rows="2"></textarea>
+                </div>
+                <div className="form-group">
+                  <label htmlFor="internship_details" className="form-label">Internship Domains (Optional)</label>
+                  <textarea id="internship_details" value={formData.internship_details} onChange={handleChange} placeholder="e.g. Web Development, Data Science, Cybersecurity..." className="epic-input epic-textarea" rows="2"></textarea>
+                </div>
+              </div>
+              <div className="form-group mb-0">
                 <label htmlFor="skills" className="form-label">Skill Matrix (Comma separated)</label>
                 <input type="text" id="skills" value={formData.skills} onChange={handleChange} placeholder="Python, React, SQL..." className="epic-input" />
+                <div className="suggested-skills">
+                  {SUGGESTED_SKILLS.map(skill => (
+                    <button 
+                      key={skill} 
+                      type="button" 
+                      className={`skill-tag ${formData.skills.includes(skill) ? 'active' : ''}`}
+                      onClick={() => handleAddSkill(skill)}
+                    >
+                      {skill}
+                    </button>
+                  ))}
+                </div>
               </div>
               <button type="submit" className="btn btn-epic-primary btn-full" disabled={loading}>
                 {loading ? (

@@ -208,14 +208,44 @@ def extract_certifications(text):
     return found
 
 
+def extract_projects(text):
+    """Find projects mentioned in the resume."""
+    # Look for sections like 'Projects', 'Academic Projects', etc.
+    # This is a heuristic: we'll look for lines starting with 'Project' or phrases like 'Built a'
+    projects = []
+    project_matches = re.finditer(r"(?:Project|Experience|built|developed|implemented)[:\s]+(.*?)(?:\n|$)", text, re.IGNORECASE)
+    for match in project_matches:
+        proj = match.group(1).strip()
+        if 5 < len(proj) < 100:  # Ignore very short or very long matches
+            projects.append(proj)
+    return list(dict.fromkeys(projects))[:5]  # Top 5 unique projects
+
+
+def extract_internships(text):
+    """Detect internships and their domains."""
+    internships = []
+    # Look for patterns like 'Intern at Company', 'Software Intern', etc.
+    patterns = [
+        r"(?:Intern|Internship)\s+(?:in|at|of)?\s+([A-Za-z\s]+)(?:\n|,|$)",
+        r"([A-Za-z\s]+)\s+(?:Intern|Internship)(?:\n|,|$)"
+    ]
+    for pattern in patterns:
+        matches = re.finditer(pattern, text, re.IGNORECASE)
+        for match in matches:
+            domain = match.group(1).strip()
+            if 3 < len(domain) < 50:
+                internships.append(domain)
+    return list(dict.fromkeys(internships))
+
+
 def extract_name(text):
     """Try to extract candidate name (first line heuristic)."""
     lines = [l.strip() for l in text.strip().split("\n") if l.strip()]
     if lines:
-        first_line = lines[0]
-        # If first line is short and looks like a name (no numbers, no @)
-        if len(first_line) < 50 and "@" not in first_line and not re.search(r"\d", first_line):
-            return first_line
+        for line in lines[:3]: # Check first 3 lines
+            # If line is short and looks like a name (no numbers, no @)
+            if len(line) < 50 and "@" not in line and not re.search(r"\d", line):
+                return line
     return ""
 
 
@@ -231,10 +261,12 @@ def parse_resume(file_path):
     skills = extract_skills(text)
     degree = extract_degree(text)
     branch = extract_branch(text)
-    experience = extract_experience(text)
+    experience_years = extract_experience(text)
     gpa = extract_gpa(text)
     certs = extract_certifications(text)
     name = extract_name(text)
+    projects_list = extract_projects(text)
+    internship_domains = extract_internships(text)
 
     result = {
         "name": name,
@@ -242,10 +274,14 @@ def parse_resume(file_path):
         "branch": branch,
         "skills": skills,
         "gpa": gpa,
-        "experience": experience,
+        "experience": experience_years,
         "certifications": ", ".join(certs),
-        "raw_text_preview": text[:500],  # First 500 chars for debugging
+        "projects_list": projects_list,
+        "projects_count": len(projects_list),
+        "internship_domains": internship_domains,
+        "internship_count": len(internship_domains),
+        "raw_text_preview": text[:500],
     }
 
-    logger.info(f"Resume parsed: degree={degree}, branch={branch}, skills={len(skills)}, exp={experience}y, gpa={gpa}")
+    logger.info(f"Resume parsed: degree={degree}, branch={branch}, skills={len(skills)}, exp={experience_years}y, gpa={gpa}")
     return result

@@ -137,6 +137,12 @@ def upload_resume():
         auto_fields["experience"] = parsed["experience"]
     if parsed.get("certifications"):
         auto_fields["certifications"] = parsed["certifications"]
+    if parsed.get("projects_list"):
+        auto_fields["projects_details"] = ", ".join(parsed["projects_list"])
+        auto_fields["num_projects"] = parsed["projects_count"]
+    if parsed.get("internship_domains"):
+        auto_fields["internship_details"] = ", ".join(parsed["internship_domains"])
+    
     if auto_fields:
         update_user(g.current_user_email, auto_fields)
 
