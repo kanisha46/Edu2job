@@ -59,6 +59,7 @@ const Prediction = () => {
   const [loading, setLoading] = useState(false);
   const [results, setResults] = useState(null);
   const [error, setError] = useState(null);
+  const [infoMessage, setInfoMessage] = useState(null);
 
   const syncFromProfile = () => {
     if (!user) return;
@@ -109,8 +110,9 @@ const Prediction = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!formData.skills) {
-      setError('Neural scan requires skill nodes to proceed.');
-      return;
+      setInfoMessage('Tip: Add skills related to your branch for more detailed and accurate predictions.');
+    } else {
+      setInfoMessage(null);
     }
     setError(null);
     setLoading(true);
@@ -223,6 +225,13 @@ const Prediction = () => {
                       <option value="Civil">Civil Engineering</option>
                       <option value="AI/ML">AI / ML</option>
                       <option value="Data Science">Data Science</option>
+                      <option value="Architecture">Architecture</option>
+                      <option value="Pharmacy">Pharmacy</option>
+                      <option value="Law">Law</option>
+                      <option value="Finance">Finance</option>
+                      <option value="Commerce">Commerce</option>
+                      <option value="Design">Design</option>
+                      <option value="Education">Education</option>
                     </select>
                     <span className="material-symbols-outlined dropdown-icon">expand_more</span>
                   </div>
@@ -269,8 +278,8 @@ const Prediction = () => {
                 </div>
               </div>
               <div className="form-group mb-0">
-                <label htmlFor="skills" className="form-label">Skill Matrix (Comma separated)</label>
-                <input type="text" id="skills" value={formData.skills} onChange={handleChange} placeholder="Python, React, SQL..." className="epic-input" />
+                <label htmlFor="skills" className="form-label">Skills Related to Your Branch (Optional)</label>
+                <input type="text" id="skills" value={formData.skills} onChange={handleChange} placeholder="e.g. Programming, Core Subjects, Tools related to your field" className="epic-input" />
                 <div className="suggested-skills">
                   {SUGGESTED_SKILLS.map(skill => (
                     <button 
@@ -296,6 +305,11 @@ const Prediction = () => {
 
           {results && (
             <motion.div className="results-section-epic" variants={staggerVars} initial="hidden" animate="visible">
+              {infoMessage && (
+                <div className="info-message" style={{ backgroundColor: 'rgba(56, 189, 248, 0.1)', color: '#38bdf8', padding: '12px 16px', borderRadius: '8px', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <span className="material-symbols-outlined">lightbulb</span> {infoMessage}
+                </div>
+              )}
               <h4 className="results-title-epic">Predicted Trajectories</h4>
               <div>
                 {results.predictions.map((p, i) => {

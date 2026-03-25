@@ -75,7 +75,7 @@ def predict():
     except Exception:
         return jsonify({"error": "Invalid JSON body"}), 400
 
-    required = ["degree", "skills", "gpa", "experience", "certifications"]
+    required = ["degree", "gpa", "experience", "certifications"]
     missing = [f for f in required if f not in data]
     if missing:
         return jsonify({"error": f"Missing fields: {', '.join(missing)}"}), 400
@@ -91,11 +91,13 @@ def predict():
         le_branch = _artifacts.get("encoder_branch")
 
         # ------ parse input fields ------
-        skills_input = data["skills"]
-        if isinstance(skills_input, str):
-            skills_list = [s.strip().lower().replace(" ", "_") for s in skills_input.split(",")]
+        skills_input = data.get("skills", "")
+        if not skills_input:
+            skills_list = []
+        elif isinstance(skills_input, str):
+            skills_list = [s.strip().lower().replace(" ", "_") for s in skills_input.split(",") if s.strip()]
         else:
-            skills_list = [s.strip().lower().replace(" ", "_") for s in skills_input]
+            skills_list = [s.strip().lower().replace(" ", "_") for s in skills_input if str(s).strip()]
 
         degree_val = data["degree"]
         if degree_val in le_degree.classes_:
@@ -158,8 +160,10 @@ def predict():
 
         # ------ Re-rank with weighted scoring engine ------
         # Parse user skills back to readable format for recommendation engine
-        readable_skills = data["skills"]
-        if isinstance(readable_skills, str):
+        readable_skills = data.get("skills", "")
+        if not readable_skills:
+            readable_skills = []
+        elif isinstance(readable_skills, str):
             readable_skills = [s.strip() for s in readable_skills.split(",") if s.strip()]
 
         recommendations = recommend_jobs(

@@ -221,6 +221,7 @@ def train(dataset_path: str):
 # Main
 # ---------------------------------------------------------------------------
 if __name__ == "__main__":
-    path = generate_dataset()
+    # path = generate_dataset()
+    path = DATASET_PATH
     train(path)
     logger.info("Training complete. You can now start the server with: python app.py")

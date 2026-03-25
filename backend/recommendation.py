@@ -66,6 +66,13 @@ RELATED_BRANCHES = {
     "Civil":                  set(),
     "BBA":                    {"MBA"},
     "MBA":                    {"BBA"},
+    "Architecture":           set(),
+    "Pharmacy":               set(),
+    "Law":                    set(),
+    "Finance":                {"Commerce"},
+    "Commerce":               {"Finance"},
+    "Design":                 set(),
+    "Education":              set(),
     "Other":                  set(),
 }
 
@@ -177,6 +184,48 @@ ROLE_PROFILES = {
         "eligible_branches": ["Chemical"],
         "relevant_skills": ["chemistry", "process_engineering", "hysys", "thermodynamics", "matlab"],
         "relevant_certs": ["chemical process safety", "six sigma"],
+    },
+    "Architect": {
+        "required_degrees": ["B.Tech", "B.E", "B.Arch", "M.Arch", "Diploma"],
+        "eligible_branches": ["Architecture", "Civil"],
+        "relevant_skills": ["autocad", "revit", "sketchup", "3ds_max", "management"],
+        "relevant_certs": ["leed", "autocad professional"],
+    },
+    "Pharmacist": {
+        "required_degrees": ["B.Pharm", "M.Pharm", "B.Sc", "M.Sc", "Diploma"],
+        "eligible_branches": ["Pharmacy"],
+        "relevant_skills": ["chemistry", "pharmacology", "biology", "communication"],
+        "relevant_certs": ["pharmacy practice", "clinical research"],
+    },
+    "Legal Advisor": {
+        "required_degrees": ["LLB", "LLM", "B.A", "M.A"],
+        "eligible_branches": ["Law"],
+        "relevant_skills": ["communication", "management", "legal_research", "drafting"],
+        "relevant_certs": ["bar council", "corporate law"],
+    },
+    "Financial Analyst": {
+        "required_degrees": ["B.Com", "M.Com", "MBA", "BBA", "B.Sc", "M.Sc"],
+        "eligible_branches": ["Finance", "Commerce", "MBA", "BBA"],
+        "relevant_skills": ["finance", "excel", "sql", "power_bi", "tableau", "communication"],
+        "relevant_certs": ["cfa", "financial modeling", "bloomberg"],
+    },
+    "Accountant": {
+        "required_degrees": ["B.Com", "M.Com", "MBA", "BBA"],
+        "eligible_branches": ["Finance", "Commerce", "MBA", "BBA"],
+        "relevant_skills": ["finance", "excel", "tally", "communication", "management"],
+        "relevant_certs": ["ca", "cma", "acca"],
+    },
+    "UI/UX Designer": {
+        "required_degrees": ["B.Des", "M.Des", "B.Tech", "BCA", "B.Sc"],
+        "eligible_branches": ["Design", "Computer Science", "IT"],
+        "relevant_skills": ["figma", "html", "css", "javascript", "adobe_xd", "sketch"],
+        "relevant_certs": ["google ux design", "interaction design"],
+    },
+    "Teacher": {
+        "required_degrees": ["B.Ed", "M.Ed", "B.A", "M.A", "B.Sc", "M.Sc"],
+        "eligible_branches": ["Education"],
+        "relevant_skills": ["communication", "management", "teaching", "curriculum_design"],
+        "relevant_certs": ["b.ed", "teaching certification", "ctet"],
     },
 }
 
@@ -414,42 +463,41 @@ def recommend_jobs(
     num_projects: int = 0,
 ) -> list[dict]:
     """
-    Re-rank ML predictions using the weighted composite score.
+    Branch-first candidate selection with ML as fallback.
 
-    Parameters
-    ----------
-    ml_predictions : list[dict]
-        Each dict has keys: role (str), confidence (float 0-100).
-    user_* : user profile fields.
-
-    Returns
-    -------
-    list[dict]  sorted by final_score descending. Each dict:
-        role, ml_confidence, education_score, skills_score, resume_score,
-        certifications_score, final_score, explanations
+    Step 1: Find all roles whose eligible_branches match user_branch.
+    Step 2: If branch_roles is not empty, use those as candidates.
+            Else, fall back to ml_predictions.
+    Step 3: Score and rank the chosen candidates.
     """
     if user_skills is None:
         user_skills = []
 
-    # If no branch/specialization provided, reduce education weight and
-    # redistribute to other factors for backward compatibility.
-    has_education_data = bool(user_branch)
-    if has_education_data:
-        weights = WEIGHTS.copy()
-    else:
-        # Fallback: education weight goes mostly to skills and ML confidence
-        weights = {
-            "education": 0.15,   # degree-only matching still counts a bit
-            "skills": 0.40,
-            "resume": 0.25,
-            "certifications": 0.10,
-            "ml_boost": 0.10,    # extra weight for raw ML confidence
-        }
+    weights = WEIGHTS.copy()
 
+    # --- Step 1: Branch-first candidate selection ---
+    branch_roles = []
+    if user_branch:
+        ub = user_branch.strip()
+        for role_name, profile in ROLE_PROFILES.items():
+            eligible = profile["eligible_branches"]
+            if ub in eligible or is_related_branch(ub, eligible):
+                branch_roles.append(role_name)
+
+    # --- Step 2: Choose candidates ---
+    if branch_roles:
+        # Use branch-matched roles as candidates
+        candidates = [{"role": r, "confidence": 0.0} for r in branch_roles]
+        logger.info(f"Branch-first: using {len(branch_roles)} roles for branch '{user_branch}'")
+    else:
+        # Fallback to ML predictions
+        candidates = ml_predictions
+        logger.info("No branch match found, falling back to ML predictions")
+
+    # --- Step 3: Score and rank ---
     results = []
-    for pred in ml_predictions:
+    for pred in candidates:
         role = pred["role"]
-        ml_conf = pred["confidence"] / 100.0  # normalise to 0-1
 
         edu_score, edu_exp = compute_education_score(
             user_degree, user_branch, user_specialization, role
@@ -466,13 +514,6 @@ def recommend_jobs(
             + cert_score * weights["certifications"]
         )
 
-        # If backward-compat mode, factor in raw ML confidence
-        if "ml_boost" in weights:
-            final += ml_conf * weights["ml_boost"]
-
-        # Blend with ML confidence (30% ML + 70% weighted) for smoother ranking
-        blended = (ml_conf * 0.30) + (final * 0.70)
-
         # Aggregate explanations
         all_explanations = edu_exp + skills_exp + resume_exp + cert_exp
 
@@ -483,7 +524,7 @@ def recommend_jobs(
             "skills_score": round(skills_score * 100, 2),
             "resume_score": round(resume_score * 100, 2),
             "certifications_score": round(cert_score * 100, 2),
-            "final_score": round(blended * 100, 2),
+            "final_score": round(final * 100, 2),
             "explanations": all_explanations,
         })
 

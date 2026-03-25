@@ -2,6 +2,8 @@
 
 Edu2Job is a premium, full-stack AI platform designed to bridge the gap between education and employment. It utilizes machine learning to analyze user skills and resumes, providing statistical job role predictions and interactive skill-gap visualizations.
 
+The dataset was augmented with domain-specific entries to reduce bias toward technical roles and improve prediction coverage.
+
 ## ✨ Features
 
 - **Premium UI/UX**: Ultra-modern, high-density design with glassmorphism, glowing accents, and fluid animations.
